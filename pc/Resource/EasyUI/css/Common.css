@@ -1,0 +1,125 @@
+﻿body
+{
+    /*background-color:#efefef;*/
+    background-color: #efefef;
+}
+.item
+{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px; /*background-color:#E0ECF1;*/
+}
+h3
+{
+    margin-left: 5px;
+}
+.itemhead
+{
+    height: 20px;
+}
+span
+{
+    font-size: 14px;
+}
+.td_span
+{
+    margin-left: 10px;
+    font-family: Arial;
+}
+.td_title
+{
+    width: 150px;
+    height: 20px;
+    font-family: Arial;
+}
+.shabi
+{
+    width: 150px;
+    height: 20px;
+    font-family: Arial; 
+    font-weight: 600;
+}
+
+
+.td_title2
+{
+    width: 190px;
+    height: 20px;
+    font-family: Arial;
+}
+.td_title_receive_setting
+{
+    width: 180px;
+    height: 20px;
+    font-family: Arial;
+}
+.td_titleWindow
+{
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.td_titleWindow2
+{
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.td_titleWindow3
+{
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.td_titleWindow_server
+{
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.td_titleWindow_client
+{
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.td_title_head
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.td_head
+{
+    font-size: 17px;
+    font-weight: bold;
+    height: 30px;
+    font-family: Arial;
+}
+.td_headContent
+{
+    font-size: 17px;
+    font-weight: bold;
+    height: 30px;
+    font-family: Arial;
+}
+.td_nullheight
+{
+    height: 10px;
+}
+.fontStyle
+{
+    font-family: Arial;
+}
+.ifile
+{
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

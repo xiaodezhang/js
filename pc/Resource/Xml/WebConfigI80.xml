@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <interfaceNames>
+    <getPwd>get_password.cmd</getPwd>
+    <receiverGuildGet>get_receiver_guild.cmd</receiverGuildGet>
+  </interfaceNames>
+  <leftMenu>
+    <functiontype title="接收机状态"><!--接收机状态：活动，位置-->
+      <function id="1" url="WebForm/GnssStatus/GnssActivity.html"  icon="icon-log">活动</function>
+      <function id="2" url="WebForm/GnssStatus/GnssPosition.html"  icon="icon-log">位置</function>
+    </functiontype>
+    <functiontype title="卫星跟踪状态"><!--卫星跟踪状态：跟踪表，跟踪图，星空图-->
+      <function id="1" url="WebForm/Satellites/SlTrackTable.html"  icon="icon-log">跟踪表</function>
+      <function id="2" url="WebForm/Satellites/SlTrackDiagram.html"  icon="icon-log">跟踪图</function>
+      <function id="3" url="WebForm/Satellites/StarDiagram.html"  icon="icon-log">星空图</function></functiontype>
+    <functiontype title="接收机配置"><!--接收机配置：工作模式设置，引擎设置，高度截止角设置，定位系统及卫星设置，通道设置，板卡网络设置，定向设置，主副天线设置-->
+      <function id="1" url="WebForm/GnssSet/WorkModeSet.html"  icon="icon-log">工作模式设置</function>
+      <function id="2" url="WebForm/GnssSet/EngineSet.html"  icon="icon-log">引擎设置</function>
+      <function id="3" url="WebForm/GnssSet/PdopSet.html"  icon="icon-log">高度截止角设置</function>
+      <function id="4" url="WebForm/GnssSet/SatelliteSet.html"  icon="icon-log">定位系统及卫星设置</function>
+      <function id="5" url="WebForm/GnssSet/ChannelSet.html"  icon="icon-log">通道设置</function>
+        <function id="6" url="WebForm/GnssSet/BoardNetSet.html"  icon="icon-log">板卡网络设置</function>
+        <function id="7" url="WebForm/GnssSet/DirectionalSet.html"  icon="icon-log">定向设置</function>
+        <function id="8" url="WebForm/GnssSet/Antenna.html"  icon="icon-log">主副天线设置</function>
+    </functiontype>
+    <functiontype title="IO配置">  <!--IO配置：IO配置-->
+      <function id="1" url="WebForm/IOSet/IOSet.html"  icon="icon-log">IO配置</function>
+    </functiontype>
+    <functiontype title="安全信息"><!--安全信息：账户信息，修改密码-->
+      <function id="1" url="WebForm/Hcppp/AccountInfo.html"  icon="icon-log">账户信息</function>
+      <function id="2" url="WebForm/Hcppp/PasswordSet.html"  icon="icon-log">修改密码</function>
+    </functiontype>
+    <functiontype title="固件信息"><!--固件信息：固件版本，在线升级-->
+      <function id="1" url="WebForm/IOSet/tagFirmwareVersion.html"  icon="icon-log">固件版本</function>
+      <function id="2" url="WebForm/IOSet/OnlineUpdate.html"  icon="icon-log">在线升级</function>
+    </functiontype>
+    <functiontype title="帮助"><!--帮助：帮助-->
+      <function id="1" url="WebForm/3GSet/Help.html"  icon="icon-log">帮助</function>
+    </functiontype>
+    <functiontype title="设置向导"><!--设置向导：RTK设置向导，单天线设置向导，双天线设置向导-->
+      <function id="1" url="WebForm/NetworkSet/RtkSet.html"  icon="icon-log">设置向导</function>
+      <function id="2" url="WebForm/NetworkSet/SingleAntenna.html"  icon="icon-log">单天线设置向导</function>
+      <function id="3" url="WebForm/NetworkSet/DoubleAntenna.html"  icon="icon-log">双天线设置向导</function>
+    </functiontype>
+   
+  </leftMenu>
+  <!--板卡部网页用到的-->
+  <dataRawType>
+    <item id="DAT_ID_RTK" intro="DAT_ID_RTK">历元间隔</item>
+    <item id="DAT_ID_WIFI" intro="DAT_ID_WIFI">GPS星历</item>
+    <item id="DAT_ID_BT" intro="DAT_ID_BT">BDS星历</item>
+    <item id="DAT_ID_GSM" intro="DAT_ID_GSM">GLN星历</item>
+  </dataRawType>
+  
+  <dataRawFrq>
+    <item id="DAT_FRQ_OFF" intro="DAT_FRQ_OFF">关闭</item>
+    <item id="DAT_FRQ_1HZ" intro="DAT_FRQ_1HZ">1HZ</item>
+  </dataRawFrq>
+
+  <dataNmeaType>
+    <item id="DAT_ID_GGA" intro="GPGGA">GPGGA</item>
+    <item id="DAT_ID_GSV" intro="GPGSV">GPGSV</item>
+    <item id="DAT_ID_RMC" intro="GPRMC">GPRMC</item>
+    <item id="DAT_ID_GSR" intro="GPGLL">GPGSR</item>
+    <item id="DAT_ID_GSA" intro="GPVTG">GPGSA</item>
+    <item id="DAT_ID_UTA" intro="GPZDA">GPUTA</item>
+    <item id="DAT_ID_GLL" intro="GPGST">GPGLL</item>
+    <item id="DAT_ID_ZDA" intro="GPGSA">GPZDA</item>
+    <item id="DAT_ID_VTG" intro="GPHDT">GPVTG</item>
+    <item id="DAT_ID_GST" intro="GPROT">GPGST</item>
+  </dataNmeaType>
+
+  <dataNmeaFrq>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </dataNmeaFrq>
+
+  <dataRtcmv30Type>
+    <item id="DAT_ID_GGA" intro="GPGGA">1033</item>
+    <item id="DAT_ID_GSV" intro="GPGSV">1005</item>
+    <item id="DAT_ID_RMC" intro="GPRMC">1006</item>
+    <item id="DAT_ID_GSR" intro="GPGLL">GPS</item>
+    <item id="DAT_ID_GSA" intro="GPVTG">BDS</item>
+    <item id="DAT_ID_UTA" intro="GPZDA">GLN</item>
+  </dataRtcmv30Type>
+
+  <dataRtcmv30Frq>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </dataRtcmv30Frq>
+
+  <dataRtcmv32Type>
+    <item id="DAT_ID_GGA" intro="GPGGA">1033</item>
+    <item id="DAT_ID_GSV" intro="GPGSV">1005</item>
+    <item id="DAT_ID_RMC" intro="GPRMC">1006</item>
+    <item id="DAT_ID_GSR" intro="GPGLL">GPS</item>
+    <item id="DAT_ID_GSA" intro="GPVTG">BDS</item>
+    <item id="DAT_ID_UTA" intro="GPZDA">GLN</item>
+  </dataRtcmv32Type>
+
+  <dataRtcmv32Frq>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </dataRtcmv32Frq>
+
+  <dataRtcmv24Type>
+    <item id="DAT_ID_GGA" intro="GPGGA">1033</item>
+    <item id="DAT_ID_GSV" intro="GPGSV">1005</item>
+    <item id="DAT_ID_RMC" intro="GPRMC">1006</item>
+    <item id="DAT_ID_GSR" intro="GPGLL">GPS</item>
+    <item id="DAT_ID_GSA" intro="GPVTG">BDS</item>
+    <item id="DAT_ID_UTA" intro="GPZDA">GLN</item>
+  </dataRtcmv24Type>
+
+  <dataRtcmv24Frq>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </dataRtcmv24Frq>
+  <!--板卡部网页用到的-->
+  
+  <diffOutputType>
+    <item value="DAT_ID_CMR">CMR</item>
+    <item value="DAT_ID_CMR2">CMR+</item>
+    <item value="DAT_ID_SCMR">SCMR</item>
+    <item value="DAT_ID_RTCM">RTCM2.3</item>
+    <item value="DAT_ID_RTCMV3">RTCM3.0</item>
+    <item value="DAT_ID_RTCMV32">RTCM3.2</item>
+    <item value="DAT_ID_RTD">RTD</item>
+  </diffOutputType>
+    <diffOutputTypeP307>
+        <item value="DAT_ID_CMR">CMR</item>
+        <item value="DAT_ID_CMR2">CMR+</item>
+        <item value="DAT_ID_RTCM">RTCM2.3</item>
+        <item value="DAT_ID_RTCMV3">RTCM3.0</item>
+        <item value="DAT_ID_RTCMV32">RTCM3.2</item>
+    </diffOutputTypeP307>
+    <diffOutputType628E>
+        <item value="DAT_ID_CMR">CMR</item>
+        <item value="DAT_ID_CMR2">CMR+</item>
+        <item value="DAT_ID_RTCM">RTCM2.3</item>
+        <item value="DAT_ID_RTCMV3">RTCM3.0</item>
+        <item value="DAT_ID_RTCMV32">RTCM3.2</item>
+        <item value="DAT_ID_NOVATELX">NOVATELX</item>
+    </diffOutputType628E>
+  <diffOutputType2>
+    <DAT_ID_CMR>CMR</DAT_ID_CMR>
+    <DAT_ID_CMR2>CMR+</DAT_ID_CMR2>
+    <DAT_ID_SCMR>SCMR</DAT_ID_SCMR>
+    <DAT_ID_RTCM>RTCM2.3</DAT_ID_RTCM>
+    <DAT_ID_RTCMV3>RTCM3.0</DAT_ID_RTCMV3>
+    <DAT_ID_RTCMV32>RTCM3.2</DAT_ID_RTCMV32>
+    <DAT_ID_RTD>RTD</DAT_ID_RTD>
+    <DAT_ID_NOVATELX>NOVATELX</DAT_ID_NOVATELX>
+  </diffOutputType2>
+  <baseSiteMode>
+    <item>tagModeNone</item>
+    <item>tagModeAUTO</item>
+    <item>tagModeMANUAL</item>
+    <tagModeNone>GNSS_BASE_MODE__NONE</tagModeNone>
+    <tagModeAUTO>GNSS_BASE_MODE__AUTO</tagModeAUTO>
+    <tagModeMANUAL>GNSS_BASE_MODE__MANUAL</tagModeMANUAL>
+  </baseSiteMode>
+  <baseSiteMode2>
+    <GNSS_BASE_MODE__NONE>tagModeNone</GNSS_BASE_MODE__NONE>
+    <GNSS_BASE_MODE__AUTO>tagModeAUTO</GNSS_BASE_MODE__AUTO>
+    <GNSS_BASE_MODE__MANUAL>tagModeMANUAL</GNSS_BASE_MODE__MANUAL>
+  </baseSiteMode2>
+  <countries>
+    <LANGUAGE_ENUM__CHINESE src="../../Resource/Images/CountryFlags/china.png" preFile="lang-zh_CN">tagChina</LANGUAGE_ENUM__CHINESE>
+    <LANGUAGE_ENUM__ENGLISH src="../../Resource/Images/CountryFlags/english.png" preFile="lang-en">tagEnglish</LANGUAGE_ENUM__ENGLISH>
+    <LANGUAGE_ENUM__RUSSIAN src="../../Resource/Images/CountryFlags/russia.png" preFile="lang-ru">tagRussia</LANGUAGE_ENUM__RUSSIAN>
+  </countries>
+  <radioPower>
+    <RADIO_POWER__0P1>0.1W</RADIO_POWER__0P1>
+    <RADIO_POWER__0P5>0.5W</RADIO_POWER__0P5>
+    <RADIO_POWER__1>1W</RADIO_POWER__1>
+    <RADIO_POWER__2>2W</RADIO_POWER__2>
+  </radioPower>
+    <radioPower1>
+        <RADIO_POWER__0P1>0.1W</RADIO_POWER__0P1>
+        <RADIO_POWER__0P2>0.2W</RADIO_POWER__0P2>
+        <RADIO_POWER__0P5>0.5W</RADIO_POWER__0P5>
+        <RADIO_POWER__1>1W</RADIO_POWER__1>
+    </radioPower1>
+    <radioPower2>
+        <RADIO_POWER__0P5>0.5W</RADIO_POWER__0P5>
+        <RADIO_POWER__1>1W</RADIO_POWER__1>
+        <RADIO_POWER__2>2W</RADIO_POWER__2>
+    </radioPower2>
+  <moduleType>
+    <RADIO_MODULE_TYPE__LFS name="tagLfsRadio" radioFrequencyChannel="RADIO_FREQUENCY_TYPE__HIGH" frequencyRangeMin="455" frequencyRangeMax="463">
+      <RADIO_PROTOCOL__HUACE name0="tagHuaCe">
+        <RADIO_STEPPER__25 value="25">
+          <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+        </RADIO_STEPPER__25>
+      </RADIO_PROTOCOL__HUACE>
+    </RADIO_MODULE_TYPE__LFS>
+      <RADIO_MODULE_TYPE__LFS1 name="tagLfsRadio" radioFrequencyChannel="RADIO_FREQUENCY_TYPE__LOW" frequencyRangeMin="412" frequencyRangeMax="422">
+          <RADIO_PROTOCOL__HUACE name0="tagHuaCe">
+              <RADIO_STEPPER__25 value="25">
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+              </RADIO_STEPPER__25>
+          </RADIO_PROTOCOL__HUACE>
+      </RADIO_MODULE_TYPE__LFS1>
+
+      <RADIO_MODULE_TYPE__SATEL name="tagSatelRadio" radioFrequencyChannel="RADIO_FREQUENCY_TYPE__ALL" frequencyRangeMin="403" frequencyRangeMax="473">
+        
+          <RADIO_PROTOCOL__SATEL_3AS name0="tagSatel">
+            <RADIO_STEPPER__12p5 value="12.5">
+             <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+           </RADIO_STEPPER__12p5>
+           <RADIO_STEPPER__25 value="25">
+               <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+           </RADIO_STEPPER__25>
+              <!--RADIO_STEPPER__CONFIGBAL value="20">
+              <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+           </RADIO_STEPPER__CONFIGBAL-->
+       </RADIO_PROTOCOL__SATEL_3AS>
+      
+      
+        <RADIO_PROTOCOL__PCC_4FSK name1="tag4FSK">
+            <RADIO_STEPPER__12p5 value="12.5">
+                <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+            </RADIO_STEPPER__12p5>
+            <RADIO_STEPPER__25 value="25">
+                <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>        
+        </RADIO_STEPPER__25>
+            <!--RADIO_STEPPER__CONFIGBAL value="20">
+                <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+            </RADIO_STEPPER__CONFIGBAL-->
+        </RADIO_PROTOCOL__PCC_4FSK>
+
+        <RADIO_PROTOCOL__TT450 name2="tagTT450">
+            <RADIO_STEPPER__12p5 value="12.5">
+                <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+            </RADIO_STEPPER__12p5>
+            <RADIO_STEPPER__25 value="25">
+                <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+            </RADIO_STEPPER__25>
+            <!--RADIO_STEPPER__CONFIGBAL value="20">
+                <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+            </RADIO_STEPPER__CONFIGBAL-->
+        </RADIO_PROTOCOL__TT450>
+
+          <RADIO_PROTOCOL__DIRECT name3="tagDIRECT">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+              </RADIO_STEPPER__12p5>
+              <RADIO_STEPPER__25 value="25">
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+              </RADIO_STEPPER__25>
+              <!--RADIO_STEPPER__CONFIGBAL value="20">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+              </RADIO_STEPPER__CONFIGBAL-->
+          </RADIO_PROTOCOL__DIRECT>
+          
+      </RADIO_MODULE_TYPE__SATEL>
+
+      <RADIO_MODULE_TYPE__HX name="tagSatelRadio" radioFrequencyChannel="RADIO_FREQUENCY_TYPE__ALL" frequencyRangeMin="410" frequencyRangeMax="470">
+          <RADIO_PROTOCOL__TT450 name0="tagTT450">
+              <RADIO_STEPPER__25 value="25">
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>      
+          </RADIO_STEPPER__25>
+          </RADIO_PROTOCOL__TT450>
+
+          <RADIO_PROTOCOL__DIRECT name1="tagDIRECT">
+              <RADIO_STEPPER__25 value="25">
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+              </RADIO_STEPPER__25>
+          </RADIO_PROTOCOL__DIRECT>
+
+          <RADIO_PROTOCOL__HUACE name2="tagHuaCe">
+            <RADIO_STEPPER__25 value="25">
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+          </RADIO_STEPPER__25>
+        </RADIO_PROTOCOL__HUACE>
+
+      </RADIO_MODULE_TYPE__HX>
+
+      <RADIO_MODULE_TYPE__HC_RX name="tagSatelRadio111" radioFrequencyChannel="RADIO_FREQUENCY_TYPE__HIGH" frequencyRangeMin="450" frequencyRangeMax="470">
+          <RADIO_PROTOCOL__TT450 name0="tagTT450">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+              </RADIO_STEPPER__12p5>
+          </RADIO_PROTOCOL__TT450>
+
+          <RADIO_PROTOCOL__DIRECT name1="tagDIRECT">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+              </RADIO_STEPPER__12p5>
+          </RADIO_PROTOCOL__DIRECT>
+
+          <RADIO_PROTOCOL__HUACE name2="tagHuaCe">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+              </RADIO_STEPPER__12p5>
+          </RADIO_PROTOCOL__HUACE>
+
+      </RADIO_MODULE_TYPE__HC_RX>
+
+      <RADIO_MODULE_TYPE__HC_RXTX name="tagSatelRadio" radioFrequencyChannel="RADIO_FREQUENCY_TYPE__HIGH" frequencyRangeMin="450" frequencyRangeMax="470">
+          <RADIO_PROTOCOL__TT450 name0="tagTT450">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+              </RADIO_STEPPER__12p5>
+          </RADIO_PROTOCOL__TT450>
+
+          <RADIO_PROTOCOL__DIRECT name1="tagDIRECT">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+              </RADIO_STEPPER__12p5>
+          </RADIO_PROTOCOL__DIRECT>
+
+          <RADIO_PROTOCOL__HUACE name2="tagHuaCe">
+              <RADIO_STEPPER__12p5 value="12.5">
+                  <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+                  <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+                  <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+              </RADIO_STEPPER__12p5>
+          </RADIO_PROTOCOL__HUACE>
+
+      </RADIO_MODULE_TYPE__HC_RXTX>
+      
+  </moduleType>
+  <frqType>
+    <RADIO_FREQUENCY_TYPE__HIGH>HIGH</RADIO_FREQUENCY_TYPE__HIGH>
+    <RADIO_FREQUENCY_TYPE__MIDDLE>MIDDLE</RADIO_FREQUENCY_TYPE__MIDDLE>
+    <RADIO_FREQUENCY_TYPE__LOW>LOW</RADIO_FREQUENCY_TYPE__LOW>
+    <RADIO_FREQUENCY_TYPE__ALL>ALL</RADIO_FREQUENCY_TYPE__ALL>
+  </frqType>
+  <radioAirBaud>
+    <RADIO_AIR_BAUD__4800>4800</RADIO_AIR_BAUD__4800>
+    <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+    <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+</radioAirBaud>
+<radioAirBaud1>
+    <RADIO_AIR_BAUD__9600>9600</RADIO_AIR_BAUD__9600>
+    <RADIO_AIR_BAUD__19200>19200</RADIO_AIR_BAUD__19200>
+</radioAirBaud1>
+  <uartBauds>
+    <item>2400</item>
+    <item>4800</item>
+    <item>9600</item>
+    <item>19200</item>
+    <item>38400</item>
+    <item>57600</item>
+    <item>115200</item>
+  </uartBauds>
+  <radioProtocol>
+    <RADIO_PROTOCOL__HUACE>tagHuaCe</RADIO_PROTOCOL__HUACE>
+      <RADIO_PROTOCOL__SATEL_3AS>tagSatel</RADIO_PROTOCOL__SATEL_3AS>
+      <RADIO_PROTOCOL__PCC_4FSK>tag4FSK</RADIO_PROTOCOL__PCC_4FSK>
+      <RADIO_PROTOCOL__TT450>tagTT450</RADIO_PROTOCOL__TT450>
+      <RADIO_PROTOCOL__DIRECT>tagDIRECT</RADIO_PROTOCOL__DIRECT>
+  </radioProtocol>
+  <radioStepper>
+    <RADIO_STEPPER__12p5>12.5</RADIO_STEPPER__12p5>
+      <!--RADIO_STEPPER__CONFIGBAL>20</RADIO_STEPPER__CONFIGBAL-->
+    <RADIO_STEPPER__25>25</RADIO_STEPPER__25>
+  </radioStepper>
+    <radioStepper1>
+        <RADIO_STEPPER__25>25</RADIO_STEPPER__25>
+    </radioStepper1>
+  <radioStepper2>
+    <RADIO_STEPPER__12p5>12.5</RADIO_STEPPER__12p5>
+  </radioStepper2>
+  <netLinkSets>
+    <item value="TcpIp">TCP/IP</item>
+    <item value="SerialPort1">串口(COM1)</item>
+    <item value="SerialPort2">串口(COM2)</item>
+    <item value="SerialPort3">串口(COM3)</item>
+    <item value="Usb">USB</item>
+
+    <TcpIp>IO_ID__TCPIP</TcpIp>
+    <SerialPort1>IO_ID__COM1</SerialPort1>
+    <SerialPort2>IO_ID__COM2</SerialPort2>
+    <SerialPort3>IO_ID__COM3</SerialPort3>
+    <Usb>IO_ID__USB</Usb>
+  </netLinkSets>
+  <serverType1>
+    <NETLINK_SERVER_TYPE__CORS_CASTER>NTRIP</NETLINK_SERVER_TYPE__CORS_CASTER>
+    <NETLINK_SERVER_TYPE__APIS_ROVER>APIS_ROVER</NETLINK_SERVER_TYPE__APIS_ROVER>
+    <NETLINK_SERVER_TYPE__APIS_BASE>APIS_BASE</NETLINK_SERVER_TYPE__APIS_BASE>
+      <NETLINK_SERVER_TYPE__TCP>TCP</NETLINK_SERVER_TYPE__TCP>
+  </serverType1>
+  <serverType2>
+    <NETLINK_SERVER_TYPE__TCP>TCP</NETLINK_SERVER_TYPE__TCP>
+    <NETLINK_SERVER_TYPE__UDP>UDP</NETLINK_SERVER_TYPE__UDP>
+    <NETLINK_SERVER_TYPE__NTRIP_SERVER>NTRIP</NETLINK_SERVER_TYPE__NTRIP_SERVER>
+</serverType2>
+  <serverType3>
+    <NETSERVER_TYPE__NTRIP>NTRIP</NETSERVER_TYPE__NTRIP>
+    <NETSERVER_TYPE__TCP>TCP</NETSERVER_TYPE__TCP>
+  </serverType3>
+  <netStatus>
+    <NETLINK_STATUS__LINK_UNCONNECTED>tagUnconnected</NETLINK_STATUS__LINK_UNCONNECTED>
+    <NETLINK_STATUS__LINK_CONNECTING>tagConnecting</NETLINK_STATUS__LINK_CONNECTING>
+    <NETLINK_STATUS__LINK_CONNECTED>tagConnected</NETLINK_STATUS__LINK_CONNECTED>
+    <NETLINK_STATUS__LINK_LOGING>tagLoging</NETLINK_STATUS__LINK_LOGING>
+    <NETLINK_STATUS__LINK_LOGED>tagLoged</NETLINK_STATUS__LINK_LOGED>
+
+    <NETSERVER_STATUS__OPENED>tagStarted</NETSERVER_STATUS__OPENED>
+    <NETSERVER_STATUS__CLOSED>tagClosed</NETSERVER_STATUS__CLOSED>
+    <NETSERVER_STATUS__CONNECTED>tagConnected</NETSERVER_STATUS__CONNECTED>
+  </netStatus>
+  <ioRecords>
+    <IO_ID__RECORD_1>1</IO_ID__RECORD_1>
+    <IO_ID__RECORD_2>2</IO_ID__RECORD_2>
+    <IO_ID__RECORD_3>3</IO_ID__RECORD_3>
+    <IO_ID__RECORD_4>4</IO_ID__RECORD_4>
+    <IO_ID__RECORD_5>5</IO_ID__RECORD_5>
+    <IO_ID__RECORD_6>6</IO_ID__RECORD_6>
+    <IO_ID__RECORD_7>7</IO_ID__RECORD_7>
+    <IO_ID__RECORD_8>8</IO_ID__RECORD_8>
+  </ioRecords>
+  <datFrqsAccount>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_20HZ</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+    <item>DAT_FRQ_10S</item>
+    <item>DAT_FRQ_15S</item>
+    <item>DAT_FRQ_30S</item>
+    <item>DAT_FRQ_1M</item>
+  </datFrqsAccount>
+    <datFrqsAccountp307o628>
+        <item>DAT_FRQ_OFF</item>
+        <item>DAT_FRQ_5HZ</item>
+        <item>DAT_FRQ_1HZ</item>
+        <item>DAT_FRQ_2S</item>
+        <item>DAT_FRQ_5S</item>
+        <item>DAT_FRQ_10S</item>
+        <item>DAT_FRQ_15S</item>
+        <item>DAT_FRQ_30S</item>
+        <item>DAT_FRQ_1M</item>
+    </datFrqsAccountp307o628>
+  <datFrqs>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_AUTO</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+    <item>DAT_FRQ_10S</item>
+    <item>DAT_FRQ_15S</item>
+    <item>DAT_FRQ_30S</item>
+    <item>DAT_FRQ_1M</item>
+    <item>DAT_FRQ_5M</item>
+    <item>DAT_FRQ_10M</item>
+  </datFrqs>
+  <datRaw>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_20HZ</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+    <item>DAT_FRQ_10S</item>
+    <item>DAT_FRQ_15S</item>
+    <item>DAT_FRQ_30S</item>
+    <item>DAT_FRQ_1M</item>
+  </datRaw>
+    <datRawp307628>
+        <item>DAT_FRQ_OFF</item>
+        <item>DAT_FRQ_5HZ</item>
+        <item>DAT_FRQ_1HZ</item>
+        <item>DAT_FRQ_2S</item>
+        <item>DAT_FRQ_5S</item>
+        <item>DAT_FRQ_10S</item>
+        <item>DAT_FRQ_15S</item>
+        <item>DAT_FRQ_30S</item>
+        <item>DAT_FRQ_1M</item>
+    </datRawp307628>
+    <datSensor>
+        <item>DAT_FRQ_OFF</item>
+        <item>DAT_FRQ_10HZ</item>
+        <item>DAT_FRQ_5HZ</item>
+        <item>DAT_FRQ_2HZ</item>
+        <item>DAT_FRQ_1HZ</item>      
+    </datSensor>
+  <datGPGA>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_10HZ</item>
+    <item>DAT_FRQ_5HZ</item>
+    <item>DAT_FRQ_2HZ</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </datGPGA>
+  <datGPGSV>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </datGPGSV>
+  <storagePosition>
+    <item>tagInternalStorage</item>
+    <item>tagOuterStorage</item>
+    <item></item>
+  </storagePosition>
+  <diskInfo>
+    <item>tagInternalStorage</item>
+    <item>tagOuterStorage</item>
+  </diskInfo>
+  <antMethod>
+    <ANTENNA_METHOD__PHASE_CENTER>tagAntPhCenter</ANTENNA_METHOD__PHASE_CENTER>
+    <ANTENNA_METHOD__BOTTOM>tagAntPhBottom</ANTENNA_METHOD__BOTTOM>
+    <ANTENNA_METHOD__SLANT_HEIGHT>tagAntPhHeight</ANTENNA_METHOD__SLANT_HEIGHT>
+  </antMethod>
+  <ftpSendSetIdxs>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </ftpSendSetIdxs>
+  <wifiModes>
+    <WIFI_MODE__AP tagName="tagWifiModelAp"></WIFI_MODE__AP>
+    <!--<WIFI_MODE__CLIENT tagName="tagClient"></WIFI_MODE__CLIENT>-->
+  </wifiModes>
+  <wifiEncryptTypes>
+    <WIFI_PASSWD_TYPE__WAP tagName="tagWap"></WIFI_PASSWD_TYPE__WAP>
+    <WIFI_PASSWD_TYPE__WAP2 tagName="tagWap2"></WIFI_PASSWD_TYPE__WAP2>
+  </wifiEncryptTypes>
+  <!--<ipAntennaTypes>
+    <x0 value="0">Unknown</x0>
+    <x14 value="14">CHCA220GR</x14>
+    <x1 value="1">CHCA300GNSS</x1>
+    <x2 value="2">CHCC220GR</x2>
+    <x9 value="9">A100</x9>
+    <x31 value="31">X900N</x31>
+    <x32 value="32">T5N</x32>
+    <x23 value="23">M500TN</x23>
+    <x27 value="27">I60</x27>
+    <x30 value="30">X20</x30>
+    <x28 value="28">I80</x28>
+    <x29 value="29">X10</x29>
+    --><!--<item>CHCX93</item>--><!--
+  </ipAntennaTypes>-->
+  <systemLogTypes>
+    <!--<item value="SYS_LOG_FILE_TYPE__KERNEL">tagKernelLog</item>-->
+    <item value="SYS_LOG_FILE_TYPE__FIRMWARE">tagFirmwareLog</item>
+  </systemLogTypes>
+  <systemUser>
+    <admin>admin</admin>
+    <item name="admin" password="admin"></item>
+  </systemUser>
+  <posTypes>
+    <POS_TYPE_UNKNOW>tagUnknown</POS_TYPE_UNKNOW>
+    <POS_TYPE_RIGHT>tagRight</POS_TYPE_RIGHT>
+    <POS_TYPE_BASE_WRONG>tagWrong</POS_TYPE_BASE_WRONG>
+    <POS_TYPE_SEARCHSAT>tagSearchsat</POS_TYPE_SEARCHSAT>
+    <POS_TYPE_SINGLE>tagSingle</POS_TYPE_SINGLE>
+    <POS_TYPE_RTD>tagRtd</POS_TYPE_RTD>
+    <POS_TYPE_FLOAT>tagFloat</POS_TYPE_FLOAT>
+    <POS_TYPE_WASS>tsgWass</POS_TYPE_WASS>
+    <POS_TYPE_WIDE>tagWide</POS_TYPE_WIDE>
+    <POS_TYPE_COS>tagCos</POS_TYPE_COS>
+    <POS_TYPE_DIF>tagDif</POS_TYPE_DIF>
+    <POS_TYPE_FIX>tagFix</POS_TYPE_FIX>
+  </posTypes>
+  <netModes>
+    <GRPS_BAND_MODE__2G_ONLY>tagNetMode2G</GRPS_BAND_MODE__2G_ONLY>
+    <GRPS_BAND_MODE__3G_ONLY>tagNetMode3G</GRPS_BAND_MODE__3G_ONLY>
+    <GRPS_BAND_MODE__2G_3G_AUTO>tagNetModeAuto</GRPS_BAND_MODE__2G_3G_AUTO>
+  </netModes>
+  <radioChannelNo>
+    <item value="-1">0</item>
+    <item value="456.05">1</item>
+    <item value="456.55">2</item>
+    <item value="457.05">3</item>
+    <item value="458.05">4</item>
+    <item value="459.05">5</item>
+    <item value="460.05">6</item>
+    <item value="461.05">7</item>
+    <item value="462.05">8</item>
+    <item value="462.55">9</item>
+  </radioChannelNo>
+  <rinexVersion>
+    <item value="2.11">2.11</item>
+    <item value="3.02">3.02</item>
+  </rinexVersion>
+  
+  
+    <datList3>
+        <item>DAT_FRQ_OFF</item>
+        <item>DAT_FRQ_5HZ</item>
+        <item>DAT_FRQ_1HZ</item>
+        <item>DAT_FRQ_2S</item>
+        <item>DAT_FRQ_5S</item>
+    </datList3>
+  <datList2>
+    <item>DAT_FRQ_OFF</item>
+    <item>DAT_FRQ_1HZ</item>
+    <item>DAT_FRQ_2S</item>
+    <item>DAT_FRQ_5S</item>
+  </datList2>
+  <ipAntennaTypes>    
+    <manufactureName name="CHCNav">
+        <type>CHCI80</type>
+        <type>CHCM6</type>
+    </manufactureName>
+  </ipAntennaTypes>
+</root>

@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <!--<link rel="stylesheet" type="text/css" href="Resource/EasyUI/themes/default/easyui.css" />-->
+    <link rel="stylesheet" type="text/css" href="Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="Resource/EasyUI/css/Index.css" />
+    <script type="text/javascript" src="Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="Resource/EasyUI/jquery.easyui.min.js"></script>
+
+    <script type="text/javascript" src="Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="Resource/Js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="Resource/Js/Index.js"></script>
+
+</head>
+<body class="easyui-layout" style="overflow-x: hidden;" scroll="no">
+    <div id="northdiv" region="north" style="height:80px;background-color:#FFCCFF;">
+        <span style="float:right;">
+            <span style="float:right;">
+                <a href="login.html"><span id="tagLogout" style="font-size:12pt;color:White;"></span></a>
+                <br />
+                <br />
+               
+            </span>
+        </span>
+    </div>
+    <div region="south" style="height: 100px; background: #D2E0F2;">
+        <div style="float: left; width:25%;height: 90%;background:#FF99CC;" >
+        <table style="width: 100%;height: 100%;" frame="box">
+                 <tr>
+                    <td align="left" class="td_title">
+                        <span id="tag1">UTC:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanUTC" class="td_span"></span>
+                    </td>
+                </tr>
+         </table>
+        </div>
+        <div style="float: left; width: 25%;height: 90%;background:#CC99FF;">
+        <table style="width: 100%;height: 100%;" frame="box">
+                <tr>
+                    <td class="td_head" align="left" colspan="1">
+                        <span id="tagTianxian">天线</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagMainTianxian">主天线:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanMainTianxian" class="td_span"></span>
+                    </td>
+                    <td align="right" class="td_title">
+                        <span id="tagMainChannel">射频通道:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanMainChannel" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                     <td align="right" class="td_title">
+                        <span id="tagSubTianxian">副天线:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanSubTianxian" class="td_span"></span>
+                    </td>
+                    <td align="right" class="td_title">
+                        <span id="tagSubChannel">射频通道:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanSubChannel" class="td_span"></span>
+                    </td>
+                </tr>
+         </table>
+        </div>
+         <div style="float: left; width: 25%;height: 90%;background:#FFCCFF;">
+        <table style="width: 100%;height: 100%;" frame="box">
+                <tr>
+                    <td class="td_head" align="left" colspan="1">
+                        <span id="tagWork">芯片工作情况</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"  class="td_title" >
+                        <span id="tagDSP">DSP:</span>
+                    </td>
+                    <td align="left" >
+                        <span id="spanDSP" class="td_span"></span>
+                    </td>
+                    <td align="right" class="td_title">
+                        <span id="tagARM">ARM:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanARM" class="td_span"></span>
+                    </td>
+                    <td align="left" class="td_title">
+                        <span id="tagFPGA">FPGA:</span>
+                    </td>
+                    <td align="left">
+                        <span id="spanFPGA" class="td_span"></span>
+                    </td>
+                </tr>
+         </table>
+        </div>
+         <div style="float: left; width: 25%;height: 90%;background:#FFFF99;">
+        <table style="width: 100%;height: 100%;" frame="box">
+                <tr >
+                    <td class="td_head" align="left" colspan="1">
+                        <span id="tagCPU">CPU</span>
+                    </td>
+                </tr>
+                <tr>
+                     <td align="right" class="td_title">
+                        <span id="tagDSP1">DSP:</span>
+                    </td>
+                     <td><div id="spanDSP1" class="easyui-progressbar" style="width:120px;"></div></td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagARM1">ARM:</span>
+                    </td>
+
+                    <td><div id="spanARM1" class="easyui-progressbar" style="width:120px;"></div></td>
+                    
+                </tr>
+
+         </table>
+        </div>
+
+    </div>
+    <div region="west" style="width: 200px;" id="west" border="true">
+    </div>
+    <div id="mainPanle" region="center" border="false">
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Validation.js"></script>
+    <script type="text/javascript" src="Js/AccountInfo.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div class="itemhead">
+        <h3>账户信息
+        </h3>
+    </div>
+    <hr />
+    <div class="item">
+        <table style="width: 400px">
+           <tr>
+                <td class="td_title" align="right">
+                    <span id="tagName">账户</span>:
+                </td>
+                <td align="left">
+                    <span id="spanName" class="td_span"></span>
+                </td>
+            </tr>
+           <tr>
+                <td class="td_title" align="right">
+                <span id="tagInputNewPwd1">密码:</span>
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="ipNewPwd1" class="easyui-validatebox" type="password"  readonly="true" style="width: 150px;"/>
+                    </span>
+                </td>
+            </tr>
+        </table>
+     </div>
+</body>
+</html>

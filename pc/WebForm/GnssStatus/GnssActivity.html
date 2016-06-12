@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="Js/GnssActivity.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div class="itemhead">
+        <h3>接收机活动
+        </h3>
+    </div>
+    <hr />
+        <div style="width:1000px">
+        <div class="item" >
+            <table style="width: 100%;">
+               <tr>
+                    <td class="td_head" align="left" colspan="2">
+                        <span id="tagSatellitesTrack">卫星跟踪</span>:<span id="spanTrackedSatellites" class="td_span"></span>
+                    </td>
+                </tr>
+               <!--tr>
+                    <td align="right" class="td_title">
+                        <span id="tagTrackedSatellites"></span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanTrackedSatellites" class="td_span"></span>
+                    </td>
+                </tr-->
+               <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagGps">GPS</span>(<span id="spanGpsNum" class="td_title"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanGpsString" class="td_span"></span>
+                    </td>
+                </tr>
+               <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagGlon">GLONASS</span>(<span id="spanGlonNum" class="td_title"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanGlonString" class="td_span"></span>
+                    </td>
+                </tr>
+               <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagBds">BDS</span>(<span id="spanBdsNum" class="td_title"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanBdsString" class="td_span"></span>
+                    </td>
+                </tr>
+               <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagGalileo">GALILEO</span>(<span id="spanGaliNum" class="td_title"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanGaliString" class="td_span"></span>
+                    </td>
+                </tr>
+               <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagSbas">SBAS</span>(<span id="spanSbasNum" class="td_title"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanSbasString" class="td_span"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+       
+        </div>
+        <hr />
+</body>
+</html>

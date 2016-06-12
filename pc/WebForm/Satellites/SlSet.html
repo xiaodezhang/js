@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/jcanvas.min.js"></script>
+    <script type="text/javascript" src="Js/SlSet.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div class="itemhead">
+        <h3>
+        </h3>
+    </div>
+    <hr />
+     <div class="easyui-tabs" data-options="tools:'#tab-tools'" style="width:700px;height:500px">
+		<div title="GPS" style="padding:10px;">
+			<table  data-options="singleSelect:true">
+				<thead>
+					<tr>
+                        <th data-options="field:'f1',width:100" align="center"><span id="StarNumber"></span></th>
+						<th data-options="field:'f2',width:100" align="left"><span id="StarSet"></span></th>
+						<th data-options="field:'f3',width:100" align="center"><span id="StarNumber1"></span></th>
+                        <th data-options="field:'f4',width:100" align="left"><span id="StarSet1"></span></th>
+                        <!--th><span>gpsl2c</span><input id="gpsl2c" type="checkbox" value="2" name="gpsl2c" onclick="setGpsl2c()"/></th-->
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td align="center">1</td><td><input id="GPS1" type="checkbox" value="0" name="GPS"/></td>
+                        <td align="center">2</td><td><input id="GPS2" type="checkbox" value="1" name="GPS"/></td></tr>
+
+                    <tr><td align="center">3</td><td><input id="GPS3" type="checkbox" value="2" name="GPS"/></td>
+                        <td align="center">4</td><td><input id="GPS4" type="checkbox" value="3" name="GPS"/></td></tr>
+
+                    <tr><td align="center">5</td><td><input id="GPS5" type="checkbox" value="4" name="GPS"/></td>
+                        <td align="center">6</td><td><input id="GPS6" type="checkbox" value="5" name="GPS"/></td></tr>
+
+                    <tr><td align="center">7</td><td><input id="GPS7" type="checkbox" value="6" name="GPS"/></td>
+                        <td align="center">8</td><td><input id="GPS8" type="checkbox" value="7" name="GPS"/></td></tr>
+
+                    <tr><td align="center">9</td><td><input id="GPS9" type="checkbox" value="8" name="GPS"/></td>
+                        <td align="center">10</td><td><input id="GPS10" type="checkbox" value="9" name="GPS"/></td></tr>
+
+                    <tr><td align="center">11</td><td><input id="GPS11" type="checkbox" value="10" name="GPS"/></td>
+                        <td align="center">12</td><td><input id="GPS12" type="checkbox" value="11" name="GPS"/></td></tr>
+
+                    <tr><td align="center">13</td><td><input id="GPS13" type="checkbox" value="12" name="GPS"/></td>
+                        <td align="center">14</td><td><input id="GPS14" type="checkbox" value="13" name="GPS"/></td></tr>
+
+                    <tr><td align="center">15</td><td><input id="GPS15" type="checkbox" value="14" name="GPS"/></td>
+                        <td align="center">16</td><td><input id="GPS16" type="checkbox" value="15" name="GPS"/></td></tr>
+
+                    <tr><td align="center">17</td><td><input id="GPS17" type="checkbox" value="16" name="GPS"/></td>
+                        <td align="center">18</td><td><input id="GPS18" type="checkbox" value="17" name="GPS"/></td></tr>
+
+                    <tr><td align="center">19</td><td><input id="GPS19" type="checkbox" value="18" name="GPS"/></td>
+                        <td align="center">20</td><td><input id="GPS20" type="checkbox" value="19" name="GPS"/></td></tr>
+
+                    <tr><td align="center">21</td><td><input id="GPS21" type="checkbox" value="20" name="GPS"/></td>
+                        <td align="center">22</td><td><input id="GPS22" type="checkbox" value="21" name="GPS"/></td></tr>
+
+                    <tr><td align="center">23</td><td><input id="GPS23" type="checkbox" value="22" name="GPS"/></td>
+                        <td align="center">24</td><td><input id="GPS24" type="checkbox" value="23" name="GPS"/></td></tr>
+
+                    <tr><td align="center">25</td><td><input id="GPS25" type="checkbox" value="24" name="GPS"/></td>
+                        <td align="center">26</td><td><input id="GPS26" type="checkbox" value="25" name="GPS"/></td></tr>
+
+                    <tr><td align="center">27</td><td><input id="GPS27" type="checkbox" value="26" name="GPS"/></td>
+                        <td align="center">28</td><td><input id="GPS28" type="checkbox" value="27" name="GPS"/></td></tr>
+
+                    <tr><td align="center">29</td><td><input id="GPS29" type="checkbox" value="28" name="GPS"/></td>
+                        <td align="center">30</td><td><input id="GPS30" type="checkbox" value="29" name="GPS"/></td></tr>
+
+                    <tr><td align="center">31</td><td><input id="GPS31" type="checkbox" value="30" name="GPS"/></td>
+                        <td align="center">32</td><td><input id="GPS32" type="checkbox" value="31" name="GPS"/></td></tr>
+                                  
+				</tbody>
+                <span class="td_span">
+                        <a href="javascript:void(0)" id="A2" class="easyui-linkbutton" plain="false" onclick="selectall('GPS')"><span id="CheckAllGPS"></span></a> 
+                        <a href="javascript:void(0)" id="A1" class="easyui-linkbutton" plain="false" onclick="selectnone('GPS')"><span id="CheckNoneGPS"></span></a>
+                        <a href="javascript:void(0)" id="A3" class="easyui-linkbutton" plain="false" onclick="savebtn('GPS')"><span id="ConfirmGPS"></span></a>
+                        <a href="javascript:void(0)" id="A4" class="easyui-linkbutton" plain="false" onclick="btnClickSet1('GPS')"><span id="EnableAllGPS"></span></a>
+                        <a href="javascript:void(0)" id="A21" class="easyui-linkbutton" plain="false" onclick="btnClickSet2('GPS')"><span id="DisableAllGPS"></span></a>
+                        <span id="sb" style="font-size:16px;">L2 C</span><input id="gpsl2c" type="checkbox" value="2" name="gpsl2c" onclick="setGpsl2c()"/>
+                        <!--span style="border:groove;border-radius: 8px;padding:4px"><span>L2C</span><input id="gpsl2c" type="checkbox" value="2" name="gpsl2c" onclick="setGpsl2c()"/></span-->
+                </span>
+			</table>
+		</div> 
+        <div title="GLONASS" style="padding:10px">
+			<table  data-options="fit:true,singleSelect:true">
+				<thead>
+					<tr>
+						<th data-options="field:'f1',width:100"><span id="StarNumber6"></span></th>
+						<th data-options="field:'f2',width:100"><span id="StarSet6"></span></th>
+						<th data-options="field:'f3',width:100"><span id="StarNumber7"></span></th>
+                        <th data-options="field:'f4',width:100"><span id="StarSet7"></span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td align="center">1</td><td><input id="GLON1" type="checkbox" value="0" name="GLON"/></td>
+                        <td align="center">2</td><td><input id="GLON2" type="checkbox" value="1" name="GLON"/></td></tr>
+
+                    <tr><td align="center">3</td><td><input id="GLON3" type="checkbox" value="2" name="GLON"/></td>
+                        <td align="center">4</td><td><input id="GLON4" type="checkbox" value="3" name="GLON"/></td></tr>
+
+                    <tr><td align="center">5</td><td><input id="GLON5" type="checkbox" value="4" name="GLON"/></td>
+                        <td align="center">6</td><td><input id="GLON6" type="checkbox" value="5" name="GLON"/></td></tr>
+
+                    <tr><td align="center">7</td><td><input id="GLON7" type="checkbox" value="6" name="GLON"/></td>
+                        <td align="center">8</td><td><input id="GLON8" type="checkbox" value="7" name="GLON"/></td></tr>
+
+                    <tr><td align="center">9</td><td><input id="GLON9" type="checkbox" value="8" name="GLON"/></td>
+                        <td align="center">10</td><td><input id="GLON10" type="checkbox" value="9" name="GLON"/></td></tr>
+
+                    <tr><td align="center">11</td><td><input id="GLON11" type="checkbox" value="10" name="GLON"/></td>
+                        <td align="center">12</td><td><input id="GLON12" type="checkbox" value="11" name="GLON"/></td></tr>
+
+                    <tr><td align="center">13</td><td><input id="GLON13" type="checkbox" value="12" name="GLON"/></td>
+                        <td align="center">14</td><td><input id="GLON14" type="checkbox" value="13" name="GLON"/></td></tr>
+
+                    <tr><td align="center">15</td><td><input id="GLON15" type="checkbox" value="14" name="GLON"/></td>
+                        <td align="center">16</td><td><input id="GLON16" type="checkbox" value="15" name="GLON"/></td></tr>
+
+                    <tr><td align="center">17</td><td><input id="GLON17" type="checkbox" value="16" name="GLON"/></td>
+                        <td align="center">18</td><td><input id="GLON18" type="checkbox" value="17" name="GLON"/></td></tr>
+
+                    <tr><td align="center">19</td><td><input id="GLON19" type="checkbox" value="18" name="GLON"/></td>
+                        <td align="center">20</td><td><input id="GLON20" type="checkbox" value="19" name="GLON"/></td></tr>
+
+                    <tr><td align="center">21</td><td><input id="GLON21" type="checkbox" value="20" name="GLON"/></td>
+                        <td align="center">22</td><td><input id="GLON22" type="checkbox" value="21" name="GLON"/></td></tr>
+
+                    <tr><td align="center">23</td><td><input id="GLON23" type="checkbox" value="22" name="GLON"/></td>
+                        <td align="center">24</td><td><input id="GLON24" type="checkbox" value="23" name="GLON"/></td></tr>
+
+                    <tr><td align="center">25</td><td><input id="GLON25" type="checkbox" value="24" name="GLON"/></td>
+                        <td align="center">26</td><td><input id="GLON26" type="checkbox" value="25" name="GLON"/></td></tr>
+
+                    <tr><td align="center">27</td><td><input id="GLON27" type="checkbox" value="26" name="GLON"/></td>
+                        <td align="center">28</td><td><input id="GLON28" type="checkbox" value="27" name="GLON"/></td></tr>
+
+                    <tr><td align="center">29</td><td><input id="GLON29" type="checkbox" value="28" name="GLON"/></td>
+                        <td align="center">30</td><td><input id="GLON30" type="checkbox" value="29" name="GLON"/></td></tr>
+
+                    <tr><td align="center">31</td><td><input id="GLON31" type="checkbox" value="30" name="GLON"/></td>
+                        <td align="center">32</td><td><input id="GLON32" type="checkbox" value="31" name="GLON"/></td></tr>
+                                  
+				</tbody>
+                <span class="td_span">
+                        <a href="javascript:void(0)" id="A13" class="easyui-linkbutton" plain="false" onclick="selectall('GLON')"><span id="CheckAllGLON"></span></a> 
+                        <a href="javascript:void(0)" id="A14" class="easyui-linkbutton" plain="false" onclick="selectnone('GLON')"><span id="CheckNoneGLON"></span></a>
+                        <a href="javascript:void(0)" id="A15" class="easyui-linkbutton" plain="false" onclick="savebtn('GLON')"><span id="ConfirmGLON"></span></a>
+                        <a href="javascript:void(0)" id="A16" class="easyui-linkbutton" plain="false" onclick="btnClickSet1('GLON')"><span id="EnableAllGLON"></span></a>
+                        <a href="javascript:void(0)" id="A24" class="easyui-linkbutton" plain="false" onclick="btnClickSet2('GLON')"><span id="DisableAllGLON"></span></a>
+                    </span>
+			</table>
+		</div>
+		<div title="BDS" style="padding:10px">
+			<table  data-options="fit:true,singleSelect:true">
+				<thead>
+					<tr>
+						<th data-options="field:'f1',width:100"><span id="StarNumber2"></span></th>
+						<th data-options="field:'f2',width:100"><span id="StarSet2"></span></th>
+						<th data-options="field:'f3',width:100"><span id="StarNumber3"></span></th>
+                        <th data-options="field:'f4',width:100"><span id="StarSet3"></span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td align="center">1</td><td><input id="BDS1" type="checkbox" value="0" name="BDS"/></td>
+                        <td align="center">2</td><td><input id="BDS2" type="checkbox" value="1" name="BDS"/></td></tr>
+
+                    <tr><td align="center">3</td><td><input id="BDS3" type="checkbox" value="2" name="BDS"/></td>
+                        <td align="center">4</td><td><input id="BDS4" type="checkbox" value="3" name="BDS"/></td></tr>
+
+                    <tr><td align="center">5</td><td><input id="BDS5" type="checkbox" value="4" name="BDS"/></td>
+                        <td align="center">6</td><td><input id="BDS6" type="checkbox" value="5" name="BDS"/></td></tr>
+
+                    <tr><td align="center">7</td><td><input id="BDS7" type="checkbox" value="6" name="BDS"/></td>
+                        <td align="center">8</td><td><input id="BDS8" type="checkbox" value="7" name="BDS"/></td></tr>
+
+                    <tr><td align="center">9</td><td><input id="BDS9" type="checkbox" value="8" name="BDS"/></td>
+                        <td align="center">10</td><td><input id="BDS10" type="checkbox" value="9" name="BDS"/></td></tr>
+
+                    <tr><td align="center">11</td><td><input id="BDS11" type="checkbox" value="10" name="BDS"/></td>
+                        <td align="center">12</td><td><input id="BDS12" type="checkbox" value="11" name="BDS"/></td></tr>
+
+                    <tr><td align="center">13</td><td><input id="BDS13" type="checkbox" value="12" name="BDS"/></td>
+                        <td align="center">14</td><td><input id="BDS14" type="checkbox" value="13" name="BDS"/></td></tr>
+
+                    <tr><td align="center">15</td><td><input id="BDS15" type="checkbox" value="14" name="BDS"/></td>
+                        <td align="center">16</td><td><input id="BDS16" type="checkbox" value="15" name="BDS"/></td></tr>
+
+                    <tr><td align="center">17</td><td><input id="BDS17" type="checkbox" value="16" name="BDS"/></td>
+                        <td align="center">18</td><td><input id="BDS18" type="checkbox" value="17" name="BDS"/></td></tr>
+
+                    <tr><td align="center">19</td><td><input id="BDS19" type="checkbox" value="18" name="BDS"/></td>
+                        <td align="center">20</td><td><input id="BDS20" type="checkbox" value="19" name="BDS"/></td></tr>
+
+                    <tr><td align="center">21</td><td><input id="BDS21" type="checkbox" value="20" name="BDS"/></td>
+                        <td align="center">22</td><td><input id="BDS22" type="checkbox" value="21" name="BDS"/></td></tr>
+
+                    <tr><td align="center">23</td><td><input id="BDS23" type="checkbox" value="22" name="BDS"/></td>
+                        <td align="center">24</td><td><input id="BDS24" type="checkbox" value="23" name="BDS"/></td></tr>
+
+                    <tr><td align="center">25</td><td><input id="BDS25" type="checkbox" value="24" name="BDS"/></td>
+                        <td align="center">26</td><td><input id="BDS26" type="checkbox" value="25" name="BDS"/></td></tr>
+
+                    <tr><td align="center">27</td><td><input id="BDS27" type="checkbox" value="26" name="BDS"/></td>
+                        <td align="center">28</td><td><input id="BDS28" type="checkbox" value="27" name="BDS"/></td></tr>
+
+                    <tr><td align="center">29</td><td><input id="BDS29" type="checkbox" value="28" name="BDS"/></td>
+                        <td align="center">30</td><td><input id="BDS30" type="checkbox" value="29" name="BDS"/></td></tr>
+
+                    <tr><td align="center">31</td><td><input id="BDS31" type="checkbox" value="30" name="BDS"/></td>
+                        <td align="center">32</td><td><input id="BDS32" type="checkbox" value="31" name="BDS"/></td></tr>
+                                  
+				</tbody>
+                <span class="td_span">
+                        <a href="javascript:void(0)" id="A5" class="easyui-linkbutton" plain="false" onclick="selectall('BDS')"><span id="CheckAllBDS"></span></a> 
+                        <a href="javascript:void(0)" id="A6" class="easyui-linkbutton" plain="false" onclick="selectnone('BDS')"><span id="CheckNoneBDS"></span></a>
+                        <a href="javascript:void(0)" id="A7" class="easyui-linkbutton" plain="false" onclick="savebtn('BDS')"><span id="ConfirmBDS"></span></a>
+                        <a href="javascript:void(0)" id="A8" class="easyui-linkbutton" plain="false" onclick="btnClickSet1('BDS')"><span id="EnableAllBDS"></span></a>
+                        <a href="javascript:void(0)" id="A22" class="easyui-linkbutton" plain="false" onclick="btnClickSet2('BDS')"><span id="DisableAllBDS"></span></a>
+                    </span>
+			</table>
+		</div>        
+        <div title="GALILEO" style="padding:10px">
+			<table  data-options="fit:true,singleSelect:true">
+				<thead>
+					<tr>
+						<th data-options="field:'f1',width:100"><span id="StarNumber8"></span></th>
+						<th data-options="field:'f2',width:100"><span id="StarSet8"></span></th>
+						<th data-options="field:'f3',width:100"><span id="StarNumber9"></span></th>
+                        <th data-options="field:'f4',width:100"><span id="StarSet9"></span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td align="center">1</td><td><input id="GALILEO1" type="checkbox" value="0" name="GALILEO"/></td>
+                        <td align="center">2</td><td><input id="GALILEO2" type="checkbox" value="1" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">3</td><td><input id="GALILEO3" type="checkbox" value="2" name="GALILEO"/></td>
+                        <td align="center">4</td><td><input id="GALILEO4" type="checkbox" value="3" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">5</td><td><input id="GALILEO5" type="checkbox" value="4" name="GALILEO"/></td>
+                        <td align="center">6</td><td><input id="GALILEO6" type="checkbox" value="5" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">7</td><td><input id="GALILEO7" type="checkbox" value="6" name="GALILEO"/></td>
+                        <td align="center">8</td><td><input id="GALILEO8" type="checkbox" value="7" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">9</td><td><input id="GALILEO9" type="checkbox" value="8" name="GALILEO"/></td>
+                        <td align="center">10</td><td><input id="GALILEO10" type="checkbox" value="9" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">11</td><td><input id="GALILEO11" type="checkbox" value="10" name="GALILEO"/></td>
+                        <td align="center">12</td><td><input id="GALILEO12" type="checkbox" value="11" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">13</td><td><input id="GALILEO13" type="checkbox" value="12" name="GALILEO"/></td>
+                        <td align="center">14</td><td><input id="GALILEO14" type="checkbox" value="13" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">15</td><td><input id="GALILEO15" type="checkbox" value="14" name="GALILEO"/></td>
+                        <td align="center">16</td><td><input id="GALILEO16" type="checkbox" value="15" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">17</td><td><input id="GALILEO17" type="checkbox" value="16" name="GALILEO"/></td>
+                        <td align="center">18</td><td><input id="GALILEO18" type="checkbox" value="17" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">19</td><td><input id="GALILEO19" type="checkbox" value="18" name="GALILEO"/></td>
+                        <td align="center">20</td><td><input id="GALILEO20" type="checkbox" value="19" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">21</td><td><input id="GALILEO21" type="checkbox" value="20" name="GALILEO"/></td>
+                        <td align="center">22</td><td><input id="GALILEO22" type="checkbox" value="21" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">23</td><td><input id="GALILEO23" type="checkbox" value="22" name="GALILEO"/></td>
+                        <td align="center">24</td><td><input id="GALILEO24" type="checkbox" value="23" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">25</td><td><input id="GALILEO25" type="checkbox" value="24" name="GALILEO"/></td>
+                        <td align="center">26</td><td><input id="GALILEO26" type="checkbox" value="25" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">27</td><td><input id="GALILEO27" type="checkbox" value="26" name="GALILEO"/></td>
+                        <td align="center">28</td><td><input id="GALILEO28" type="checkbox" value="27" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">29</td><td><input id="GALILEO29" type="checkbox" value="28" name="GALILEO"/></td>
+                        <td align="center">30</td><td><input id="GALILEO30" type="checkbox" value="29" name="GALILEO"/></td></tr>
+
+                    <tr><td align="center">31</td><td><input id="GALILEO31" type="checkbox" value="30" name="GALILEO"/></td>
+                        <td align="center">32</td><td><input id="GALILEO32" type="checkbox" value="31" name="GALILEO"/></td></tr>
+                                  
+				</tbody>
+                <span class="td_span">
+                        <a href="javascript:void(0)" id="A17" class="easyui-linkbutton" plain="false" onclick="selectall('GALILEO')"><span id="CheckAllGALILEO"></span></a> 
+                        <a href="javascript:void(0)" id="A18" class="easyui-linkbutton" plain="false" onclick="selectnone('GALILEO')"><span id="CheckNoneGALILEO"></span></a>
+                        <a href="javascript:void(0)" id="A19" class="easyui-linkbutton" plain="false" onclick="savebtn('GALILEO')"><span id="ConfirmGALILEO"></span></a>
+                        <a href="javascript:void(0)" id="A20" class="easyui-linkbutton" plain="false" onclick="btnClickSet1('GALILEO')"><span id="EnableAllGALILEO"></span></a>
+                        <a href="javascript:void(0)" id="A25" class="easyui-linkbutton" plain="false" onclick="btnClickSet2('GALILEO')"><span id="DisableAllGALILEO"></span></a>
+                    </span>
+			</table>
+		</div> 
+        <div title="SBAS" style="padding:10px">
+			<table data-options="fit:true,singleSelect:true">
+				<thead>
+					<tr>
+						<th data-options="field:'f1',width:100"><span id="StarNumber4"></span></th>
+						<th data-options="field:'f2',width:100"><span id="StarSet4"></span></th>
+						<th data-options="field:'f3',width:100"><span id="StarNumber5"></span></th>
+                        <th data-options="field:'f4',width:100"><span id="StarSet5"></span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr><td align="center">1</td><td><input id="SBAS1" type="checkbox" value="0" name="SBAS"/></td>
+                        <td align="center">2</td><td><input id="SBAS2" type="checkbox" value="1" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">3</td><td><input id="SBAS3" type="checkbox" value="2" name="SBAS"/></td>
+                        <td align="center">4</td><td><input id="SBAS4" type="checkbox" value="3" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">5</td><td><input id="SBAS5" type="checkbox" value="4" name="SBAS"/></td>
+                        <td align="center">6</td><td><input id="SBAS6" type="checkbox" value="5" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">7</td><td><input id="SBAS7" type="checkbox" value="6" name="SBAS"/></td>
+                        <td align="center">8</td><td><input id="SBAS8" type="checkbox" value="7" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">9</td><td><input id="SBAS9" type="checkbox" value="8" name="SBAS"/></td>
+                        <td align="center">10</td><td><input id="SBAS10" type="checkbox" value="9" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">11</td><td><input id="SBAS11" type="checkbox" value="10" name="SBAS"/></td>
+                        <td align="center">12</td><td><input id="SBAS12" type="checkbox" value="11" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">13</td><td><input id="SBAS13" type="checkbox" value="12" name="SBAS"/></td>
+                        <td align="center">14</td><td><input id="SBAS14" type="checkbox" value="13" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">15</td><td><input id="SBAS15" type="checkbox" value="14" name="SBAS"/></td>
+                        <td align="center">16</td><td><input id="SBAS16" type="checkbox" value="15" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">17</td><td><input id="SBAS17" type="checkbox" value="16" name="SBAS"/></td>
+                        <td align="center">18</td><td><input id="SBAS18" type="checkbox" value="17" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">19</td><td><input id="SBAS19" type="checkbox" value="18" name="SBAS"/></td>
+                        <td align="center">20</td><td><input id="SBAS20" type="checkbox" value="19" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">21</td><td><input id="SBAS21" type="checkbox" value="20" name="SBAS"/></td>
+                        <td align="center">22</td><td><input id="SBAS22" type="checkbox" value="21" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">23</td><td><input id="SBAS23" type="checkbox" value="22" name="SBAS"/></td>
+                        <td align="center">24</td><td><input id="SBAS24" type="checkbox" value="23" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">25</td><td><input id="SBAS25" type="checkbox" value="24" name="SBAS"/></td>
+                        <td align="center">26</td><td><input id="SBAS26" type="checkbox" value="25" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">27</td><td><input id="SBAS27" type="checkbox" value="26" name="SBAS"/></td>
+                        <td align="center">28</td><td><input id="SBAS28" type="checkbox" value="27" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">29</td><td><input id="SBAS29" type="checkbox" value="28" name="SBAS"/></td>
+                        <td align="center">30</td><td><input id="SBAS30" type="checkbox" value="29" name="SBAS"/></td></tr>
+
+                    <tr><td align="center">31</td><td><input id="SBAS31" type="checkbox" value="30" name="SBAS"/></td>
+                        <td align="center">32</td><td><input id="SBAS32" type="checkbox" value="31" name="SBAS"/></td></tr>
+                                  
+				</tbody>
+                <span class="td_span">
+                        <!--<a href="javascript:void(0)" id="A9" class="easyui-linkbutton" plain="false" onclick="selectall('SBAS')" disabled="true"><span id="CheckAllSBAS"></span></a> 
+                        <a href="javascript:void(0)" id="A10" class="easyui-linkbutton" plain="false" onclick="selectnone('SBAS')" disabled="true"><span id="CheckNoneSBAS"></span></a>
+                        <a href="javascript:void(0)" id="A11" class="easyui-linkbutton" plain="false" onclick="savebtn('SBAS')" disabled="true"><span id="ConfirmSBAS"></span></a>-->
+                        <a href="javascript:void(0)" id="A12" class="easyui-linkbutton" plain="false" onclick="btnClickSet1('SBAS')"            ><span id="EnableAllSBAS"></span></a>
+                        <a href="javascript:void(0)" id="A23" class="easyui-linkbutton" plain="false" onclick="btnClickSet2('SBAS')"            ><span id="DisableAllSBAS"></span></a>
+                    </span>
+			</table>
+		</div>
+
+	</div>
+</body>
+</html>

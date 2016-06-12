@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="Js/BoardNetSet.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div class="itemhead">
+        <h3>板卡网络设置</h3>
+    </div>
+    <hr />
+     <div class="item">
+        <table style="width: 600px">
+            <tr>
+                <td class="td_title_head" colspan="2" align="left" id="tagEthernet">
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title" align="right">
+                    <span id="tagStaticIpSet">IP</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="spanStaticIp" class="easyui-validatebox" type="text" data-options="required:true" style="width: 150px;"/>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title" align="right">
+                <span id="tagSubnetMask">NETMASK</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="spanSubnetMask" class="easyui-validatebox" type="text" data-options="required:true" style="width: 150px;"/>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title" align="right">
+                <span id="tagGateway">GATEWAY</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="spanGateway" class="easyui-validatebox" type="text" data-options="required:true" style="width: 150px;"/>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title" align="right">
+                <span id="Span1">DNS</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="spanDns" class="easyui-validatebox" type="text" data-options="required:true" style="width: 150px;"/>
+                    </span>
+                </td>
+            </tr>
+        </table>
+    </div>
+     <div class="item">
+        <table style="width: 300px">
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-save'" onclick="btnSave('false');"><span id="spanSave">确定</span></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+</body>
+</html>

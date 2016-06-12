@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tags>
+  <tagGnssStatus>接收机状态</tagGnssStatus>
+  <tagGnssActivity>活动 </tagGnssActivity>
+  <tagGnssPosition>位置 </tagGnssPosition>
+  <tagSatellite>卫星跟踪状态 </tagSatellite>
+  <tagSatelliteTrackTable>跟踪表 </tagSatelliteTrackTable>
+  <tagSatelliteTrackDiagram>跟踪图 </tagSatelliteTrackDiagram>
+  <tagStarDiagram>星空图 </tagStarDiagram>
+  <tagGnssSet>接收机配置 </tagGnssSet>
+  <tagWorkModeSet>工作模式设置 </tagWorkModeSet>
+  <tagEngineSet>引擎设置 </tagEngineSet>
+  <tagPdopSet>高度截止角设置 </tagPdopSet>
+  <tagSatelliteSet>定位系统及卫星设置 </tagSatelliteSet>
+  <tagChannelSet>通道设置 </tagChannelSet>
+  <tagBoardNetSet>板卡网络设置 </tagBoardNetSet>
+  <tagDirectionalSet>定向设置 </tagDirectionalSet>
+  <tagAntenna>主副天线设置 </tagAntenna>
+  <tagIOSet>IO配置 </tagIOSet>
+  <tagSafetyInfo>安全信息 </tagSafetyInfo>
+  <tagAccountInfo>账户信息 </tagAccountInfo>
+  <tagPasswordSet>修改密码 </tagPasswordSet>
+  <tagFirmwareInfo>固件信息 </tagFirmwareInfo>
+  <tagFirmwareVersion>固件版本 </tagFirmwareVersion>
+  <tagOnlineUpdate>在线升级 </tagOnlineUpdate>
+  <tagHelp>帮助 </tagHelp>
+  <tagSetupGuide>设置向导 </tagSetupGuide>
+  <tagRtkSet>RTK设置向导 </tagRtkSet>
+  <tagSingleAntenna>单天线设置向导 </tagSingleAntenna>
+  <tagDoubleAntenna>双天线设置向导 </tagDoubleAntenna>
+
+  <tagLogin>登 录</tagLogin>
+  <tagRememberMe>记住我</tagRememberMe>
+  
+  <tipInfo>
+</tipInfo>
+
+</tags>

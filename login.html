@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+    <title></title>
+   <script type="text/javascript">  
+            function browserRedirect() {  
+                var sUserAgent = navigator.userAgent.toLowerCase();  
+                var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";  
+                var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";  
+                var bIsMidp = sUserAgent.match(/midp/i) == "midp";  
+                var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";  
+                var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";  
+                var bIsAndroid = sUserAgent.match(/android/i) == "android";  
+                var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";  
+                var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";  
+                if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){  
+                    window.location.href="./pc/login.html"
+				}else{
+					
+                    window.location.href="./mobile-simple/login.html"
+				} 
+            }  
+            browserRedirect();          
+			
+</script>
+</head>
+<body>
+   <!--识别不同类型的服务器，该页面放在lighttpd服务器的页面主目录下即可，它会根据浏览器的类型跳转到不同的页面去即pc和mobile目录下-->
+</body>
+</html>

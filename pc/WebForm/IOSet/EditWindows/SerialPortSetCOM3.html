@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="../../../Resource/Js/Validation.js"></script>
+    <script type="text/javascript" src="../../../Resource/Js/Langs/Lang_IoRadioSet.js"></script>
+    <script type="text/javascript" src="Js/RadioSet.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div style="width: 100%">
+        <table style="width: 100%">
+            <tr style="height:10px;">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+            <tr>
+			    <td class="td_titleWindow3" align="right">
+					<span id="Span1">原始数据</span>:
+				</td>
+				<td align="left"colspan="2">
+				    <span class="td_span">
+				    <select class="easyui-combobox" id="Select1" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 90px;">
+					</select>
+					</span>
+					<span class="td_span">
+					<select class="easyui-combobox" id="Select2" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 60px;">
+					</select>
+					</span>
+				</td>
+			</tr>
+            <tr style="height:10px;" id="Weather1">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+            <tr>
+			    <td class="td_titleWindow3" align="right">
+					<span id="Span2">NMEA</span>:
+				</td>
+				<td align="left"colspan="2">
+				    <span class="td_span">
+				    <select class="easyui-combobox" id="Select3" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 90px;">
+					</select>
+					</span>
+					<span class="td_span">
+					<select class="easyui-combobox" id="Select4" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 60px;">
+					</select>
+					</span>
+				</td>
+			</tr>
+
+            <tr style="height:10px;" id="Weather3">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+            <tr>
+			    <td class="td_titleWindow3" align="right">
+					<span id="Span3">RTCM3.0</span>:
+				</td>
+				<td align="left"colspan="2">
+				    <span class="td_span">
+				    <select class="easyui-combobox" id="Select5" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 90px;">
+					</select>
+					</span>
+					<span class="td_span">
+					<select class="easyui-combobox" id="Select6" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 60px;">
+					</select>
+					</span>
+				</td>
+			</tr>
+
+            <tr style="height:10px;" id="Weather5">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+            <tr>
+			    <td class="td_titleWindow3" align="right">
+					<span id="Span4">RTCM3.2</span>:
+				</td>
+				<td align="left"colspan="2">
+				    <span class="td_span">
+				    <select class="easyui-combobox" id="Select7" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 90px;">
+					</select>
+					</span>
+					<span class="td_span">
+					<select class="easyui-combobox" id="Select8" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 60px;">
+					</select>
+					</span>
+				</td>
+			</tr>
+
+            <tr style="height:10px;" id="Weather7">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+
+            <tr>
+			    <td class="td_titleWindow3" align="right">
+					<span id="Span5">RTCM2.4</span>:
+				</td>
+				<td align="left"colspan="2">
+				    <span class="td_span">
+				    <select class="easyui-combobox" id="Select9" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 90px;">
+					</select>
+					</span>
+					<span class="td_span">
+					<select class="easyui-combobox" id="Select10" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 60px;">
+					</select>
+					</span>
+				</td>
+			</tr>
+            <tr style="height:10px;">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+            <tr>
+			    <td class="td_titleWindow3" align="right">
+					<span id="Span6">CMR</span>:
+				</td>
+				<td align="left"colspan="2">
+				    <span class="td_span">
+				    <select class="easyui-combobox" id="Select11" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 90px;">
+					</select>
+					</span>
+					<span class="td_span">
+					<select class="easyui-combobox" id="Select12" data-options="panelHeight:'auto',editable:false"
+									name="state" style="width: 60px;">
+					</select>
+					</span>
+				</td>
+			</tr>
+            <tr style="height:15px;">
+                <td colspan="3" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <hr />
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-save'" onclick="btnSave();"><span id="tagSave">确定</span></a> 
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-back'" onclick="btnBack();"><span id="tagBack">返回</span></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

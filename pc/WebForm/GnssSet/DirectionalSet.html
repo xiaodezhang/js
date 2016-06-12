@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="Js/DirectionalSet.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+   <div class="itemhead">
+        <h3>定向设置
+        </h3>
+    </div>
+    <hr />
+    <div class="item">
+        <table style="width: 400px">
+            <tr>
+                <td class="td_title" align="right" >
+                     <input id="TimeInterYes" type="radio" name="radioAutoCon" checked="checked" onclick="setDialAutoCon('true')" /><span
+                            id="tagTimeInter">双频定向</span>
+                </td>
+                <td class="td_title" align="right" >
+                     <input id="Radio1" type="radio" name="radioAutoCon" checked="checked" onclick="setDialAutoCon('true')" /><span
+                            id="Span1">单频定向</span>
+                </td>
+
+            </tr>
+            <tr>
+                <td class="td_title" align="right" >
+                     <input id="Radio2" type="checkbox" name="radioAutoCon" checked="checked" onclick="setDialAutoCon('true')" /><span
+                            id="Span2">基线长度</span>
+                </td>
+                <td align="left" colspan="2">
+                    <span class="td_span">
+                        <input id="spanPort" class="easyui-validatebox" type="text" style="width: 100px;"/>(米)
+                    </span>
+                </td>
+
+            </tr>
+        </table>
+     </div>
+      <div class="item" id="divSave">
+        <table style="width: 400px">
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-save'" onclick="btnSave();">
+                        <span id="tagSave">确认</span>
+                    </a> 
+                </td>
+            </tr>
+        </table>
+     </div>
+     <hr />
+</body>
+</html>

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="Js/WorkModeSet.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <body>
+    <div class="itemhead">
+        <h3>工作模式设置</h3>
+    </div>
+     <hr />
+    <div class="item">
+        <table style="width: 650px">
+            <tr>
+                <td class="td_title_receive_setting" align="right">
+                    <span id="tagBaseSiteMode">工作模式</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <select class="easyui-combobox" id="seBaseSiteMode" data-options="panelHeight:'auto',editable:false" name="state" style="width: 218px;">
+                            <option value="GNSS_ROVER">移动站</option>
+                            <option value="GNSS_BASE">基站</option>
+                        </select>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title_receive_setting" align="right">
+                    <span id="tagBaseHeight">参考高度</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="ipBaseHeight" class="easyui-validatebox" type="text"  style="width: 215px;" />
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title_receive_setting" align="right">
+                    <span id="tagBaseLatitude">参考纬度</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="ipBaseLatCoordinateDu" class="easyui-validatebox" type="text" style="width: 50px;" />°
+                        <input id="ipBaseLatCoordinateMin" class="easyui-validatebox" type="text" style="width: 50px;" />′
+                        <input id="ipBaseLatCoordinateSec" class="easyui-validatebox" type="text"  style="width: 90px;"/>″
+                    </span>
+                    <span>
+                        <input id="radioSouth" value="south" type="radio" name="radioposition"/><span>S</span>
+                        <input id="radioNorth" value="north" type="radio" name="radioposition" /><span>N</span>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title_receive_setting" align="right">
+                    <span id="tagBaseLongitude">参考经度</span>:
+                </td>
+                <td align="left">
+                    <span class="td_span">
+                        <input id="ipBaseLonCoordinateDu" class="easyui-validatebox" type="text" style="width: 50px;" />°
+                        <input id="ipBaseLonCoordinateMin" class="easyui-validatebox" type="text" style="width: 50px;" />′
+                        <input id="ipBaseLonCoordinateSec" class="easyui-validatebox" type="text"  style="width: 90px;" />″ 
+                     </span>
+                    <span>
+                        <input id="radioEast" value="east" type="radio" name="radiopositionLon"/><span>E</span>
+                        <input id="radioWest" value="west"  type="radio" name="radiopositionLon" /><span>W</span>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_title_receive_setting" align="right">
+                </td>
+                <td align="left">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-ok'"
+                        onclick="getCurrentPosition()"><span id="tagCurrentPosition">获取当前位置</span></a>
+                </td>
+            </tr>
+        </table>
+        <br />
+        
+        
+        <table table style="width: 400px">
+            <tr>
+                <td align="center">
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-save'"
+                        onclick="btnSaveInfo();"><span id="tagSave">确定</span></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+</body>
+</html>

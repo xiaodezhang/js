@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Expand, contract, animate forms with jQuery wihtout leaving the page" />
+        <meta name="keywords" content="expand, form, css3, jquery, animate, width, height, adapt, unobtrusive javascript"/>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+
+        <link rel="stylesheet" type="text/css" href="Resource/EasyUI/themes/bootstrap/easyui.css" />
+        <link rel="stylesheet" type="text/css" href="Resource/EasyUI/themes/icon.css" />
+        <script type="text/javascript" src="Resource/EasyUI/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="Resource/EasyUI/jquery.easyui.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="Resource/EasyUI/css/login_style.css" />
+        <script type="text/javascript" src="Resource/Js/cufon-yui.js"></script>
+        <script type="text/javascript" src="Resource/Js/ChunkFive_400.font.js"></script>
+        
+
+        <script type="text/javascript" src="Resource/Js/Common.js"></script>
+        <script type="text/javascript" src="Resource/Js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="Resource/Js/Login.js"></script>
+    </head>
+        <body onkeydown="onKeyDown();">
+		<div class="wrapper">
+            <div style="height:150px;"></div>
+			<div class="content">
+				<div id="form_wrapper" class="form_wrapper">
+					<form class="login active" action="">
+						<h3> <span id="tagSystemName"></span></h3>
+						<div>
+							<label>
+                                <span id="tagLoginAccount"></span>用户名:
+                            </label>
+							<input type="text" id="ipAccount"/>
+							<!--<span class="error">This is an error</span>-->
+						</div>
+						<div>
+							<label>
+                                <span id="tagPwd"></span>密码：
+                            </label>
+							<input type="password" id="ipPassword"/>
+						</div>
+						<div class="bottom">
+							<div class="remember">
+                                <div><input id="cbRemember" type="checkbox" onclick="changeValue(this)"/><span id="tagRememberMe"></span></div>
+                            </div>
+							<input type="button" value="Login" id="btnLogin" onclick="login()"/>
+							<a href="" rel=""><span id="tagExploreTip"></span></a>
+							<div class="clear"></div>
+						</div>
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+    </body>
+</html>

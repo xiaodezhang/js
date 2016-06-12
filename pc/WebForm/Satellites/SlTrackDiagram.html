@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+<style>
+  .axis path,
+  .axis line{
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.MyRect {
+  fill: steelblue;
+}
+
+.MyText {
+  fill: white;
+  text-anchor: middle;
+}
+</style>
+
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+     <script src="Js/d3.min.js" charset="utf-8"></script>  
+     <script type="text/javascript" src="Js/SlTrackDiagram.js"></script>
+
+    <div class="itemhead">
+        <h3>
+        </h3>
+    </div>
+    <div class="item">
+        <hr />
+        <table>
+            <tr>
+                <td><span id="tagStarType" style="font-size:20px;"></span>:</td>
+                <td>
+                    <input id="raSatelliteGps" type="checkbox" checked="checked" name="cbSatelliteType" value="gps" onclick="checkBoxClick();"/><span id="tagSatelliteGps" style="font-size:20px;"></span>
+                </td>
+                <td>
+                    <input id="raSatelliteGln" type="checkbox" checked="checked" name="cbSatelliteType" value="glonass" onclick="checkBoxClick();"/><span id="tagSatelliteGln" style="font-size:20px;"></span>
+                </td>
+                <td>
+                    <input id="raSatelliteBds" type="checkbox" checked="checked" name="cbSatelliteType" value="bds" onclick="checkBoxClick();"/><span id="tagSatelliteBds" style="font-size:20px;"></span>
+                </td>
+                <td>
+                    <input id="raSatelliteGalileo" type="checkbox" checked="checked" name="cbSatelliteType" value="galileo" onclick="checkBoxClick();"/><span id="tagSatelliteGalieo" style="font-size:20px;"></span>
+                </td>
+                <td>
+                    <input id="raSatelliteSbas" type="checkbox" checked="checked" name="cbSatelliteType" value="sbas" onclick="checkBoxClick();"/><span id="tagSatelliteSbas" style="font-size:20px;"></span>
+                </td>
+            </tr>
+        </table>
+        <hr />
+        <table>
+            <tr>
+                <td><span id="tagNoiseSignal"></span>:</td>
+                <td style="background-color:#F73F17;height:20px;width:20px;">
+                </td>
+                <td>
+                    <input id="cbTypeL1" type="checkbox" value="l1" name="cbTypeL" onclick="checkBoxClick('#cbTypeL1','l1');"/><span id="tagTypeL1" style="font-size:15px;"></span>
+                </td>
+                <td style="background-color:#84FFFF;height:20px;width:20px;">
+                </td>
+                <td>
+                    <input id="cbTypeL2" type="checkbox" value="l2" name="cbTypeL" onclick="checkBoxClick('#cbTypeL2','l2');"/><span id="tagTypeL2" style="font-size:15px;"></span>
+                </td>
+                <td style="background-color:#3335C7;height:20px;width:20px;">
+                </td>
+                <td>
+                    <input id="cbTypeL5" type="checkbox" value="l5" name="cbTypeL" onclick="checkBoxClick('#cbTypeL5','l5');"/><span id="tagTypeL5" style="font-size:15px;"></span>
+                </td>
+            </tr>
+        </table>
+        <hr />
+    </div>
+    <div class="item">
+            <canvas id="canvasId" width='840' height='580'>
+            </canvas>
+    </div>
+</body>
+</html>

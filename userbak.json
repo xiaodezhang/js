@@ -1,0 +1,17 @@
+{
+	"NameAndPasswd": [  
+	{
+      "name": "admin",
+      "password": "password",
+	  "permission":3
+    },{
+      "name": "admin1",
+      "password": "123456",
+	  "permission":2
+    },{
+      "name": "admin2",
+      "password": "123456",
+	  "permission":1
+    }
+  ]
+}

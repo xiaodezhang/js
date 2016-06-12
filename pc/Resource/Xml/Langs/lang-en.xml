@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+ <tags>
+   <tagcorsStatus>cors and apis state</tagcorsStatus>
+   <tagg3Status>3g connection status</tagg3Status>
+   <tagForever>permanent</tagForever>
+   <tagAutoDiff>Auto Diff</tagAutoDiff>
+   <tagUable>not available</tagUable>
+   <tagHig1>Frequency Channel 3</tagHig1>
+   <tagCen1>Frequency Channel 2</tagCen1>
+   <tagLow1>Frequency Channel 1</tagLow1>
+   <tagHig>High</tagHig>
+   <tagCen>Middle</tagCen>
+   <tagLow>Low</tagLow>
+   <!--还没发-->
+   <tagAutoConnect>Auto connect</tagAutoConnect>
+   <tagwifiState>wifi status</tagwifiState>
+   <tagbtState>Bluetooth status</tagbtState>
+   <taggsensorState>Sensor status</taggsensorState>
+   <!--还没发-->
+   
+   
+   
+   <tagDataTransfer>Data Transmit</tagDataTransfer>
+   <tagRTK>RTK</tagRTK>
+   <tagWIFI>WIFI</tagWIFI>
+   <tagBT>Bluetooth</tagBT>
+   <tagGSM>GSM</tagGSM>
+   <tagRADIO>Radio</tagRADIO>
+   <tag1ppsSet>1PPS settings</tag1ppsSet>
+   <tagUSBSet>USB function switch</tagUSBSet>
+   <tagUSBNetAccess>USB personal area network</tagUSBNetAccess>
+   <tagUSBAtorageAccess>Multimedia storage</tagUSBAtorageAccess>
+   <tagXiuUserNameAP>Change password</tagXiuUserNameAP>
+   <tagUserPermission>User right</tagUserPermission>
+   <tagplaceAddUserName>Please input new username and password</tagplaceAddUserName>
+   <tagplaceDelUserName>Please input the username that you want to delete</tagplaceDelUserName>
+   <tagplaceXiuUserName>Please input username and password that you want to change</tagplaceXiuUserName>
+   <tagEnable>Enable</tagEnable>
+   <tagDisable>Disable</tagDisable>
+   <tagSatelRadio111>Rx Radio</tagSatelRadio111>
+   <tagMobileWeb>Mobile Web</tagMobileWeb>
+  
+     <tagNmea>NMEA</tagNmea>
+     <tagUserPermission>User authority</tagUserPermission>
+     <tagUserNameControl>User management</tagUserNameControl>
+     <tagAddUserNameAP>Add user</tagAddUserNameAP>
+     <tagDelUserNameAP>Delete user</tagDelUserNameAP>
+     <tagManufactureName>Antenna manufacturer</tagManufactureName>
+   <tagCleanData>Clear Data</tagCleanData>
+   <tagParamsSet>Setting Parameter</tagParamsSet>
+   <tagSwitch>Switch</tagSwitch>
+   <tagSystemName>GNSS</tagSystemName>
+   <!--<tagSystemName>x10 System</tagSystemName>-->
+   <!--<tagSystemName>N71BD System</tagSystemName>-->
+  <tagInputName>Please Input Username</tagInputName> 
+  <tagLoginAccount>Login Account</tagLoginAccount> 
+  <tagLogout>Quit</tagLogout>
+   <tagLogin>Login</tagLogin>
+   <tagRememberMe>remember me</tagRememberMe>
+   
+  <tagGnssStatus>Status</tagGnssStatus> 
+  <tagGnssActivity>Activity</tagGnssActivity> 
+  <tagGnssPosition>Position</tagGnssPosition> 
+  <tagGnssGoogleMap>Google Map</tagGnssGoogleMap> 
+  <tagMarkId>Mark ID</tagMarkId> 
+   
+  <tagIntroduction>Description</tagIntroduction> 
+  <tagGnssSet>Receiver Configuration</tagGnssSet>
+  <tagAntennaParamsSet>Antenna Configuration</tagAntennaParamsSet>
+  <tagBaseSiteSet>Reference Station Settings</tagBaseSiteSet> 
+  <tagGnssReset>Receiver Reset</tagGnssReset> 
+   
+  <tagLangsControl>Language</tagLangsControl> 
+  <tagGeneral>General</tagGeneral> 
+  <tagMobileNet>GPRS</tagMobileNet> 
+  <tag3GSet>Network Settings</tag3GSet> 
+   
+  <tag3GInfo>Network Info</tag3GInfo> 
+  <tagBluetoothSet>Bluetooth Settings</tagBluetoothSet> 
+  <tagSet>Settings</tagSet> 
+  <tagLineNet>WAN</tagLineNet> 
+   
+  <tagNetworkSet>Network Settings</tagNetworkSet> 
+  <tagNetworkInfo>Network Info</tagNetworkInfo> 
+  <tagPppoeSet>Pppoe Settings</tagPppoeSet> 
+  <tagStatus>Connection Status</tagStatus>
+
+     <tagBoardInfo>Hardware Version</tagBoardInfo>
+     <tagHardwarenum>Hardware Version</tagHardwarenum>
+     <tagMainBoard>Main Board</tagMainBoard>
+     <tagCoreBoard>Core Board</tagCoreBoard>
+     
+  <tagEmailAlarm>Email Alarm</tagEmailAlarm> 
+  <tagEmailAlarmSet>Email Alert Settings</tagEmailAlarmSet> 
+  <tagEmailAddress1>Email Address 1</tagEmailAddress1> 
+  <tagEmailAddress2>Email Address 2</tagEmailAddress2> 
+  <tagEmailAddress3>Email Address 3</tagEmailAddress3>
+     <tagEmailAddress4>Account</tagEmailAddress4>
+     <tagServerAddr>Server Address</tagServerAddr>
+     <tagAlarmTip1>Email Alert</tagAlarmTip1>
+     <tagAlarmTip2>From</tagAlarmTip2>
+     <tagAlarmTip3>TO</tagAlarmTip3>
+
+     <tagHttps>HTTP</tagHttps>
+     <tagHttps1>HTTPS</tagHttps1>
+  <tagFtpService>FTP Service</tagFtpService> 
+  <tagOthers>Others</tagOthers> 
+  <tagEthPortDirect>Ethernet Port Direct Communication</tagEthPortDirect> 
+   
+  <tagSatellite>Satellites</tagSatellite> 
+  <tagDataAccount>Data Recording</tagDataAccount>
+     <tagHCPPP>HCPPP Settings</tagHCPPP>
+     <tagRange>HCPPP Range</tagRange>
+     <tagHCPPPStatus>HCPPP Status</tagHCPPPStatus>
+  <tagIOSet>I/O Settings</tagIOSet> 
+  <tagRadioSet>Radio Settings</tagRadioSet>
+     <tagGSMSet>GSM Settings</tagGSMSet>
+
+     <tagRTKClient>RTK Client</tagRTKClient>
+     <tagtcpClient>TCP/UDP Client</tagtcpClient>
+     <tagtcpCaster>TCP Server/NTRIP Caster</tagtcpCaster>
+
+     <tagRadioInfo>Radio Info</tagRadioInfo> 
+  <tagWirelessSet>Wifi</tagWirelessSet> 
+  <tagWifiSet>Wifi Settings</tagWifiSet> 
+  <tagIOInfo>I/O Info</tagIOInfo>
+   
+  <tagSafety>Security</tagSafety> 
+  <tagSafetyInfo>Security Info</tagSafetyInfo> 
+  <tagSafetySet>Security Configure</tagSafetySet> 
+  <tagUpdatePwd>Change Password</tagUpdatePwd>
+     <tagOnlineUpdate>Upgrade Online</tagOnlineUpdate>
+     <tagIpandPort>Server Address</tagIpandPort>
+     <tagGetFileList>Get File List</tagGetFileList>
+     <tagCdownload>Cancel Downloading</tagCdownload>
+     <tagFileNmae>File Name</tagFileNmae>
+     <tagVersionNum>Version</tagVersionNum>
+     <tagFileInfo>Description</tagFileInfo>
+     <tagFileSize1>Size</tagFileSize1>
+     <tagFileDownload>Upgrade</tagFileDownload>
+     <tagCSDnumber>Base phone number</tagCSDnumber>
+     <tagUserLog>User Log</tagUserLog>
+     <tagUserLogNum>Download User Log</tagUserLogNum>
+     <tagUserLogSet>User Log settings</tagUserLogSet>
+     <tagpowerOn>Start time</tagpowerOn>
+     <tagexPower>Ext power off time</tagexPower>
+     <tagsatReady>Satellite searchingcompleted time</tagsatReady>
+     <taglinkSendSuc>TCP/Client successfully sent time</taglinkSendSuc>
+     <taglinkSendClose>TCP/Client disconnect time</taglinkSendClose>
+     <tagrecordSwitch>Recording start and end time</tagrecordSwitch>
+     <tagftpPush>ftp push time</tagftpPush>
+     <tagemailWarn>Email alert time</tagemailWarn>
+    
+  <tagFirmware>Firmware</tagFirmware> 
+  <tagFirmwareInfo>Firmware Info.</tagFirmwareInfo> 
+  <tagFirmwareNum>Firmware Version</tagFirmwareNum> 
+  <tagCurFirmwareDate>Firmware Release Time</tagCurFirmwareDate> 
+   
+  <tagFirmwareDescription>Firmware Description</tagFirmwareDescription> 
+  <tagFirmwareSetup>Firmware Setup</tagFirmwareSetup> 
+  <tagUpgradeCheck>Firmware Upgrade Check</tagUpgradeCheck> 
+  <tagHelp>Help</tagHelp> 
+   
+  <tagHelpLocation>Help Location</tagHelpLocation> 
+  <tagHelpConfirm>Confirmation</tagHelpConfirm> 
+  <tagSystemLog>System Log</tagSystemLog> 
+  <tagNetService>Network Service</tagNetService> 
+   
+  <tagUpdateFile>Upgrade File</tagUpdateFile> 
+  <tagFirmwareUpdate>Firmware Update</tagFirmwareUpdate> 
+<!-- 
+<tagKernelLog>Kernel Log</tagKernelLog>
+  --> 
+  <tagFirmwareLog>Firmware Log</tagFirmwareLog> 
+   
+  <tagAccountSet>Log Settings</tagAccountSet> 
+  <tagAccountWholeStatus>Log Status</tagAccountWholeStatus> 
+  <tagFtpSendSet>FTP Push Settings</tagFtpSendSet> 
+  <tagFtpSendAccount>FTP Push Log</tagFtpSendAccount> 
+   
+  <tagEthPortDirectSet>Ethernet Port Direct Access</tagEthPortDirectSet> 
+  <tagPortDirectAbleOr>Enable Ethernet Port Direct Access</tagPortDirectAbleOr> 
+  <tagPortDirectAddr>Ethernet Port Direct Access Adress</tagPortDirectAddr> 
+  <tagUserName>User Name</tagUserName> 
+   
+  <tagPwd>Password</tagPwd> 
+  <tagSave>Save</tagSave> 
+  <tagConfirm>Confirm</tagConfirm>
+
+     <tagConfirm1>Yes</tagConfirm1>
+     <tagCancel1>No</tagCancel1>
+     <tagConfirm2>OK</tagConfirm2>
+     <tagFEC>FEC</tagFEC>
+     <tagSen>Receiving Sensitivity</tagSen>
+     
+     <tagCallSign>Call Sign</tagCallSign>
+     <tagCallSignS>Call Sign Status</tagCallSignS>
+     <tagCallSignI>Call Sign Interval</tagCallSignI>
+     <tagCallSignM>Call Sign Message</tagCallSignM>
+     
+  <tagCancel>Cancel</tagCancel> 
+  <tagFtpSet>FTP Settings</tagFtpSet> 
+  <tagHttpPortSet>HTTP Port</tagHttpPortSet> 
+  <tagHttpsPortSet>HTTPS Port</tagHttpsPortSet> 
+  <tagHttpsAbleOr>Enable HTTPS</tagHttpsAbleOr> 
+   
+  <tagCurrentStatus>Current Status</tagCurrentStatus> 
+  <tagNetAccount>Internet Account</tagNetAccount> 
+   
+  <tagPowerStatus>Power Status</tagPowerStatus>
+   <tagNetMode>Network Mode</tagNetMode>
+  <tagSignalStrength>Signal Strength</tagSignalStrength> 
+  <tagSimStatus>SIM Status</tagSimStatus> 
+  <tagSimIsOk>SIM Card Ok</tagSimIsOk> 
+  <tagSimNotExist>No SIM Card</tagSimNotExist>
+   <tagSimNotRegister>SIM Card Not Registered</tagSimNotRegister> 
+  <tag3GModelStatus>GPRS Model Status</tag3GModelStatus> 
+  <tagOpenAutoStart>Auto Start</tagOpenAutoStart> 
+  <tagDialStatus>Dialing Status</tagDialStatus>
+     <tagBaseNumber>Base phone number</tagBaseNumber>
+  <tagOpenAutoCon>Auto Connect</tagOpenAutoCon>
+   <tagApn>APN</tagApn>
+  <tagInitDialString>Initializing String</tagInitDialString> 
+  <tagDialString>Dialing String</tagDialString>
+     <tagUserName111>User Name</tagUserName111>
+     <tagPwd111>Password</tagPwd111>
+  <tagOn>ON</tagOn> 
+  <tagOff>OFF</tagOff> 
+  <tagIng>Starting</tagIng> 
+  <tagStarted>Opened</tagStarted> 
+  <tagClosed>Closed</tagClosed> 
+  <tagError>Error</tagError>
+   <tagStart>Start</tagStart>
+     <tagConnect1>Dial</tagConnect1>
+     <tagDisconnect1>Break</tagDisconnect1>
+
+     <tagConnect>Connect</tagConnect> 
+  <tagDisconnect>Disconnecting</tagDisconnect> 
+  <tagDialOn>Dial On</tagDialOn> 
+  <tagDialOff>Offline</tagDialOff> 
+  <tagDialFail>Dialing Failed</tagDialFail> 
+  <tagDialIng>Dialing</tagDialIng>
+     <tagDialed>Calling</tagDialed>
+     <tagPlaceWait>Waiting For Call</tagPlaceWait>
+     <tagDialOver>Disconnecting</tagDialOver>
+
+     <tagStartAccount>Recording</tagStartAccount> 
+  <tagStartAccountNo>Inactive</tagStartAccountNo> 
+  <tagYes>Yes</tagYes> 
+  <tagNo>No</tagNo> 
+  <tagSuccess>Succeed</tagSuccess> 
+  <tagFailure>Failed</tagFailure> 
+  <tagBtoothModuleInfo>Module Info</tagBtoothModuleInfo> 
+  <tagLocalName>Local Name</tagLocalName> 
+  <tagMacIP>MAC Address</tagMacIP> 
+  <tagVisible>Visible</tagVisible> 
+  <tagPIN>PIN</tagPIN> 
+  <tagGnssStatusActivity>Receiver Activated</tagGnssStatusActivity> 
+  <tagSatellitesTrack>Satellites Track</tagSatellitesTrack> 
+  <tagTrackedSatellites>Satellites Tracked</tagTrackedSatellites> 
+  <tagDataAccounts>Data Log</tagDataAccounts> 
+  <tagDataOutput>Data Export</tagDataOutput> 
+  <tagOutputData>Output Data</tagOutputData> 
+  <tagActivityStatus>Activity Status</tagActivityStatus> 
+  <tagCurrentTime>Current Time</tagCurrentTime> 
+  <tagActivityTime>Operation Duration</tagActivityTime> 
+<tagInnerStorage>Internal Storage</tagInnerStorage>
+  <tagOutterStorage>External Storage</tagOutterStorage>
+     <tagBatteryM6>Battery</tagBatteryM6>
+  <tagBattery>Battery B</tagBattery>
+   <tagBattery2>Battery A</tagBattery2>
+   <tagOutterBattery>External Power</tagOutterBattery>
+  <tagGnssInfo>Receiver Summary</tagGnssInfo>
+  <tagGnssTitleInfo>Receiver Info</tagGnssTitleInfo>
+  <tagAntennaType>Antenna Type</tagAntennaType>
+  <tagAntennaName>Antenna SN</tagAntennaName>
+  <tagMeasureMethod>Antenna Measurement Method</tagMeasureMethod>
+  <tagAntennaHeight>Antenna Height</tagAntennaHeight>
+  <tagAngleMask>Elevation Mask</tagAngleMask>
+  <tagPdopMask>PDOP Mask</tagPdopMask>
+  <tagBaseSiteInfo>Reference Station Info</tagBaseSiteInfo>
+  <tagBaseSiteMode>Reference Station Mode</tagBaseSiteMode>
+  <tagBaseSiteName>Base Station Name</tagBaseSiteName>
+     <tagBaseSiteNum>Base Station ID</tagBaseSiteNum>
+  <tagBaseLatitude>Reference Latitude</tagBaseLatitude>
+  <tagBaseLongitude>Reference Longitude</tagBaseLongitude>
+  <tagBaseHeight>Reference Height</tagBaseHeight>
+     <tagBaseTorD>Coordinates transfer threshold value(Meter)：</tagBaseTorD>
+  <tagDiffOutputType>Correction Output format</tagDiffOutputType>
+
+  <tagCurrentPosition>Use Current Position</tagCurrentPosition>
+
+  <tagCollectAverage>Sample for Average</tagCollectAverage>
+  <tagLocationMask>Positioning Constraint</tagLocationMask>
+  <tagSingleCoordinate>Single Solution Coordinates</tagSingleCoordinate>
+  <tagFastenCoordinate>Fixed Solution Coordinates</tagFastenCoordinate>
+  <tagCollectNumbers>Sampling Amount</tagCollectNumbers>
+  <tagStartCollect>Start</tagStartCollect>
+  <tagStopCollect>Stop</tagStopCollect>
+
+  <tagStopGnss>Turn Off Receiver</tagStopGnss>
+  <tagRestartGnss>Reboot Receiver</tagRestartGnss>
+  <tagClearGpsData>Clear Satellite Data</tagClearGpsData>
+  <tagRecoverDnssSet>Return to Factory Defaults</tagRecoverDnssSet>
+
+  <tagGnssMarkId>Receiver Status - Mark</tagGnssMarkId>
+  <!--<tagType>Type</tagType>-->
+  <tagSerialsId>S/N</tagSerialsId>
+  <tagNetMacIp>MAC Address</tagNetMacIp>
+  <tagNetStatus>Ethernet Status</tagNetStatus>
+  <tagNetIp>Ethernet IP</tagNetIp>
+  <tagFirmwareVersion>Firmware Version</tagFirmwareVersion>
+  <tagFirmwareDate>Firmware Date</tagFirmwareDate>
+   <tagRegisterEndDate>Registration Limit</tagRegisterEndDate>
+
+  <tagPosition>Position</tagPosition>
+  <tagLongitude>Longitude</tagLongitude>
+  <tagLatitude>Latitude</tagLatitude>
+     <tagLongitudeNum>ID</tagLongitudeNum>
+     <tagBaseList>Base list</tagBaseList>
+     <tagAdd>Add</tagAdd>
+     <tagDelate>Delete</tagDelate>
+
+     <tagHeight>Height</tagHeight>
+  <tagClass>Type</tagClass>
+  <tagUsedSatellites>Satellite Used</tagUsedSatellites>
+  <tagGnssClock>Receiver Clock</tagGnssClock>
+  <tagGpsWeek>GPS Week</tagGpsWeek>
+  <tagGpsSecond>GPS Seconds</tagGpsSecond>
+  <tagDOP>DOP</tagDOP>
+  <tagPdop>PDOP</tagPdop>
+  <tagHdop>HDOP</tagHdop>
+  <tagVdop>VDOP</tagVdop>
+  <tagTdop>TDOP</tagTdop>
+
+  <tagGps>GPS</tagGps>
+  <tagSbas>SBAS</tagSbas>
+  <tagGlon>GLONASS</tagGlon>
+  <tagBds>BDS</tagBds>
+  <tagGalileo>GALILEO</tagGalileo>
+  <tagZero>0</tagZero>
+
+  <tagKe>Total</tagKe>
+  <tagHttpsCon>HTTPS</tagHttpsCon>
+  <tagBoardIp>Board IP</tagBoardIp>
+
+  <tagBoardOpen>Board Direction Communication</tagBoardOpen>
+
+  <tagEthernet>Ethernet</tagEthernet>
+  <tagStaticIpSet>Static IP Setup</tagStaticIpSet>
+  <tagIpAddr>IP Address</tagIpAddr>
+  <tagSubnetMask>Subnet Mask</tagSubnetMask>
+  <tagGateway>Gateway</tagGateway>
+  <tagDns>DNS</tagDns>
+  <tagDnsIp1>DNS Address 1</tagDnsIp1>
+  <tagDnsIp2>DNS Address 2</tagDnsIp2>
+  <tagType2>Type</tagType2>
+  <tagPort>Port</tagPort>
+  <tagInput>Input</tagInput>
+  <tagOutput>Output</tagOutput>
+  <tagWifiInfo>Wifi Info</tagWifiInfo>
+  <tagWifiPowerStatus>Power Status</tagWifiPowerStatus>
+     <tagInetrnet>Internet</tagInetrnet>
+
+     <tagWifiModel>Wifi Mode</tagWifiModel>
+  <tagSsid>SSID</tagSsid>
+  <tagEncryptType>Encrypt Type</tagEncryptType>
+  <tagWifiModelAp>Access Point</tagWifiModelAp>
+  <tagWifiModelApInfo>Access Point Details</tagWifiModelApInfo>
+  <tagWifiModelStatus>Wifi Module Status</tagWifiModelStatus>
+  <tagClient>Client</tagClient>
+
+  <tagRadioType>Radio Type</tagRadioType>
+  <tagRadioPower>Radio Power</tagRadioPower>
+  <tagRadioAirBaud>OTA Baud Rate</tagRadioAirBaud>
+  <tagRadioBaud>Baud Rate</tagRadioBaud>
+  <tagRadioFrequency>Radio Frequency</tagRadioFrequency>
+  <tagRadioProtocol>Radio Protocol</tagRadioProtocol>
+  <tagRadioFrequencyChannel>Radio Frequency Channel</tagRadioFrequencyChannel>
+  <tagRadioFrequencyRange>Frequency Range</tagRadioFrequencyRange>
+   <tagRadioStepper>Channel Bandwidth </tagRadioStepper>
+
+  <tagCORSSet>CORS</tagCORSSet>
+  <tagTcpSet>TCP</tagTcpSet>
+  <tagUdpSet>UDP</tagUdpSet>
+  <tagNetClient>Net Client</tagNetClient>
+
+  <tagUnconnected>Unconnected</tagUnconnected>
+  <tagConnected>Connected</tagConnected>
+  <tagConnecting>Connecting</tagConnecting>
+  <tagLoged>Logged In</tagLoged>
+  <tagLoging>Connecting</tagLoging>
+
+  <tagInfoWindowName>Message Box</tagInfoWindowName>
+  <tagErrorWindowName>Error Message Box</tagErrorWindowName>
+  <tagQuestionWindowName>Question Prompt Box</tagQuestionWindowName>
+  <tagWarningWindowName>Warning Prompt Box</tagWarningWindowName>
+  <tagDeleteWindowConfirmName>Delete Confirmation Box</tagDeleteWindowConfirmName>
+  <tagWindowConfirmName>Confirmation Box</tagWindowConfirmName>
+  <tagMessageDialogName>Message Box</tagMessageDialogName>
+  <tagInfoWindow>Information Window</tagInfoWindow>
+
+  <tagModeNone>Auto Rover</tagModeNone>
+  <tagModeAUTO>Auto Base</tagModeAUTO>
+  <tagModeMANUAL>Manual Base</tagModeMANUAL>
+  <tagAuto>Auto</tagAuto>
+  <tagEnableColon>Enable</tagEnableColon>
+  <tagUnableColon>Unable</tagUnableColon>
+  <tagEnableColoned>Enabled</tagEnableColoned>
+  <tagUnableColoned>Unabled</tagUnableColoned>
+  <tagNtripCasterColon>Server IP</tagNtripCasterColon>
+  <tagSetupPointColon>Source List</tagSetupPointColon>
+     <tagSetupPointColon1>Mount Point</tagSetupPointColon1>
+     <tagGetSetupPoint>Source List</tagGetSetupPoint>
+  <tagSiteId>Base ID</tagSiteId>
+  <tagRemteIpColon>Server IP</tagRemteIpColon>
+  <tagDataOutputColon>Data Output</tagDataOutputColon>
+  <tagDiffDataColon>Differential Data</tagDiffDataColon>
+  <tagInitialDataColon>Raw Data</tagInitialDataColon>
+     <tagHCPPPData>HCPPP Data</tagHCPPPData>
+     <tagSensorData>Sensor Data</tagSensorData>
+  <tagEphemerisDataColon>Ephemeris</tagEphemerisDataColon>
+ 
+     <tagGPGGAColon>GPGGA</tagGPGGAColon>
+     <tagGPGSVColon>GPGSV</tagGPGSVColon>
+     <tagGPRMCColon>GPRMC</tagGPRMCColon>
+     <tagGPGLLColon>GPGLL</tagGPGLLColon>
+     <tagGPVTGColon>GPVTG</tagGPVTGColon>
+     <tagGPZDAColon>GPZDA</tagGPZDAColon>
+     <tagGPGSTColon>GPGST</tagGPGSTColon>
+     <tagGPGRSColon>GPGRS</tagGPGRSColon>
+     <tagGPGSAColon>GPGSA</tagGPGSAColon>
+     <tagGPAVRColon>PTNL,AVR</tagGPAVRColon>
+     <tagGPHDTColon>GPHDT</tagGPHDTColon>
+     <tagGPVGKColon>PTNL,VGK</tagGPVGKColon>
+     <tagGPVHDColon>PTNL,VHD</tagGPVHDColon>
+     <tagGPROTColon>GPROT</tagGPROTColon>
+     <tagGPGGKColon>PTNL,GGK</tagGPGGKColon>
+     <tagGPBPQColon>PTNL,BPQ</tagGPBPQColon>
+     <tagPJKColon>PTNL,PJK</tagPJKColon>
+     <tagPJTColon>PTNL,PJT</tagPJTColon>
+
+  <tagPortType>Port Type</tagPortType>
+  <tagServiceType>Connection Protocol</tagServiceType>
+     <tagServiceType1>Connection Protocol</tagServiceType1>
+  <tagAutoCon>Auto Connect Or Not</tagAutoCon>
+  <tagChina>中文</tagChina>
+  <tagEnglish>English</tagEnglish>
+  <tagRussia>Русский</tagRussia>
+  
+  <tagLfsRadio>Internal Radio</tagLfsRadio>
+  <tagSatelRadio>Integrated Satel Radio</tagSatelRadio>
+
+  <tagTotalStorage>Total Storage</tagTotalStorage>
+  <tagAbleStorage>Storage Available</tagAbleStorage>
+  <tagStoreInfo>Store Info</tagStoreInfo>
+  <tagAccountInfo>Record Info</tagAccountInfo>
+  <tagAccountId>Recording Number</tagAccountId>
+  <tagAccountName>File Name</tagAccountName>
+  <tagOnOrOff>Activated</tagOnOrOff>
+  <tagUpdate>Modify</tagUpdate>
+   <tagDetail>Detail</tagDetail>
+  <tagAccountEdit>Recording Edit</tagAccountEdit>
+
+  <tagStartTimeApply>Enable Start Time Or Not</tagStartTimeApply>
+  <tagStartTime>Start Time</tagStartTime>
+     <tagEnableDate>Start Date</tagEnableDate>
+     <tagDatebox>Date</tagDatebox>
+  <tagConTime>Duration Time</tagConTime>
+  <tagStorage>Assigned Storage</tagStorage>
+  <tagRecycleStore>Circulating Memory</tagRecycleStore>
+  <tagStoreFormat>Data Format</tagStoreFormat>
+  <tagGetFrequency>Sample Interval</tagGetFrequency>
+  <tagStorePosition>Store Location</tagStorePosition>
+  <tagFTPSend>FTP Push</tagFTPSend>
+  <tagInternalStorage>Internal Storage</tagInternalStorage>
+  <tagOuterStorage>External Storage</tagOuterStorage>
+
+  <tagBack>Back</tagBack>
+  <tagMb>MB</tagMb>
+  <tagUtcTime>UTC Time</tagUtcTime>
+  <tagStoreFormatHcn>HCN</tagStoreFormatHcn>
+     <tagStoreFormatHcm>HCM</tagStoreFormatHcm>
+  <tagStoreFormatRinex>RINEX</tagStoreFormatRinex>
+  <tagAutoAccountOr>Auto Record on Start</tagAutoAccountOr>
+
+  <tagNetClientRover>RTK Client</tagNetClientRover>
+     <tagNetClient1>TCP/UDP_Client1/Ntrip Server1</tagNetClient1>
+     <tagNetClient2>TCP/UDP_Client2/Ntrip Server2</tagNetClient2>
+     <tagNetClient3>TCP/UDP_Client3/Ntrip Server3</tagNetClient3>
+     <tagNetClient4>TCP/UDP_Client4/Ntrip Server4</tagNetClient4>
+     <tagNetClient5>TCP/UDP_Client5/Ntrip Server5</tagNetClient5>
+     <tagNetClient6>TCP/UDP_Client6/Ntrip Server6</tagNetClient6>
+   
+  <tagNetServer1>TCP Server/NTRIP Caster1</tagNetServer1>
+  <tagNetServer2>TCP Server/NTRIP Caster2</tagNetServer2>
+  <tagNetServer3>TCP Server/NTRIP Caster3</tagNetServer3>
+   <tagNetServer4>TCP Server/NTRIP Caster4</tagNetServer4>
+   
+  <tagAlarmTip>Alarm</tagAlarmTip>
+  
+  <tagAlarm1>Receiver is powered on</tagAlarm1>
+  <tagAlarm2>External power is off</tagAlarm2>
+  <tagAlarm3>Battery level is low</tagAlarm3>
+  <tagAlarm4>Ftp push is failed</tagAlarm4>
+  <tagAlarm5>Reciever(license) will be expired in 7 days.</tagAlarm5>
+
+  <tagSerialPort1>Serial Port</tagSerialPort1>
+  <tagSerialPort2>Serial Port(COM2)</tagSerialPort2>
+  <tagBlueTooth>Bluetooth</tagBlueTooth>
+  <tagRadio>Radio</tagRadio>
+     <tagGsm>GSM</tagGsm>
+
+  <tagSerialPortSet>Serial Port Setup</tagSerialPortSet>
+  <tagFresh>Refresh</tagFresh>
+
+  <tagSatelliteTrackTable>Tracking Table</tagSatelliteTrackTable>
+  <tagSatelliteTrackDiagram>Tracking Info.Table</tagSatelliteTrackDiagram>
+   <tagSatelliteSet>Satellite Activation</tagSatelliteSet>
+  <tagStarDiagram>Tracking Skyplot</tagStarDiagram>
+     <tagCheckAll>Select All</tagCheckAll>
+     <tagCheckNone>Unselect All</tagCheckNone>
+
+     <tagEnableAll>Enable All</tagEnableAll>
+     <tagDisableAll>Disable All</tagDisableAll>
+
+  <tagSatelliteId>SV</tagSatelliteId>
+     <tagSatelliteId1>Satellite Id</tagSatelliteId1>
+  <tagType>Type</tagType>
+  <tagAltitudeAngle>Elevation Angle</tagAltitudeAngle>
+  <tagAzimuthalAngle>Azimuth Angle</tagAzimuthalAngle>
+  <tagL1NoiseSignalRatio>L1 SNR</tagL1NoiseSignalRatio>
+  <tagL2NoiseSignalRatio>L2 SNR </tagL2NoiseSignalRatio>
+  <tagL5NoiseSignalRatio>L5 SNR </tagL5NoiseSignalRatio>
+  <tagUseOrNot>Enabled</tagUseOrNot>
+
+  <tagStarType>Satellite Type</tagStarType>
+  <tagNoiseSignal>SNR</tagNoiseSignal>
+
+   <tagSatelliteGps>GPS(G)</tagSatelliteGps>
+   <tagSatelliteSbas>SBAS(S)</tagSatelliteSbas>
+   <tagSatelliteGln>GLONASS(R)</tagSatelliteGln>
+   <tagSatelliteBds>BDS(C)</tagSatelliteBds>
+   <tagSatelliteGalieo>GALILEO(E)</tagSatelliteGalieo>
+  <tagTypeL1>L1</tagTypeL1>
+  <tagTypeL2>L2</tagTypeL2>
+  <tagTypeL5>L5</tagTypeL5>
+  
+  <tagClose>Close</tagClose>
+  <tagFirst>1</tagFirst>
+  <tagSecondNum>2</tagSecondNum>
+  <tagThird>3</tagThird>
+  <DAT_FRQ_OFF>OFF</DAT_FRQ_OFF>
+  <DAT_FRQ_AUTO>Auto</DAT_FRQ_AUTO>
+  <DAT_FRQ_1HZ>1Hz</DAT_FRQ_1HZ>
+  <DAT_FRQ_2HZ>2Hz</DAT_FRQ_2HZ>
+  <DAT_FRQ_5HZ>5Hz</DAT_FRQ_5HZ>
+  <DAT_FRQ_10HZ>10Hz</DAT_FRQ_10HZ>
+  <DAT_FRQ_20HZ>20Hz</DAT_FRQ_20HZ>
+     <DAT_FRQ_50HZ>50Hz</DAT_FRQ_50HZ>
+  <DAT_FRQ_1S>1s</DAT_FRQ_1S>
+  <DAT_FRQ_2S>2s</DAT_FRQ_2S>
+  <DAT_FRQ_5S>5s</DAT_FRQ_5S>
+  <DAT_FRQ_10S>10s</DAT_FRQ_10S>
+  <DAT_FRQ_15S>15s</DAT_FRQ_15S>
+  <DAT_FRQ_30S>30s</DAT_FRQ_30S>
+  <DAT_FRQ_1M>60s</DAT_FRQ_1M>
+  <DAT_FRQ_5M>5min</DAT_FRQ_5M>
+  <DAT_FRQ_10M>10min</DAT_FRQ_10M>
+  <unknown>Unknown</unknown>
+  <true>ON</true>
+  <false>OFF</false>
+
+  <tagYear>Year</tagYear>
+  <tagMonth>Month</tagMonth>
+  <tagDay>Day</tagDay>
+  <tagHour>Hour</tagHour>
+  <tagMinute>Minute</tagMinute>
+  <tagSecond>Second</tagSecond>
+
+  <tagBeenUsed>Used</tagBeenUsed>
+  <tagTotal>Total</tagTotal>
+  <tagNotSetup>Disconnected</tagNotSetup>
+   <tagSetuped>Connected</tagSetuped>
+  <tagHuaCe>CHC</tagHuaCe>
+     <tagSatel>Satel 3AS</tagSatel>
+     <tag4FSK>PacCrest 4-FSK</tag4FSK>
+     <tagTT450>TT450S</tagTT450>
+     <tagDIRECT>Transparent</tagDIRECT>
+  <tagAntPhCenter>Antenna Phase Center</tagAntPhCenter>
+  <tagAntPhBottom>Bottom of Antenna</tagAntPhBottom>
+  <tagAntPhHeight>Antenna Slant Height</tagAntPhHeight>
+  
+  <tagMetre>Meter</tagMetre>
+  <tagId>Server ID</tagId>
+  <tagDescription>Server Description</tagDescription>
+  <tagAddress>Server IP</tagAddress>
+  <tagRemoteDirectory>Remote Directory</tagRemoteDirectory>
+  
+  <tagPushDatetime>Push Time</tagPushDatetime>
+  <tagPushFile>Push File</tagPushFile>
+  <tagFileSize>File Size</tagFileSize>
+  <tagPushSucessOr>Push Successful Or Not</tagPushSucessOr>
+  
+  <tagRadioStatus>Radio Status</tagRadioStatus>
+  <tagSatelliteNum>Satellite Number</tagSatelliteNum>
+
+  <ipNtripCasterHttpFormate>xxx.xxx.xxx.xxx Or www.*</ipNtripCasterHttpFormate>
+   <registerCodeFormate>XXXXX-YYYYY-ZZZZZ</registerCodeFormate>
+  <ipNetFormate>xxx.xxx.xxx.xxx</ipNetFormate>
+  <ipPwdFormate>Start with Character, Length Between 6 and 18 Characters</ipPwdFormate>
+  <port1024and65535>Com Port Between 1024 and 65535</port1024and65535>
+
+
+   <RADIO_FREQUENCY_TYPE__HIGH>High Range</RADIO_FREQUENCY_TYPE__HIGH>
+   <RADIO_FREQUENCY_TYPE__MIDDLE>Middle Range</RADIO_FREQUENCY_TYPE__MIDDLE>
+   <RADIO_FREQUENCY_TYPE__LOW>Low Range</RADIO_FREQUENCY_TYPE__LOW>
+   <RADIO_FREQUENCY_TYPE__ALL>Full Range</RADIO_FREQUENCY_TYPE__ALL>
+
+  <WIFI_PASSWD_TYPE__WAP>WAP</WIFI_PASSWD_TYPE__WAP>
+  <WIFI_PASSWD_TYPE__WAP2>WAP2</WIFI_PASSWD_TYPE__WAP2>
+  <tagWap>WAP</tagWap>
+  <tagWap2>WAP2</tagWap2>
+
+ 
+  <tagSystemLogDownload>System Log Download</tagSystemLogDownload>
+  <tagSystemLogType>System Log Type</tagSystemLogType>
+  <tagDownload>Download</tagDownload>
+
+  <tagConfigInfo>Config File</tagConfigInfo>
+  <tagConfigFileDownload>Download Configuration File </tagConfigFileDownload>
+  <tagConfigFileUpdate>Update Configuration File</tagConfigFileUpdate>
+
+  <tagFirmRegistrationister>Receiver Registration</tagFirmRegistrationister>
+  <tagMachineId>Serial Number</tagMachineId>
+   <tagRegisterCode>Registration Code</tagRegisterCode>
+   <tagRegisterEndtime>Registration Limit</tagRegisterEndtime>
+   <tagRegister>Registration</tagRegister>
+   <tagUnregister>Not Registered</tagUnregister>
+   
+  <tagExpired>Expired</tagExpired>
+  <tagNoEndtime>Unlimited</tagNoEndtime>
+  <tagDataDownload>Data Download</tagDataDownload>
+
+   <tagFirmRegister>GNSS Registration</tagFirmRegister>
+  <tagUnknown>Unknown</tagUnknown>
+  <tagRight>RIGHT</tagRight>
+  <tagWrong>Base Wrong</tagWrong>
+  <tagSearchsat>SEARCH SAT</tagSearchsat>
+  <tagSingle>3D</tagSingle>
+  <tagRtd>RTD</tagRtd>
+  <tagFloat>Float</tagFloat>
+  <tsgWass>WAAS</tsgWass>
+  <tagWide>WIDE</tagWide>
+  <tagCos>COS</tagCos>
+  <tagDif>DIF</tagDif>
+  <tagFix>Fix</tagFix>
+   <tagPortNum>Port</tagPortNum>
+  <tagAccountStatus>Log Status</tagAccountStatus>
+  <tagCommonNullColon>---</tagCommonNullColon>
+   <tagGet>Get</tagGet>
+   <tagBrowse>Browse</tagBrowse>
+
+   <tagLongitudeEast>East</tagLongitudeEast>
+   <tagLongitudeWest>West</tagLongitudeWest>
+   <tagLatitudeNorth>North</tagLatitudeNorth>
+   <tagLatitudeSouth>South</tagLatitudeSouth>
+
+   <tagNetMode2G>2G Only</tagNetMode2G>
+   <tagNetMode3G>3G Only</tagNetMode3G>
+   <tagNetModeAuto>2G/3G Auto</tagNetModeAuto>
+
+   <tagClearAllAccounts>Clear All</tagClearAllAccounts>
+   <tagClearData>Clear</tagClearData>
+   <tagClearFtpSend>Clear FTP Push Log</tagClearFtpSend>
+
+   <tagAll>All</tagAll>
+  <tipInfo>
+    <noneUserName>User name does not exist</noneUserName>
+    <noneUserName111>User name already exists</noneUserName111>
+    <UpdateDefault>To restore the default password</UpdateDefault>
+    <UpdateDefaultInfo>Please use the original password after recovery</UpdateDefaultInfo>
+    
+    <!--还没发-->
+    <regInterTime>Interval should be a integer from 1 to 30!</regInterTime>
+    <!--还没发-->
+   
+    
+    <errorUserpaswod>Password Error</errorUserpaswod>
+    
+    <netNtripCasterHttpError>NtripCaster IP address format error!</netNtripCasterHttpError>
+    <angMaskFormate111>Elevation mask should be a integer from 0° to 60°</angMaskFormate111>
+    
+    <tagExploreTip>Please Use Chrome, IE10+ or Safari</tagExploreTip>
+    <fileDownloadFail>Failed to Download file</fileDownloadFail>
+    <ipNetNotNull>IP Can Not Be Null!</ipNetNotNull>
+    <ipNetNotCorrect>Wrong IP Address Format</ipNetNotCorrect>
+    
+    
+    <ipStaticNetNotNull>Static IP Can Not Be Null!</ipStaticNetNotNull>
+    <ipStaticNetNotCorrect>Wrong Static IP Address Format!</ipStaticNetNotCorrect>
+    <ipGatewayNotNull>Gate Away Can Not Be Null!</ipGatewayNotNull>
+    <ipGatewayNotCorrect>Wrong Gate Away Format!</ipGatewayNotCorrect>
+    <ipSubnetNotNull>Subnet Mask Can Not Be Null!</ipSubnetNotNull>
+    <ipSubnetNotCorrect>Wrong Subnet Mask Format!</ipSubnetNotCorrect>
+    <ipDns1NotNull>DNS IP1 Can Not Be Null!</ipDns1NotNull>
+    <ipDns1NotCorrect>Wrong DNS IP1 Format!</ipDns1NotCorrect>
+
+    <ssidNotNull>SSID Can Not Be Null!</ssidNotNull>
+    <ssidNotNull>SSID Can Not Be Null！</ssidNotNull>
+    
+    <antMethodNotNull>Survey Method Should Not Be Null！</antMethodNotNull>
+    <antTypeNotNull>Antenna Type Should Not Be Null！</antTypeNotNull>
+      <antTypeNotNull11>Antenna Manufacturer Should Not Be Null！</antTypeNotNull11>
+    <antHeightNotNull>Antenna Height Should Not Be Null！</antHeightNotNull>
+    <!--<antHeight1000>Antenna Height Should Not Over 1000m！</antHeight1000>
+    <antHeightBeNmber>Antenna Height Must Be Number(s)！</antHeightBeNmber>-->
+    <antHeightFormate>Antenna height should be between 0 and 5!</antHeightFormate>
+      <antHeightType>Please enter number or letter!</antHeightType>
+      <antHeightName>Antenna number error! Please input number or letter within 10...</antHeightName>
+
+      <angMaskFormate>Elevation mask should be an integer from 0 to 90!</angMaskFormate>
+      <pdopMaskFormate>PDOP mask should be an integer from 0 to 99!</pdopMaskFormate>
+
+
+      <antennaInfoSetSucc>Antenna Info Set Successfully！</antennaInfoSetSucc>
+    <antennaInfoSetFail>Antenna Info Set Failed！</antennaInfoSetFail>
+    <portNotNull>Port Number Should Not Be Null！</portNotNull>
+    <userNameNotNull>User Name Should Not Be Null！</userNameNotNull>
+    <userNameHaveNotNull>User Name Should Not Have Null Or \！</userNameHaveNotNull>
+
+
+    <ftpUserNameFormate>User name should start with characters or number and its count should be within 3 and 18</ftpUserNameFormate>
+    <corsUserNameLength48>User Name Should Be Within 48 Characters！</corsUserNameLength48>
+    <serverUserNameLength18>User Name Should Be Within 18 Characters！</serverUserNameLength18>
+    <serverPwdLength18>Password Should Be within 18 Characters！</serverPwdLength18>
+    <ftpPwdLength18>Password Should Be within 18 Characters！</ftpPwdLength18>
+
+
+    <corsPwdLength64>Password Should Be Within 64Characters！</corsPwdLength64>
+    <pwdNotNull>Password Should Not Be Null！</pwdNotNull>
+    <pwdWifiError>Length of password should be between 8 and 18!</pwdWifiError>
+    <pwdNotHaveNull>Password Should Not Have Null Or \！</pwdNotHaveNull>
+    <pwdError>Password Format Wrong！(Start with Character and Length Should Be Between 6 and 18 Characters)</pwdError>
+    
+    
+    <acountOrpwdError>Account or Password Error</acountOrpwdError>
+    <apnNotNull>APN Should Not Be Null！</apnNotNull>
+    <initDialStringNotNull>Initializing String Should Not Be Null！</initDialStringNotNull>
+    <dialStringNotNull>Dialing String Should Not Be Null！</dialStringNotNull>
+    <btoothPINNotNull>PIN Should Not Be Null！</btoothPINNotNull>
+      <doMainNotNull>IP and Port can't be null</doMainNotNull>
+      <UserNameNotNull>Username can't be null</UserNameNotNull>
+      <passwdNotNull>Password can't be null</passwdNotNull>
+    
+    <btoothPINLength8>PIN Number Should Be 1 ~ 8 number！</btoothPINLength8>
+    <angleMaskNotNull>Mask Angle Should Not Be Null！</angleMaskNotNull>
+    <angleMaskBeNum>Mask Angle Must Be Numbers！</angleMaskBeNum>
+    <antheightBeNum>Antenna Height Must Be Numbers！</antheightBeNum>
+    <angleMask0And90>Mask Angle Must between 0 and 90！</angleMask0And90>
+    
+    
+    <pdopMaskNotNull>Pdop Threshold Should Not Be Null！</pdopMaskNotNull>
+    <pdopMaskBeNum>Pdop Threshold Must be Numbers！</pdopMaskBeNum>
+    <pdopMask0And100>Pdop Threshold Must Between 0 and 100！</pdopMask0And100>
+    <baseSiteModeNotNull>Reference Station Type cannot Be Null！</baseSiteModeNotNull>
+    <diffOutputTypeNotNull>Correction Data Output Format cannot Be Null！</diffOutputTypeNotNull>
+    <baseHeightBeNum>Reference Height Must Be Numbers！</baseHeightBeNum>
+      <baseHeightBeName>Base name error! Please input number or letter within 10...</baseHeightBeName>
+      <regMessage>Call Sign Message error!Please input number or letter within 16...</regMessage>
+      <regMessage1>Call Sign Interval error!</regMessage1>
+      <baseHeightBeNum1>Base ID error! Please input number or letter within 10...</baseHeightBeNum1>
+      
+    <baseLongitudeDu180>Reference latitude or longitude must be less than 180!</baseLongitudeDu180>
+    <baseLatitudeDu90>Reference latitude or longitude must be less than 90!</baseLatitudeDu90>
+    <baseMin59>Minute of Reference latitude or longitude must be numbers between 0 and 59!</baseMin59>
+    <baseSec59>Second of Reference latitude or longitude must be numbers between 0 and 59!</baseSec59>
+    <baseLatLongUncorrect>Reference Latitude or Longitude not correct!</baseLatLongUncorrect>
+
+
+
+    <radioProtocolNotNull>Radio Protocol Can Not Be Null！</radioProtocolNotNull>
+    <radioStepperNotNull>Channel Bandwidth Can Not Be Null！</radioStepperNotNull>
+    <radioAirBaudNotNull>Radio Baud Rate Can Not Be Null！</radioAirBaudNotNull>
+    <radioPowerNotNull>Radio Power Can Not Be Null！</radioPowerNotNull>
+    <radioFrequencyNotNull>Radio Frequency Can Not Be Null！</radioFrequencyNotNull>
+    
+    <radioFreMustBeNum>Radio Frequency Must Be Numbers！</radioFreMustBeNum>
+    <radioFreMustBeBei>Radio Frequency Must Be Integral Multiple Of Spacing！</radioFreMustBeBei>
+    <radioFreBetween1>Radio Frequency Must Between</radioFreBetween1>
+    <radioFreBetween2>And</radioFreBetween2>
+    <radioFreBetween3>！</radioFreBetween3>
+
+    
+    <netNtripCasterPortBeNum>Ntrip Caster Address Port Must Be Numbers！</netNtripCasterPortBeNum>
+    <netNCasterPortBe1024and65535>Port Number Must Between 1024 and 65535！</netNCasterPortBe1024and65535>
+    
+    <netSetupPointNotNull>Source List Can Not Be Null！</netSetupPointNotNull>
+      <netSetupPointNotNull1>Mount Point Can Not Be Null！</netSetupPointNotNull1>
+    <diffDataNotNull>Correction Data Can Not Be Null！</diffDataNotNull>
+    <initialDataNotNull>Raw Data Can Not Be Null！</initialDataNotNull>
+    <ephemerisDataNotNull>Ephemeris Data Can Not Be Null！</ephemerisDataNotNull>
+    <GPGGADataNotNull>GPGGA Data Can Not Be Null！</GPGGADataNotNull>
+    <GPGSVDataNotNull>GPGSV Data Can Not Be Null！</GPGSVDataNotNull>
+
+    <accountNameNotNull>File Name Can Not Be Null！</accountNameNotNull>
+    <frequencyNotNull>Sample Interval Can Not Be Null！</frequencyNotNull>
+    <storagePositionNotNull>Storage Location Can Not Be Null！</storagePositionNotNull>
+    <conTimeNotNull>Sample Session Can Not Be Null！</conTimeNotNull>
+    <conTimeBeNum>Sample Session Must Be Numbers！</conTimeBeNum>
+    
+    <storageSizeNotNull>Storage Size Can Not Be Null！</storageSizeNotNull>
+    <storageSizeBeNum>Storage Size Must Be Numbers！</storageSizeBeNum>
+    <storeFormatNotBull>Storage Format Can Not Be Null！</storeFormatNotBull>
+    <ftpSendNotBull>Ftp Push Can Not Be Null！</ftpSendNotBull>
+    <uartBaudNotNull>Baud Rate Can Not Be Null！</uartBaudNotNull>
+
+    <ethPortDirectAddrNotNull>WAN Port Direct Access Address Can Not Be Null！</ethPortDirectAddrNotNull>
+    <ipAddressUncorrect>Server IP formate is uncorrect(last number can not be 0 or 255)!</ipAddressUncorrect>
+    <ipAddressNotNull>Server IP Can Not Be Null!</ipAddressNotNull>
+    <remoteDirectoryNotNull>Remote Directory Can Not Be Null!</remoteDirectoryNotNull>
+    <remoteDirectoryHaveNotNull>Remote Directory Can Not Have Null Or \!</remoteDirectoryHaveNotNull>
+    <descriptionNotNull>Server Description Can Not Be Null!</descriptionNotNull>
+    <emailAddressNotNull>Email Address Can Not Be Null!</emailAddressNotNull>
+    <emailAddressNotCorrect>Email Address Format  Incorrect!</emailAddressNotCorrect>
+      <emailAddressNotCorrect1111>Email address is not correct!</emailAddressNotCorrect1111>
+
+      <getInfoFail>Fail</getInfoFail>
+    <getPositionFail>Fail to Get Current Position</getPositionFail>
+    <getInfoError>Error</getInfoError>
+    <getInfoNull>Null</getInfoNull>
+    <getInfoTimeout>Get Info Timeout！</getInfoTimeout>
+    <connectError>Connection Error</connectError>
+    
+    <G3ModuleBeenOpened>3G Module Opened！</G3ModuleBeenOpened>
+    <G3ModuleBeenOpening>3G Module Running！</G3ModuleBeenOpening>
+    <G3ModuleBeenClosed>3G Module Closed！</G3ModuleBeenClosed>
+
+    <wifiModuleBeenOpened>Wifi Module Opened！</wifiModuleBeenOpened>
+    <wifiModuleBeenOpening>Wifi Module Running！</wifiModuleBeenOpening>
+    <wifiModuleBeenClosed>Wifi Module Closed！</wifiModuleBeenClosed>
+    
+    <pleaseOpenRadio>Please Turn On Radio！</pleaseOpenRadio>
+    <radioBeenOpened>Radio Opened！</radioBeenOpened>
+    <radioBeenOpening>Radio Running！</radioBeenOpening>
+      <radioBeenClosed>Radio Closed！</radioBeenClosed>
+    <G3DialConnected>GPRS Connected！</G3DialConnected>
+    <G3DialDisconnected>GPRS Disconnected！</G3DialDisconnected>
+    <G3ModuleOpenSucc>3G Module Turn On Successfully！</G3ModuleOpenSucc>
+    <G3ModuleOpenFail>Failed to Turn On 3G Module</G3ModuleOpenFail>
+    <G3ModuleCloseSucc>3G Module Turn Off Successfully！</G3ModuleCloseSucc>
+    <G3ModuleCloseFail>Failed to Turn Off 3G Module！</G3ModuleCloseFail>
+
+    <wifiModuleOpenSucc>Wifi Turn On Successfully！</wifiModuleOpenSucc>
+    <wifiModuleOpenFail>Failed to Turn On Wifi！</wifiModuleOpenFail>
+    <wifiModuleCloseSucc>Wifi Turn Off Successfully！</wifiModuleCloseSucc>
+    <wifiModuleCloseFail>Failed to Turn Off Wifi！</wifiModuleCloseFail>
+
+    <radioModuleOpenSucc>Radio Turn On Successfully！</radioModuleOpenSucc>
+    <radioModuleOpenFail>Failed to Turn On Radio！</radioModuleOpenFail>
+    <radioModuleCloseSucc>Radio Turn Off Successfully！</radioModuleCloseSucc>
+    <radioModuleCloseFail>Failed to Turn Off Radio！</radioModuleCloseFail>
+    
+    <G3ModuleAutoStartSetSucc>3G Auto-Start Set Successfully！</G3ModuleAutoStartSetSucc>
+    <G3ModuleAutoStartSetFail>Failed to Set 3G Auto-Start！</G3ModuleAutoStartSetFail>
+    <wifiModuleAutoStartSetSucc>Wifi Auto-Start Set Successfully！</wifiModuleAutoStartSetSucc>
+    <wifiModuleAutoStartSetFail>Failed to Set Wifi Auto-Start！</wifiModuleAutoStartSetFail>
+      <wifiInternetSetSucc>Internet Connect Successfully！</wifiInternetSetSucc>
+      <wifiInternetSetFail>Failed to Connect Internet！</wifiInternetSetFail>
+      <netModeSetFail1>Failed to connect, please check 3G Module...</netModeSetFail1>
+      <OnlineParaSetSucc>Online parameter set successfully!</OnlineParaSetSucc>
+
+      <OnlineParaSetFail>Failed to set online parameter!</OnlineParaSetFail>
+
+      <GetNowCurverSucc>Current version get successfully!</GetNowCurverSucc>
+
+      <GetNowCurverFail>Failed to get current version, please try it again!</GetNowCurverFail>
+
+      <radioModuleAutoStartSetSucc>Radio Module Auto-Start Set Successfully！</radioModuleAutoStartSetSucc>
+    <radioModuleAutoStartSetFail>Failed to Set Radio Module Auto-Start！</radioModuleAutoStartSetFail>
+    <G3DialStringSetSucc>Dialing Parameters Set Successfully！</G3DialStringSetSucc>
+    <G3DialStringSetFail>Failed to Set Dialing Parameters！</G3DialStringSetFail>
+    <G3DialConnectSucc>Dialing Connect Successfully！</G3DialConnectSucc>
+    <G3DialConnectFail>Dialing failed!</G3DialConnectFail>
+    <G3DialDisconnectSucc>Dialing Disconnect Successfully！</G3DialDisconnectSucc>
+    <G3DialDisconnectFail>Failed to Disconnect！</G3DialDisconnectFail>
+    <G3ModuleAutoDialSetSucc>Dialing Auto-Connection Set Successfully！</G3ModuleAutoDialSetSucc>
+    <G3ModuleAutoDialSetFail>Dialing Auto-Connection Set Failed！</G3ModuleAutoDialSetFail>
+    <netModeSetSucc>Network mode set successfully!</netModeSetSucc>
+    <netModeSetFail>Failed to set network mode!</netModeSetFail>
+    <BtoothVisibleSetSucc>Bluetooth Visible Set Successfully！</BtoothVisibleSetSucc>
+    <BtoothVisibleSetFail>Failed to Set Bluetooth Visible！</BtoothVisibleSetFail>
+    <BtoothPINSetSucc>PIN Set Successfully！</BtoothPINSetSucc>
+    <BtoothPINSetFail>Failed to Set PIN</BtoothPINSetFail>
+    <RegisterCodeSetSucc>Registration Code Set Successfully！</RegisterCodeSetSucc>
+    <RegisterCodeSetFail>Failed to Set Registration Code！</RegisterCodeSetFail>
+    <AngleMaskSetSucc>Mask Angle Set Successfully！</AngleMaskSetSucc>
+    <PdopMaskSetSucc>Pdop Threshold Set Successfully！</PdopMaskSetSucc>
+    <diffOutputTypeSetSucc>Correction Data Output Format Set Successfully！</diffOutputTypeSetSucc>
+    <baseSiteCoordinateSetSucc>Save Successfully！</baseSiteCoordinateSetSucc>
+      <baseSiteCoordinateSetSucc1>Base Station Name And Number Save Successfully！</baseSiteCoordinateSetSucc1>
+    <collectEndSucc>Collect End Successfully！</collectEndSucc>
+    <radioProtocolSetSucc>Radio Protocol Set Successfully！</radioProtocolSetSucc>
+      <radioProtocolSetSucc1>Call SignSet Successfully！</radioProtocolSetSucc1>
+      <radioProtocolSetFail1>Failed to Set Call Sign！</radioProtocolSetFail1>
+    <radioProtocolSetFail>Failed to Set Radio Protocol！</radioProtocolSetFail>
+    <radioStepperSetSucc>Channel Bandwidth Set Successfully！</radioStepperSetSucc>
+    <radioStepperSetFail>Failed to Set Channel Bandwidth！</radioStepperSetFail>
+    <radioAirBaudSetSucc>Radio Baud Rate Set Successfully！</radioAirBaudSetSucc>
+    <radioAirBaudSetFail>Failed to Set Radio Baud Rate！</radioAirBaudSetFail>
+    <radioPowerSetSucc>Radio Power Set Successfully！</radioPowerSetSucc>
+    <radioPowerSetFail>Failed to Set Radio Power！</radioPowerSetFail>
+    <radioFrequencySetSucc>Radio Frequency Set Successfully！</radioFrequencySetSucc>
+    <radioFrequencySetFail>Failed to Set Radio Frequency！</radioFrequencySetFail>
+    <radioChannelSetSucc>Radio Channel Set Successfully！</radioChannelSetSucc>
+    <radioChannelSetFail>Failed to Set Radio Channel！</radioChannelSetFail>
+    <netAutoConSetSucc>Auto-Connection Set Successfully！</netAutoConSetSucc>
+    <netAutoConSetFail>Failed to Set Auto-Connection！</netAutoConSetFail>
+    <netNtripCasterAddrSetSucc>IP Address Set Successfully！</netNtripCasterAddrSetSucc>
+    <netNtripCasterAddrSetFail>Failed to Set IP Address！</netNtripCasterAddrSetFail>
+    <netAccountSetSucc>Account Info Set Successfully！</netAccountSetSucc>
+    <netAccountSetFail>Failed to Set Account！</netAccountSetFail>
+    <netDataSourceSetSucc>Source List Set Successfully！</netDataSourceSetSucc>
+    <netDataSourceSetFail>Failed to Set Source List！</netDataSourceSetFail>
+    <netServerTypeSetSucc>Server Type Set Successfully！</netServerTypeSetSucc>
+    <autoAccountSetSucc>Auto-Record Set Successfully！</autoAccountSetSucc>
+    <autoAccountSetFail>Failed to Set Auto-Record！</autoAccountSetFail>
+
+    <recordGloStatusBeenOpened>Current Data Recording Activated！</recordGloStatusBeenOpened>
+    <recordGloStatusBeenClosed>Recording Switch Closed！</recordGloStatusBeenClosed>
+    <recordParaCannotEdit>Recording Switch Opened, Cannot Modify Recording Parameters</recordParaCannotEdit>
+    <wifiModeSetSucc>Wifi Mode Set Successfully！</wifiModeSetSucc>
+    <wifiModeSetFail>Failed to Set Wifi Mode！</wifiModeSetFail>
+    <wifiApParaSetSucc>Access Point Parameters Set Successfully！</wifiApParaSetSucc>
+    <wifiApParaSetFail>Failed to Set Access Point Parameters！</wifiApParaSetFail>
+
+    <uartBaudSetSucc>Baud Rate Set Successfully！</uartBaudSetSucc>
+    <uartBaudSetFail>Failed to Set Baud Rate！</uartBaudSetFail>
+
+    <ephemerisDataSetSucc>Ephemeris Data Setup Successfully！</ephemerisDataSetSucc>
+    <ephemerisDataSetFail>Failed to Setup Ephemeris Data！</ephemerisDataSetFail>
+    <rawDataSetSucc>Raw Data Setup Successfully！</rawDataSetSucc>
+      <rawHCPPPDataSetFail>Failed to set HCPPP data!</rawHCPPPDataSetFail>
+      <rawDataSetFail>Failed to Setup Raw Data！</rawDataSetFail>
+    <diffDataSetSucc>Correction Data Setup Successfully！</diffDataSetSucc>
+    <diffDataSetFail>Failed to Setup Correction Data！</diffDataSetFail>
+    <GPGGASetSucc>GPGGA Data Setup Successfully！</GPGGASetSucc>
+    <GPGGADataSetFail>Failed to Setup GPGGA Data！</GPGGADataSetFail>
+    <GPGSVSetSucc>GPGSV Data Setup Successfully！</GPGSVSetSucc>
+    <GPGSVDataSetFail>Failed to Setup GPGSV Data！</GPGSVDataSetFail>
+
+    <netServerParaSetSucc>Net Server Parameters Setup Successfully！</netServerParaSetSucc>
+    <netServerParaSetFail>Failed to Setup Net Server Parameters！</netServerParaSetFail>
+
+    <HttpsPortSetSucc>HTTPS Port Setup Successfully！</HttpsPortSetSucc>
+    <HttpsPortSetFail>Failed to Setup HTTPS Port！</HttpsPortSetFail>
+    <HttpPortSetSucc>HTTP Port Setup Successfully！</HttpPortSetSucc>
+    <HttpPortSetFail>Failed to Setup HTTP Port！</HttpPortSetFail>
+
+    <netServerConnected>Net Server Connected！</netServerConnected>
+    <netServerDisconnected>Net Server Disconnected！</netServerDisconnected>
+    <netServerConnSetSucc>Net Server Connected Successfully！</netServerConnSetSucc>
+    <netServerConnSetFail>Failed to Connect to Net Server！</netServerConnSetFail>
+    <netServerDisconnSetSucc>Net Server Disconnect Successfully </netServerDisconnSetSucc>
+    <netServerDisconnSetFail>Failed to Disconnect Net Server！</netServerDisconnSetFail>
+    <netCorsConnected>CORS Connected！</netCorsConnected>
+      <netCorsDisconnected>CORS Disconnected！</netCorsDisconnected>
+      <netCorsConnSetSucc>CORS Connection Setup Successfully！</netCorsConnSetSucc>
+      <netCorsConnSetFail>Failed to Setup CORS Connection！</netCorsConnSetFail>
+      <netCorsDisconnSetSucc>CORS Disconnection Setup Successfully！</netCorsDisconnSetSucc>
+    <cannotOpenConnect>Can Not Edit When Connected！</cannotOpenConnect>
+      <placeCloseGSM>Please turn off GSM before using this function!</placeCloseGSM>
+      <placeOpenGSM>Please Enable GSM in GPRS Tap!</placeOpenGSM>
+
+      <netCORSDisconnSetFail>Failed to Setup CORS Disconnection！</netCORSDisconnSetFail>
+    <netTcpConnSetSucc>TCP Connection Setup Successfully！</netTcpConnSetSucc>
+    <netTcpConnSetFail>Failed to Setup TCP Connection！</netTcpConnSetFail>
+    <netTcpDisconnSetSucc>TCP Disconnection Setup Successfully！</netTcpDisconnSetSucc>
+    <netTcpDisconnSetFail>Failed to Setup TCP Disconnection！</netTcpDisconnSetFail>
+    <netCORSDisconnSetFail>Failed to Setup CORS Disconnection！</netCORSDisconnSetFail>
+    
+    <netUdpConnSetSucc>UDP Connection Setup Successfully！</netUdpConnSetSucc>
+    <netUdpConnSetFail>Failed to Setup UDP Connection！</netUdpConnSetFail>
+    <netUdpDisconnSetSucc>UDP Disconnection Setup Successfully！</netUdpDisconnSetSucc>
+    <netUdpDisconnSetFail>Failed to Setup UDP Disconnection！</netUdpDisconnSetFail>
+
+    <recordOpenSetSucc>Recording Status Open Setup Successfully！</recordOpenSetSucc>
+    <recordOpenSetFail>Failed to Setup Recording Status as Open！</recordOpenSetFail>
+    <recordCloseSetSucc>Recording Status Close Setup Successfully！</recordCloseSetSucc>
+    <recordCloseSetFail>Failed to Setup Recording Status as Close！</recordCloseSetFail>
+    <ethIpSetSucc>Ethernet IP Setup Successfully！</ethIpSetSucc>
+    <ethIpSetFail>Failed to Setup Ethernet IP！</ethIpSetFail>
+    
+    <emailAlarmAbleSetSucc>Email Alarm Setup Successfully！</emailAlarmAbleSetSucc>
+    <emailAlarmAbleSetFail>Failed to Setup Email Alarm！</emailAlarmAbleSetFail>
+    <httpsAbleSetSucc>HTTPS Setup Successfully！</httpsAbleSetSucc>
+    <httpsAbleSetFail>Failed to Setup HTTPS！</httpsAbleSetFail>
+
+    <ethPortDireAbleSetSucc>WAN Port Direction Setup Successfully！</ethPortDireAbleSetSucc>
+    <ethPortDireAbleSetFail>Failed to Setup HTTPS WAN Port Direct Communication！</ethPortDireAbleSetFail>
+    <conTime10_1440>Continue Time Must Be Between 10 And 1440 Minutes!</conTime10_1440>
+      <conTime10_14401>Continue Time Must Be Between 10 and 1440 minutes!</conTime10_14401>
+    <recordEditMemSize>Memory size between 1000M and 1000000000M!</recordEditMemSize>
+    <recordSoreFormat>Should Choose One Store Format At Least！</recordSoreFormat>
+    <recordEditSetSucc>Recording Setup Successfully！</recordEditSetSucc>
+    <recordEditSetFail>Failed to Setup Recording！</recordEditSetFail>
+
+    <ftpSendSetSucc>FTP PUSH Setup Successfully！</ftpSendSetSucc>
+    <ftpSendSetFail>Failed to Setup FTP Push！</ftpSendSetFail>
+    
+    <powerOffSetSucc>Receiver Power Off Successfully！</powerOffSetSucc>
+    <powerOffSetFail>Failed to Power off Receiver！</powerOffSetFail>
+    <rebootSystemSetSucc>Receiver Restart Successfully！</rebootSystemSetSucc>
+    <rebootSystemSetFail>Failed to Restart Receiver！</rebootSystemSetFail>
+    <cleanGnssDataSetSucc>GNSS Data Clear Successfully！</cleanGnssDataSetSucc>
+    <cleanGnssDataSetFail>Failed to Clear GNSS Data！</cleanGnssDataSetFail>
+
+    <recoverySetSucc>Set to Default Successfully！</recoverySetSucc>
+    <recoverySetFail>Failed to Set to Default！</recoverySetFail>
+    <languageSetFail>Failed to Setup Language！</languageSetFail>
+
+    <saveSucc>Save Successfully！</saveSucc>
+    <saveFail>Failed to Save！</saveFail>
+    <setSucc>Set Successfully！</setSucc>
+    <setFail>Failed to Set！</setFail>
+    <getSetupPointsListSucc>Get Source List！</getSetupPointsListSucc>
+    <getSetupPointsListFail>Failed to Get Source List！</getSetupPointsListFail>
+    <webConfigFileLoadFail>Failed to Load WebConfig.xml File！</webConfigFileLoadFail>
+    <serviceAddress101NoCon>Service Address 101 NoCon Address Not Configured！</serviceAddress101NoCon>
+
+    <conToClose3GModule>Disable GPRS Module?</conToClose3GModule>
+    <conToCloseAccountStatus>Sure to Stop the Recording?</conToCloseAccountStatus>
+    <conToCloseWifiModule>Turn Off WiFi ?</conToCloseWifiModule>
+    <conToCloseRadio>Turn Off Radio?</conToCloseRadio>
+    <conToCloseDialConn>Sure to Disconnect?</conToCloseDialConn>
+    <conToSetLang>Sure to Switch to this Language?</conToSetLang>
+    <pleaseWaiting>Please Wait！</pleaseWaiting>
+    <changingToNewPort>changing to new port.....</changingToNewPort>
+    <changingToNewHttp>changing to new address.....</changingToNewHttp>
+    <openningModule>Opening.....</openningModule>
+    <saving>Saving.....</saving>
+    <closing3GModule>Closing.....</closing3GModule>
+    <fileUploading>file is uploading.....</fileUploading>
+    <updating>updating，please wait.....</updating>
+    <collectingPointsNotNull>Sample Amount Can Not Be Null！</collectingPointsNotNull>
+    <collectingPointsData>Recording Positioning Data.....</collectingPointsData>
+    <resuming>Rebooting.....</resuming>
+    <cleaning>Cleaning.....</cleaning>
+    <recovering>Recovering To Default Settings.....</recovering>
+    <dialConnecting>Dialing.....</dialConnecting>
+    <dialDisconnecting>Dialing Disconnecting.....</dialDisconnecting>
+    <restartGnssConInfo>Sure to Restart the Receiver?</restartGnssConInfo>
+    <stopGnssConInfo>Sure to Power Off the Receiver?</stopGnssConInfo>
+    <rootSystemConInfo>Sure to Reboot the System?</rootSystemConInfo>
+      <rootSystemConInfo1>Sure to Reboot the System?</rootSystemConInfo1>
+    <ipValueBe0And255>Port Number Must Between 0 and 255！</ipValueBe0And255>
+    <ipValueNotBeNull>IP Can Not Be Null！</ipValueNotBeNull>
+    
+    <portNotNull>Port Number Can Not Be Null!</portNotNull>
+    <portBeNum>Port Number Must Be Number!</portBeNum>
+    <port1024and65535>Port Number Must Between 1024 and 65535!</port1024and65535>
+    <port0and65535>Com Port Between 0 and 65535</port0and65535>
+    <exception>System Error!</exception>
+    <uploadFail>Upload Fail!</uploadFail>
+    <conProtocolNotNull>Connection Protocol Can Not Be Null!</conProtocolNotNull>
+    <uploadFileNotNull>Please Select The File To Upload!</uploadFileNotNull>
+    <configfileFormateError>Can only upload cfg file!</configfileFormateError>
+    <uploadfileFormateError>Can only upload tar or bin file!</uploadfileFormateError>
+    
+    <uploadFileError>File to Be Uploaded Can Not Be Over 100K!</uploadFileError>
+    <uploadFileSuccess>Upload File Successfully!</uploadFileSuccess>
+
+    <registerCodeNotNull>Registration Code Can Not Be Null!</registerCodeNotNull>
+    <registerCodeFormate>Registration Code Must Be Made Up Of Three Groups of Numbers, Each Group Contains 5 Numbers(XXXXX-YYYYY-ZZZZZ)</registerCodeFormate>
+    <pleaseOpenNetConnect>Please Open the Network Connection First!</pleaseOpenNetConnect>
+
+    <clearSucc>Clear Successed!</clearSucc>
+    <clearFail>Clear Failed!</clearFail>
+    <confirmAction>Do You Want To Do This?</confirmAction>
+      <wifiPwdChange>Password will be changed</wifiPwdChange>
+      <dataSwitchOFF>Please confirm to switch off current data recording!</dataSwitchOFF>
+      <dataClearFile>Please confirm to eliminate current recording file?</dataClearFile>
+      <dataClearAllFile>Please confirm to eliminate all data files?</dataClearAllFile>
+      <placeClearFTPLog>Please confirm to eliminate FTP push log</placeClearFTPLog>
+      <tagOpenHcpppSucc>HCPPP turn on successed</tagOpenHcpppSucc>
+      <tagOpenHcpppFail>Failed to turn on HCPPP</tagOpenHcpppFail>
+      <tagCloseHcpppSucc>HCPPP turn off successed</tagCloseHcpppSucc>
+      <tagCloseHcpppFail>Failed to turn off HCPPP</tagCloseHcpppFail>
+
+      <tagReCodeExpired>Device registration code expired, for normal use please contact CHC timely!</tagReCodeExpired>
+    <recordParaCannotClean>The Recording Switch is opened,can not clear!</recordParaCannotClean>
+      <downLoadFail>Failed to download, please try again.</downLoadFail>
+      <downLoadSucc>Download successfully, the receiver will reboot to update.</downLoadSucc>
+      <cloudParaErr>Parameter error</cloudParaErr>
+      <cloudServerParaErr>Server error</cloudServerParaErr>
+      <cloudConnectOutTime>Login time out, please try again...</cloudConnectOutTime>
+      <cloudUnLog>Please login!</cloudUnLog>
+      <getListSucess>Get list successfully</getListSucess>
+      <seTorDNotZero>Coordinates offset threshold should not less than 0</seTorDNotZero>
+      <seTorDNotZero111>Set 2 digits after comma</seTorDNotZero111>
+      <dateErr>Date error, please reset!!!</dateErr>
+
+      <tagPlaceSelectOne>Please select a option!!!</tagPlaceSelectOne>
+      <tagExitSave>There is a similar point, please fill in again</tagExitSave>
+      <placeCheckbat>Can not update when low battery, please connect with a power supply or retry after charging!</placeCheckbat>
+      <pleaseInputPaswd>请输入密码:</pleaseInputPaswd>
+      <tagTip1>Attention: Total assigned storage size of 8 threads should be less than </tagTip1>
+      <tagTip2>GB. It will stop recording when the storage is full.</tagTip2>
+</tipInfo>
+
+
+</tags>
+

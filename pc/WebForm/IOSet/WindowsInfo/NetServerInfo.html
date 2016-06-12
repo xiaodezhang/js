@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="../../../Resource/Js/Validation.js"></script>
+    <script type="text/javascript" src="../../../Resource/Js/Langs/Lang_NetServerInfo.js"></script>
+    <script type="text/javascript" src="Js/NetServerInfo.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div style="width:100%;">
+        <table style="width: 100%;height:">
+            <tr>
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagServiceType"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueServiceType">
+                    </span>
+                </td>
+            </tr>
+            <tr id="trUserName">
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagUserName"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueUserName">
+                    </span>
+                </td>
+            </tr>
+             <tr id="trPwd">
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagPwd"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valuePwd">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagPort"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valuePort">
+                    </span>
+                </td>
+            </tr>
+            <tr id="trSetupPointColon">
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagSetupPointColon"></span>:
+                </td>
+                <td align="left">
+                    <span class="td_span" id="valueSetupPoint">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagDiffDataColon"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueDiffData">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagInitialDataColon"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueInitialData">
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_titleWindow_server" align="right">
+                    <span id="tagEphemerisDataColon"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueEphemerisData">
+                    </span>
+                </td>
+            </tr>
+            <tr id="trHCPPPData">
+                <td class="td_titleWindow_client" align="right">
+                <span id="tagHCPPPData"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueHCPPPData">
+                    </span>
+                </td>
+            </tr>
+
+            <tr id="trAutoConnectData">
+                <td class="td_titleWindow_server" align="right">
+                <span id="tagAutoConnect"></span>:
+                </td>
+                <td align="left"colspan="2">
+                    <span class="td_span" id="valueAutoConnectData">
+                    </span>
+                </td>
+            </tr>
+
+            <tr style="height:100px;">
+                <td class="td_titleWindow_server" align="right">
+                   <span id="tagNmea"></span>:
+                </td>
+                <td>
+                    <span class="td_span" id="valueNmea">
+                    </span>
+                </td>
+            </tr>
+            <tr style="height:70px;" id="Tr1">
+                <td class="td_titleWindow_client" align="right">
+                   <span id="tagDataTransfer"></span>:
+                </td>
+                <td align="left"colspan="2">
+                    <span class="td_span" id="valueData">
+                    </span>
+                </td>
+            </tr>
+           <tr>
+                <td colspan="2" align="center">
+                    <hr />
+                    <a href="javascript:void(0)" class="easyui-linkbutton" plain="true" data-options="iconCls:'icon-back'" onclick="btnBack();"><span id="tagBack"></span></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

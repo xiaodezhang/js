@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tags>
+  <tagcorsStatus>состояние CORS и APIs</tagcorsStatus>
+  <tagg3Status>Состояние соединения 3g</tagg3Status>
+  <tagForever>постоянный</tagForever>
+  <tagAutoDiff>Автоматическое разностей</tagAutoDiff>
+  <tagUable>Недоступен</tagUable>
+  <tagHig1>Канал3</tagHig1>
+  <tagCen1>Канал2</tagCen1>
+  <tagLow1>Канал1</tagLow1>
+
+  <tagHig>Высокая</tagHig>
+  <tagCen>Средняя</tagCen>
+  <tagLow>Низкая</tagLow>
+   <!--还没发 -->
+
+  <tagAutoConnect>Авто соединение </tagAutoConnect>
+  <tagwifiState>Статус WiFi</tagwifiState>
+  <tagbtState>Статус Bluetooth</tagbtState>
+  <taggsensorState>Статус датчика</taggsensorState>
+  <!--还没发 -->
+  
+  
+  
+  <tagDataTransfer>Передача данных</tagDataTransfer>
+  <tagRTK>RTK</tagRTK>
+  <tagWIFI>WIFI</tagWIFI>
+  <tagBT>Bluetooth</tagBT>
+  <tagGSM>GSM</tagGSM>
+  <tagRADIO>Радио</tagRADIO>
+  <tag1ppsSet>Настройки 1PPS</tag1ppsSet>
+  <tagUSBSet>Переключение функции USB</tagUSBSet>
+  <tagUSBNetAccess>Веб-интерфейс по USB</tagUSBNetAccess>
+  <tagUSBAtorageAccess>Хранилище мультимедиа</tagUSBAtorageAccess>
+  <tagXiuUserNameAP>Изменить пароль</tagXiuUserNameAP>
+  <tagUserPermission>Права пользователя</tagUserPermission>
+  <tagplaceAddUserName>Введите новые логин и пароль</tagplaceAddUserName>
+  <tagplaceDelUserName>Введите логин для удаления</tagplaceDelUserName>
+  <tagplaceXiuUserName>Введите логин и пароль для изменения</tagplaceXiuUserName>
+  <tagEnable>Вкл.</tagEnable>
+  <tagDisable>Выкл.</tagDisable>
+  <tagSatelRadio111>Rx радио</tagSatelRadio111>
+  <tagMobileWeb>Мобильная версия</tagMobileWeb>
+
+  
+    <!--新写的结束-->
+    <tagUserPermission>Данные пользователя</tagUserPermission>
+    <tagUserNameControl>Управление пользователями</tagUserNameControl>
+    <tagAddUserNameAP>Добавить пользователя</tagAddUserNameAP>
+    <tagDelUserNameAP>Удалить пользователя</tagDelUserNameAP>
+    <tagManufactureName>Производитель антенны</tagManufactureName>
+    <tagCleanData>Удалить данные</tagCleanData>
+    <tagParamsSet>Настройка параметров</tagParamsSet>
+    <tagSwitch>Переключение</tagSwitch>
+    <tagApn>APN</tagApn>
+    <tagNmea>NMEA</tagNmea>
+    <tagSystemName>GNSS</tagSystemName>
+    <!--tagSystemName>PrinCE NRG1</tagSystemName-->
+    <!--<tagSystemName>N71BD System</tagSystemName>-->
+    <tagInputName>Введите имя пользователя</tagInputName>
+    <tagLoginAccount>Имя пользователя</tagLoginAccount>
+    <tagLogout>Выход</tagLogout>
+
+    <tagLogin>Вход</tagLogin>
+    <tagRememberMe>Запомнить</tagRememberMe>
+
+    <tagGnssStatus>Состояние</tagGnssStatus>
+    <tagGnssActivity>Общая информация</tagGnssActivity>
+    <tagGnssPosition>Координаты</tagGnssPosition>
+    <tagGnssGoogleMap>Он-лайн карта</tagGnssGoogleMap>
+    <tagMarkId>ID</tagMarkId>
+
+    <tagIntroduction>Общая информация</tagIntroduction>
+    <tagGnssSet>Настройки приёмника</tagGnssSet>
+    <tagAntennaParamsSet>Настройки антенны</tagAntennaParamsSet>
+    <tagBaseSiteSet>Ввод координат</tagBaseSiteSet>
+    <tagGnssReset>Сброс приёмника</tagGnssReset>
+
+    <tagBoardInfo>Информация о плате</tagBoardInfo>
+    <tagHardwarenum>Номер платы</tagHardwarenum>
+    <tagMainBoard>Материнская плата</tagMainBoard>
+    <tagCoreBoard>Основная плата</tagCoreBoard>
+    <tagLangsControl>Язык</tagLangsControl>
+    <tagGeneral>Общее</tagGeneral>
+    <tagMobileNet>Мобильный интернет</tagMobileNet>
+    <tag3GSet>Настройки подключения</tag3GSet>
+
+    <tag3GInfo>Подключение</tag3GInfo>
+    <tagBluetoothSet>Bluetooth</tagBluetoothSet>
+    <tagSet>Настройки</tagSet>
+    <tagLineNet>Интернет</tagLineNet>
+
+    <tagNetworkSet>Настройки подключения</tagNetworkSet>
+    <tagNetworkInfo>Информация о подключении</tagNetworkInfo>
+    <tagPppoeSet>Настройки PPPoE</tagPppoeSet>
+    <tagStatus>Статус подключения</tagStatus>
+
+    <tagEmailAlarm>Уведомления по E-mail</tagEmailAlarm>
+    <tagEmailAlarmSet>Настройки уведомлений</tagEmailAlarmSet>
+    <tagEmailAddress1>Первый E-mail</tagEmailAddress1>
+    <tagEmailAddress2>Второй E-mail</tagEmailAddress2>
+    <tagEmailAddress3>Третий E-mail</tagEmailAddress3>
+    <tagEmailAddress4>E-mail адрес</tagEmailAddress4>
+    <tagServerAddr>Адрес почтового сервера</tagServerAddr>
+    <tagAlarmTip1>Настройки предупреждения по e-mail</tagAlarmTip1>
+    <tagAlarmTip2>Информация об отправителе</tagAlarmTip2>
+    <tagAlarmTip3>Информация о получателе</tagAlarmTip3>﻿
+
+    <tagHttps>HTTP</tagHttps>
+    <tagHttps1>HTTPS</tagHttps1>
+    <tagFtpService>FTP</tagFtpService>
+    <tagOthers>Иные</tagOthers>
+    <tagEthPortDirect>Прямое подключение Ethernet</tagEthPortDirect>
+
+    <tagSatellite>Спутники</tagSatellite>
+    <tagDataAccount>Запись данных</tagDataAccount>
+    <tagHCPPP>HCPPP Настройка</tagHCPPP>
+    <tagRange>Диапазон HCPPP</tagRange>
+    <tagHCPPPStatus>Состояние HCPPP</tagHCPPPStatus>
+    <tagIOSet>Настройка ввода/вывода</tagIOSet>
+    <tagRTKClient>Настройка ввода/вывода</tagRTKClient>
+    <tagtcpClient>Настройка ввода/вывода</tagtcpClient>
+    <tagtcpCaster>Настройка ввода/вывода</tagtcpCaster>
+    <tagRadioSet>Настройка связи</tagRadioSet>
+    <tagGSMSet>Настройка GSM</tagGSMSet>
+
+    <tagRadioInfo>Связь</tagRadioInfo>
+    <tagWirelessSet>Wi-Fi</tagWirelessSet>
+    <tagWifiSet>Настройки Wi-Fi</tagWifiSet>
+    <tagIOInfo>Информация по вводу/выводу</tagIOInfo>
+
+    <tagSafety>Безопасность</tagSafety>
+    <tagSafetyInfo>Информация о безопасности</tagSafetyInfo>
+    <tagSafetySet>Настройка безопасности</tagSafetySet>
+    <tagUpdatePwd>Изменить пароль</tagUpdatePwd>
+    <tagOnlineUpdate>Обновить онлайн</tagOnlineUpdate>
+    <tagIpandPort>IP сервера</tagIpandPort>
+    <tagGetFileList>Получить список фалов</tagGetFileList>
+    <tagCdownload>Отмена загрузки</tagCdownload>
+    <tagFileNmae>Имя файла</tagFileNmae>
+    <tagVersionNum>Версия</tagVersionNum>
+    <tagFileInfo>Информация о файле</tagFileInfo>
+    <tagFileSize1>Размер</tagFileSize1>
+    <tagFileDownload>Загрузить</tagFileDownload>
+    <tagUserLog>Логирование пользователей</tagUserLog>
+    <tagUserLogNum>Количество Загрузить</tagUserLogNum>
+    <tagUserLogSet>Настройки логирования</tagUserLogSet>
+    <tagpowerOn>Запуск</tagpowerOn>
+    <tagexPower>Отключение питания</tagexPower>
+    <tagsatReady>Завершение инициализации</tagsatReady>
+    <taglinkSendSuc>Подключение TCP-клиента</taglinkSendSuc>
+    <taglinkSendClose>Отключение TCP-клиента</taglinkSendClose>
+    <tagrecordSwitch>Начало и остановка записи</tagrecordSwitch>
+    <tagftpPush>Запуск FTP-клиента</tagftpPush>
+    <tagemailWarn>Отправка оповещения по e-mail</tagemailWarn>
+    
+
+    <tagFirmware>МПО</tagFirmware>
+    <tagFirmwareInfo>Информация о МПО</tagFirmwareInfo>
+    <tagFirmwareNum>Тип МПО</tagFirmwareNum>
+    <tagCurFirmwareDate>Дата выпуска МПО</tagCurFirmwareDate>
+
+    <tagFirmwareDescription>Описание МПО</tagFirmwareDescription>
+    <tagFirmwareSetup>Установка МПО</tagFirmwareSetup>
+    <tagUpgradeCheck>Проверка нового МПО</tagUpgradeCheck>
+    <tagHelp>Помощь</tagHelp>
+
+    <tagHelpLocation>Путь к файлу помощи</tagHelpLocation>
+    <tagHelpConfirm>Подтверждение</tagHelpConfirm>
+    <tagSystemLog>Лог-файл</tagSystemLog>
+    <tagNetService>Сетевые сервисы</tagNetService>
+
+    <tagUpdateFile>Файл обновления</tagUpdateFile>
+    <tagFirmwareUpdate>Обновление МПО</tagFirmwareUpdate>
+    <!-- 
+<tagKernelLog>Kernel Log</tagKernelLog>
+  -->
+    <tagFirmwareLog>Лог МПО</tagFirmwareLog>
+
+    <tagAccountSet>Настройки записи</tagAccountSet>
+    <tagAccountWholeStatus>Статус записи</tagAccountWholeStatus>
+    <tagFtpSendSet>Настройки FTP Push</tagFtpSendSet>
+    <tagFtpSendAccount>Состояние FTP Push</tagFtpSendAccount>
+
+    <tagEthPortDirectSet>Прямой доступ к  порту Ethernet</tagEthPortDirectSet>
+    <tagPortDirectAbleOr>Включить прямой доступ к  порту Ethernet</tagPortDirectAbleOr>
+    <tagPortDirectAddr>IP адрес прямого доступа к  порту Ethernet</tagPortDirectAddr>
+    <tagUserName>Имя пользователя</tagUserName>
+    <tagPwd>Пароль</tagPwd>
+    <tagUserName111>Имя пользователя</tagUserName111>
+    <tagPwd111>Пароль</tagPwd111>
+    <tagSave>Сохранить</tagSave>
+    <tagConfirm>Подтвердить</tagConfirm>
+    <tagConfirm2>Подтвердить</tagConfirm2>
+    <tagConfirm1>Подтвердить</tagConfirm1>
+    <tagCancel1>Отмена</tagCancel1>
+    
+    <tagFEC>FEC</tagFEC>
+    <tagSen>Чувств.</tagSen>
+    
+    <tagCallSign>Позывной</tagCallSign>
+    <tagCallSignS>Состояние</tagCallSignS>
+    <tagCallSignI>Интервал передачи</tagCallSignI>
+    <tagCallSignM>Информация</tagCallSignM>
+
+    <tagCancel>Отмена</tagCancel>
+    <tagFtpSet>Настройка FTP</tagFtpSet>
+    <tagHttpPortSet>HTTP порт</tagHttpPortSet>
+    <tagHttpsPortSet>HTTPS порт</tagHttpsPortSet>
+    <tagHttpsAbleOr>Включить HTTPS</tagHttpsAbleOr>
+
+    <tagCurrentStatus>Текущий статус</tagCurrentStatus>
+    <tagNetAccount>Аккаунт Интернет</tagNetAccount>
+
+    <tagPowerStatus>Состояние питания</tagPowerStatus>
+    <tagNetMode>Режим сети</tagNetMode>
+    <tagSignalStrength>Мощность сигнала</tagSignalStrength>
+    <tagSimStatus>Состояние SIM</tagSimStatus>
+    <tagSimIsOk>SIM карта работает</tagSimIsOk>
+    <tagSimNotExist>SIM карта не установлена</tagSimNotExist>
+    <tagSimNotRegister>SIM карта не зарегистрирована</tagSimNotRegister>
+    <tag3GModelStatus>Состояние мобильного интернета</tag3GModelStatus>
+    <tagOpenAutoStart>Автоматический запуск</tagOpenAutoStart>
+    <tagDialStatus>Состояние подключения</tagDialStatus>
+    <tagCSDnumber>Строка набора</tagCSDnumber>
+    <tagOpenAutoCon>Автоматическое подключение</tagOpenAutoCon>
+    <tagInitDialString>Строка инициализации</tagInitDialString>
+    <tagDialString>Строка набора</tagDialString>
+    <tagBaseNumber>Строка набора</tagBaseNumber>
+    <tagOn>Вкл</tagOn>
+    <tagOff>Выкл</tagOff>
+    <tagIng>Запуск</tagIng>
+    <tagStarted>Запущен</tagStarted>
+    <tagStart>Запущен</tagStart>
+    <tagClosed>Выключен</tagClosed>
+    <tagError>Ошибка</tagError>
+    <tagConnect1>Соединить</tagConnect1>
+    <tagDisconnect1>Отключить</tagDisconnect1>
+
+    <tagConnect>Подключен</tagConnect>
+    <tagDisconnect>Отключен</tagDisconnect>
+    <tagDialOn>Вкл</tagDialOn>
+    <tagDialOff>Выкл</tagDialOff>
+    <tagDialFail>Ошибка набора номера</tagDialFail>
+    <tagDialIng>Набор номера</tagDialIng>
+    <tagDialed>Набор</tagDialed>
+    <tagPlaceWait>Ожидание вызова</tagPlaceWait>
+    <tagDialOver>Разъединение</tagDialOver>
+
+    <tagStartAccount>Идет запись</tagStartAccount>
+    <tagStartAccountNo>Запись остановлена</tagStartAccountNo>
+    <tagYes>Вкл</tagYes>
+    <tagNo>Выкл</tagNo>
+    <tagSuccess>Успешно</tagSuccess>
+    <tagFailure>Неудачно</tagFailure>
+    <tagBtoothModuleInfo>Информация о модуле</tagBtoothModuleInfo>
+    <tagLocalName>Имя</tagLocalName>
+    <tagMacIP>MAC адрес</tagMacIP>
+    <tagVisible>Видимость</tagVisible>
+    <tagPIN>PIN</tagPIN>
+    <tagGnssStatusActivity>Приёмник работает</tagGnssStatusActivity>
+    <tagSatellitesTrack>Отслеживаемые спутники</tagSatellitesTrack>
+    <tagTrackedSatellites>Отслеживаемые спутники</tagTrackedSatellites>
+    <tagDataAccounts>Запись данных</tagDataAccounts>
+    <tagDataOutput>Выдача данных</tagDataOutput>
+    <tagOutputData>Выдаваемые данные</tagOutputData>
+    <tagActivityStatus>Состояние приёмника</tagActivityStatus>
+    <tagCurrentTime>Текущее время</tagCurrentTime>
+    <tagActivityTime>Время работы</tagActivityTime>
+    <tagInnerStorage>Внутренняя память</tagInnerStorage>
+    <tagOutterStorage>Внешняя память</tagOutterStorage>
+    <tagBatteryM6>Акк</tagBatteryM6>
+    <tagBattery>Акк. B</tagBattery>
+    <tagBattery2>Акк. A</tagBattery2>
+    <tagOutterBattery>Внешнее питание</tagOutterBattery>
+    <tagOutterPower>Внешнее питание</tagOutterPower>
+    <tagGnssInfo>Настройки станции</tagGnssInfo>
+    <tagGnssTitleInfo>Информация о приёмнике</tagGnssTitleInfo>
+    <tagAntennaType>Тип антенны</tagAntennaType>
+    <tagAntennaName>Номер антенны</tagAntennaName>
+    <tagMeasureMethod>Метод измерения высоты</tagMeasureMethod>
+    <tagAntennaHeight>Высота антенны</tagAntennaHeight>
+    <tagAngleMask>Маска по углу возвышения</tagAngleMask>
+    <tagPdopMask>Предельный PDOP</tagPdopMask>
+    <tagBaseSiteInfo>Информация о координатах</tagBaseSiteInfo>
+    <tagBaseSiteMode>Режим работы приёмника</tagBaseSiteMode>
+    <tagBaseSiteName>Имя базовой станции</tagBaseSiteName>
+    <tagBaseSiteNum>Номер базовой станции</tagBaseSiteNum>
+    <tagBaseLatitude>Широта</tagBaseLatitude>
+    <tagBaseLongitude>Долгота</tagBaseLongitude>
+    <tagBaseHeight>Элл.высота</tagBaseHeight>
+    <tagBaseTorD>Координаты превашают установленный допуск(M)：</tagBaseTorD>
+    <tagDiffOutputType>Форматы выходных данных</tagDiffOutputType>
+
+    <tagCurrentPosition>Запрос текущих координат</tagCurrentPosition>
+
+    <tagCollectAverage>Настройка осреднения</tagCollectAverage>
+    <tagLocationMask>Настройки</tagLocationMask>
+    <tagSingleCoordinate>Координаты без осреднения</tagSingleCoordinate>
+    <tagFastenCoordinate>Координаты с осреднением</tagFastenCoordinate>
+    <tagCollectNumbers>Число эпох для осреднения</tagCollectNumbers>
+    <tagStartCollect>Пуск</tagStartCollect>
+    <tagStopCollect>Стоп</tagStopCollect>
+
+    <tagStopGnss>Выключить приёмник</tagStopGnss>
+    <tagRestartGnss>Перезагрузка приёмника</tagRestartGnss>
+    <tagClearGpsData>Очистить альманах</tagClearGpsData>
+    <tagRecoverDnssSet>Настройки по умолчанию</tagRecoverDnssSet>
+
+    <tagGnssMarkId>Состояние приёмника - Метка</tagGnssMarkId>
+    <!--<tagType>Тип</tagType>-->
+    <tagSerialsId>С/Ш</tagSerialsId>
+    <tagNetMacIp>MAC адрес</tagNetMacIp>
+    <tagNetStatus>Состояние подключения</tagNetStatus>
+    <tagNetIp>IP адрес</tagNetIp>
+
+    <tagFirmwareVersion>Версия МПО</tagFirmwareVersion>
+    <tagFirmwareDate>Дата выхода МПО</tagFirmwareDate>
+    <tagRegisterEndDate>Работоспособен до</tagRegisterEndDate>
+
+    <tagPosition>Координаты</tagPosition>
+    <tagLongitude>Долгота</tagLongitude>
+    <tagLatitude>Широта</tagLatitude>
+    <tagLongitudeNum>ID</tagLongitudeNum>
+    <tagBaseList>Список баз</tagBaseList>
+    <tagAdd>Добавить</tagAdd>
+    <tagDelate>Удалить</tagDelate>
+
+    <tagHeight>Элл.Высота</tagHeight>
+    <tagClass>Тип поправок</tagClass>
+    <tagUsedSatellites>Используемые спутники</tagUsedSatellites>
+    <tagGnssClock>Часы приёмника</tagGnssClock>
+    <tagGpsWeek>GPS неделя</tagGpsWeek>
+    <tagGpsSecond>GPS секунда</tagGpsSecond>
+    <tagDOP>DOP</tagDOP>
+    <tagPdop>PDOP</tagPdop>
+    <tagHdop>HDOP</tagHdop>
+    <tagVdop>VDOP</tagVdop>
+    <tagTdop>TDOP</tagTdop>
+
+    <tagGps>GPS</tagGps>
+    <tagSbas>SBAS</tagSbas>
+    <tagGlon>GLONASS</tagGlon>
+    <tagBds>BDS</tagBds>
+    <tagGalileo>GALILEO</tagGalileo>
+    <tagZero>0</tagZero>
+
+    <tagKe> шт.</tagKe>
+    <tagHttpsCon>HTTPS</tagHttpsCon>
+    <tagBoardIp>IP платы</tagBoardIp>
+
+    <tagBoardOpen>Прямое подключение к плате</tagBoardOpen>
+
+    <tagEthernet>Интернет</tagEthernet>
+    <tagStaticIpSet>Статический IP</tagStaticIpSet>
+    <tagIpAddr>IP адрес</tagIpAddr>
+    <tagSubnetMask>Маска подсети</tagSubnetMask>
+    <tagGateway>Шлюз</tagGateway>
+    <tagDns>DNS</tagDns>
+    <tagDnsIp1>DNS адрес 1</tagDnsIp1>
+    <tagDnsIp2>DNS адрес 2</tagDnsIp2>
+    <tagType2>Тип</tagType2>
+    <tagPort>Порт</tagPort>
+    <tagInput>Вход</tagInput>
+    <tagOutput>Выход</tagOutput>
+    <tagWifiInfo>Информация о Wi-Fi</tagWifiInfo>
+    <tagWifiPowerStatus>Состояние питания</tagWifiPowerStatus>
+    <tagInetrnet>Интернет</tagInetrnet>
+
+    <tagWifiModel>Режим Wi-Fi</tagWifiModel>
+    <tagSsid>Имя сети</tagSsid>
+    <tagEncryptType>Тип шифрования</tagEncryptType>
+    <tagWifiModelAp>Точка доступа</tagWifiModelAp>
+    <tagWifiModelApInfo>Доп. инфо о точке доступа</tagWifiModelApInfo>
+    <tagWifiModelStatus>Состояние модуля Wi-Fi</tagWifiModelStatus>
+    <tagClient>Клиент</tagClient>
+
+    <tagRadioType>Тип УКВ радио</tagRadioType>
+    <tagRadioPower>Мощность УКВ</tagRadioPower>
+    <tagRadioAirBaud>Скорость по эфиру</tagRadioAirBaud>
+    <tagRadioBaud>Скорость</tagRadioBaud>
+    <tagRadioFrequency>Частота</tagRadioFrequency>
+    <tagRadioProtocol>Протокол</tagRadioProtocol>
+    <tagRadioFrequencyChannel>Канал</tagRadioFrequencyChannel>
+    <tagRadioFrequencyRange>Диапазон частот</tagRadioFrequencyRange>
+    <tagRadioStepper>Шаг частот</tagRadioStepper>
+
+    <tagCORSSet>CORS</tagCORSSet>
+    <tagTcpSet>TCP</tagTcpSet>
+    <tagUdpSet>UDP</tagUdpSet>
+    <tagNetClient>Клиент</tagNetClient>
+
+    <tagUnconnected>Подключения отсутствуют</tagUnconnected>
+    <tagConnected>Подключен</tagConnected>
+    <tagConnecting>Подключение</tagConnecting>
+    <tagLoged>Вход выполнен</tagLoged>
+    <tagLoging>Обмен данными</tagLoging>
+
+    <tagInfoWindowName>Сообщение</tagInfoWindowName>
+    <tagErrorWindowName>Ошибка</tagErrorWindowName>
+    <tagQuestionWindowName>Подтверждение</tagQuestionWindowName>
+    <tagWarningWindowName>Предупреждение</tagWarningWindowName>
+    <tagDeleteWindowConfirmName>Удаление</tagDeleteWindowConfirmName>
+    <tagWindowConfirmName>Подтверждение</tagWindowConfirmName>
+    <tagMessageDialogName>Сообщение</tagMessageDialogName>
+    <tagInfoWindow>Информация</tagInfoWindow>
+
+    <tagModeNone>Авто ровер</tagModeNone>
+    <tagModeAUTO>Авто база</tagModeAUTO>
+    <tagModeMANUAL>Вручную</tagModeMANUAL>
+    <tagAuto>Авто</tagAuto>
+    <tagEnableColon>Вкл.</tagEnableColon>
+    <tagUnableColon>Выкл.</tagUnableColon>
+    <tagEnableColoned>Вкл.</tagEnableColoned>
+    <tagUnableColoned>Выкл.</tagUnableColoned>
+    <tagNtripCasterColon>NTRIP</tagNtripCasterColon>
+    <tagSetupPointColon>Точка доступа</tagSetupPointColon>
+    <tagSetupPointColon1>монтирования</tagSetupPointColon1>
+    <tagGetSetupPoint>Список точек доступа</tagGetSetupPoint>
+
+    <tagRemteIpColon>IP адрес</tagRemteIpColon>
+    <tagDataOutputColon>Выдача данных</tagDataOutputColon>
+    <tagDiffDataColon>Поправки</tagDiffDataColon>
+    <tagInitialDataColon>Сырые данные</tagInitialDataColon>
+    <tagHCPPPData>Данные HCPPP</tagHCPPPData>
+    <tagSensorData>Данные датчиков</tagSensorData>
+    <tagEphemerisDataColon>Эфемериды</tagEphemerisDataColon>
+    <tagGPGGAColon>GPGGA</tagGPGGAColon>
+    <tagGPGSVColon>GPGSV</tagGPGSVColon>
+    <tagGPRMCColon>GPRMC</tagGPRMCColon>
+    <tagGPGLLColon>GPGLL</tagGPGLLColon>
+    <tagGPVTGColon>GPVTG</tagGPVTGColon>
+    <tagGPZDAColon>GPZDA</tagGPZDAColon>
+    <tagGPGSTColon>GPGST</tagGPGSTColon>
+    <tagGPGRSColon>GPGRS</tagGPGRSColon>
+    <tagGPGSAColon>GPGSA</tagGPGSAColon>
+    <tagGPAVRColon>PTNL,AVR</tagGPAVRColon>
+    <tagGPHDTColon>GPHDT</tagGPHDTColon>
+    <tagGPVGKColon>PTNL,VGK</tagGPVGKColon>
+    <tagGPVHDColon>PTNL,VHD</tagGPVHDColon>
+    <tagGPROTColon>GPROT</tagGPROTColon>
+    <tagGPGGKColon>PTNL,GGK</tagGPGGKColon>
+    <tagGPBPQColon>PTNL,BPQ</tagGPBPQColon>
+    <tagPJKColon>PTNL,PJK</tagPJKColon>
+    <tagPJTColon>PTNL,PJT</tagPJTColon>
+
+    <tagPortType>Тип порта</tagPortType>
+    <tagServiceType>Протокол</tagServiceType>
+    <tagServiceType1>Протокол</tagServiceType1>
+    <tagAutoCon>Подключаться автоматически?</tagAutoCon>
+    <tagChina>中文</tagChina>
+    <tagEnglish>English</tagEnglish>
+    <tagRussia>Русский</tagRussia>
+
+    <tagLfsRadio>Встроенное УКВ радио</tagLfsRadio>
+    <tagSatelRadio>Встроенное УКВ Satel</tagSatelRadio>
+
+    <tagTotalStorage>Общий объём</tagTotalStorage>
+    <tagAbleStorage>Свободный объём</tagAbleStorage>
+    <tagStoreInfo>Информация о памяти</tagStoreInfo>
+    <tagAccountInfo>Информация о записи</tagAccountInfo>
+    <tagAccountId>Номер сеанса</tagAccountId>
+    <tagAccountName>Имя сеанса</tagAccountName>
+    <tagOnOrOff>Вкл/Выкл</tagOnOrOff>
+    <tagUpdate>Изм.</tagUpdate>
+    <tagDetail>Дополнительно</tagDetail>
+    <tagAccountEdit>Редактирование сеанса</tagAccountEdit>
+
+    <tagStartTimeApply>Время начала записи</tagStartTimeApply>
+    <tagStartTime>Начало записи</tagStartTime>
+    <tagEnableDate>Дата запуска</tagEnableDate>
+    <tagDatebox>Дата</tagDatebox>
+
+    <tagConTime>Длительность</tagConTime>
+    <tagStorage>Макс. объём</tagStorage>
+    <tagRecycleStore>Перезапись</tagRecycleStore>
+    <tagStoreFormat>Формат записи</tagStoreFormat>
+    <tagGetFrequency>Интервал записи</tagGetFrequency>
+    <tagStorePosition>Место записи</tagStorePosition>
+    <tagFTPSend>FTP Push</tagFTPSend>
+    <tagInternalStorage>Внутренняя память</tagInternalStorage>
+    <tagOuterStorage>Внешняя память</tagOuterStorage>
+
+    <tagBack>Назад</tagBack>
+    <tagMb>Мб</tagMb>
+    <tagUtcTime>Время UTC</tagUtcTime>
+    <tagStoreFormatHcn>HCN</tagStoreFormatHcn>
+    <tagStoreFormatHcm>HCM</tagStoreFormatHcm>
+    <tagStoreFormatRinex>RINEX</tagStoreFormatRinex>
+    <tagAutoAccountOr>Авто запись</tagAutoAccountOr>
+
+    <tagNetClientRover>Клиент RTK</tagNetClientRover>
+    <tagNetClient1>TCP/UDP_клиент_1/Ntrip_1</tagNetClient1>
+    <tagNetClient2>TCP/UDP_клиент_2/Ntrip_2</tagNetClient2>
+    <tagNetClient3>TCP/UDP_клиент_3/Ntrip_3</tagNetClient3>
+    <tagNetClient4>TCP/UDP_клиент_4/Ntrip_4</tagNetClient4>
+    <tagNetClient5>TCP/UDP_клиент_5/Ntrip_5</tagNetClient5>
+    <tagNetClient6>TCP/UDP_клиент_6/Ntrip_6</tagNetClient6>
+
+    <tagNetServer1>TCP/IP_сервер_1</tagNetServer1>
+    <tagNetServer2>TCP/IP_сервер_2</tagNetServer2>
+    <tagNetServer3>TCP/IP_сервер_3</tagNetServer3>
+    <tagNetServer4>TCP/IP_сервер_4</tagNetServer4>
+
+    <tagAlarmTip>Предупреждения</tagAlarmTip>
+
+    <tagAlarm1>Приемник включен</tagAlarm1>
+    <tagAlarm2>Внешний источник питания выключен</tagAlarm2>
+    <tagAlarm3>Низкий уровень заряда батареи</tagAlarm3>
+    <tagAlarm4>Ошибка FTP-клиента</tagAlarm4>
+    <tagAlarm5>Лицензия приемника закончится через 7 дней</tagAlarm5>
+
+    <tagSerialPort1>COM порт</tagSerialPort1>
+    <tagSerialPort2>COM порт (COM2)</tagSerialPort2>
+    <tagBlueTooth>Bluetooth</tagBlueTooth>
+    <tagRadio>УКВ радио</tagRadio>
+    <tagGsm>GSM</tagGsm>
+    <tagSerialPortSet>Настройки COM порта</tagSerialPortSet>
+    <tagFresh>Обновить</tagFresh>
+
+    <tagSatelliteTrackTable>Таблица отслеживания спутников</tagSatelliteTrackTable>
+    <tagSatelliteTrackDiagram>График отслеживания спутников</tagSatelliteTrackDiagram>
+    <tagSatelliteSet>Настройка отслеживания</tagSatelliteSet>
+    <tagStarDiagram>Небосвод</tagStarDiagram>
+    <tagCheckAll>Выбрать все</tagCheckAll>
+    <tagCheckNone>Отменить выбор</tagCheckNone>
+
+    <tagEnableAll>Вкл. все</tagEnableAll>
+    <tagDisableAll>Откл. все</tagDisableAll>
+    <tagSatelliteId>ID ИСЗ</tagSatelliteId>
+    <tagSatelliteId1>ID ИСЗ</tagSatelliteId1>
+    <tagType>Тип</tagType>
+    <tagAltitudeAngle>Возвышение</tagAltitudeAngle>
+    <tagAzimuthalAngle>Азимут</tagAzimuthalAngle>
+    <tagL1NoiseSignalRatio>С/Ш L1</tagL1NoiseSignalRatio>
+    <tagL2NoiseSignalRatio>С/Ш L2</tagL2NoiseSignalRatio>
+    <tagL5NoiseSignalRatio>С/Ш L5</tagL5NoiseSignalRatio>
+    <tagUseOrNot>Вкл/Выкл</tagUseOrNot>
+
+    <tagStarType>Спутниковая группировка</tagStarType>
+    <tagNoiseSignal>С/Ш</tagNoiseSignal>
+
+    <tagSatelliteGps>GPS(G)</tagSatelliteGps>
+    <tagSatelliteSbas>SBAS(S)</tagSatelliteSbas>
+    <tagSatelliteGln>GLONASS(R)</tagSatelliteGln>
+    <tagSatelliteBds>BDS(C)</tagSatelliteBds>
+    <tagSatelliteGalieo>GALILEO(E)</tagSatelliteGalieo>
+    <tagTypeL1>L1</tagTypeL1>
+    <tagTypeL2>L2</tagTypeL2>
+    <tagTypeL5>L5</tagTypeL5>
+
+    <tagClose>Выключен</tagClose>
+    <tagFirst>1</tagFirst>
+    <tagSecondNum>2</tagSecondNum>
+    <tagThird>3</tagThird>
+    <DAT_FRQ_OFF>Выкл</DAT_FRQ_OFF>
+    <DAT_FRQ_AUTO>Авто</DAT_FRQ_AUTO>
+    <DAT_FRQ_1HZ>1 Гц</DAT_FRQ_1HZ>
+    <DAT_FRQ_2HZ>2 Гц</DAT_FRQ_2HZ>
+    <DAT_FRQ_5HZ>5 Гц</DAT_FRQ_5HZ>
+    <DAT_FRQ_10HZ>10 Гц</DAT_FRQ_10HZ>
+    <DAT_FRQ_20HZ>20 Гц</DAT_FRQ_20HZ>
+    <DAT_FRQ_50HZ>50Hz</DAT_FRQ_50HZ>
+    <DAT_FRQ_1S>1 с</DAT_FRQ_1S>
+    <DAT_FRQ_2S>2 с</DAT_FRQ_2S>
+    <DAT_FRQ_5S>5 с</DAT_FRQ_5S>
+    <DAT_FRQ_10S>10 с</DAT_FRQ_10S>
+    <DAT_FRQ_15S>15 с</DAT_FRQ_15S>
+    <DAT_FRQ_30S>30 с</DAT_FRQ_30S>
+    <DAT_FRQ_1M>60 с</DAT_FRQ_1M>
+    <DAT_FRQ_5M>5 мин</DAT_FRQ_5M>
+    <DAT_FRQ_10M>10 мин</DAT_FRQ_10M>
+    <unknown>Неизв.</unknown>
+    <true>Вкл</true>
+    <false>Выкл</false>
+
+    <tagYear>Год</tagYear>
+    <tagMonth>Месяц</tagMonth>
+    <tagDay>День</tagDay>
+    <tagHour>Час</tagHour>
+    <tagMinute>Мин.</tagMinute>
+    <tagSecond>Секунда</tagSecond>
+
+    <tagBeenUsed>Исп.</tagBeenUsed>
+    <tagTotal>Всего</tagTotal>
+    <tagNotSetup>Не подключена</tagNotSetup>
+    <tagSetuped>Подключена</tagSetuped>
+    <tagHuaCe>PrinCe</tagHuaCe>
+    <tagSatel>Satel 3AS</tagSatel>
+    <tag4FSK>PacCrest 4-FSK</tag4FSK>
+    <tagTT450>TT450S</tagTT450>
+    <tagDIRECT>Transparent</tagDIRECT>
+    
+    <tagAntPhCenter>ФЦ антенн</tagAntPhCenter>
+        <tagAntPhBottom>Низ крепления антенны (верт.)</tagAntPhBottom>
+        <tagAntPhHeight>Наклонная высота</tagAntPhHeight>
+
+        <tagMetre>М</tagMetre>
+        <tagId>ID сервера</tagId>
+        <tagDescription>Имя сервера</tagDescription>
+        <tagAddress>IP сервера</tagAddress>
+        <tagRemoteDirectory>Папка на сервере</tagRemoteDirectory>
+
+        <tagPushDatetime>Время отправки</tagPushDatetime>
+        <tagPushFile>Отправляемый файл</tagPushFile>
+        <tagFileSize>Размер файла</tagFileSize>
+        <tagPushSucessOr>Состояние отправки</tagPushSucessOr>
+
+        <tagRadioStatus>Состояние радио</tagRadioStatus>
+        <tagSatelliteNum>Количество спутников</tagSatelliteNum>
+
+        <ipNtripCasterHttpFormate>xxx.xxx.xxx.xxx или www.*</ipNtripCasterHttpFormate>
+        <registerCodeFormate>XXXXX-YYYYY-ZZZZZ</registerCodeFormate>
+        <ipNetFormate>xxx.xxx.xxx.xxx</ipNetFormate>
+        <ipPwdFormate>Начинать с символа, длина 6-18 символов</ipPwdFormate>
+        <port1024and65535>Номер порта должен быть 1024 и 65535</port1024and65535>
+
+
+        <RADIO_FREQUENCY_TYPE__HIGH>450-470 МГц</RADIO_FREQUENCY_TYPE__HIGH>
+        <RADIO_FREQUENCY_TYPE__MIDDLE>430-450 МГц</RADIO_FREQUENCY_TYPE__MIDDLE>
+        <RADIO_FREQUENCY_TYPE__LOW>410-430 МГц</RADIO_FREQUENCY_TYPE__LOW>
+        <RADIO_FREQUENCY_TYPE__ALL>410-470 МГц</RADIO_FREQUENCY_TYPE__ALL>
+
+        <WIFI_PASSWD_TYPE__WAP>WAP</WIFI_PASSWD_TYPE__WAP>
+        <WIFI_PASSWD_TYPE__WAP2>WAP2</WIFI_PASSWD_TYPE__WAP2>
+        <tagWap>WAP</tagWap>
+        <tagWap2>WAP2</tagWap2>
+
+
+        <tagSystemLogDownload>Выгрузка лога системы</tagSystemLogDownload>
+        <tagSystemLogType>Тип лога системы</tagSystemLogType>
+        <tagDownload>Выгрузить</tagDownload>
+
+        <tagConfigInfo>Конфигурация приёмника</tagConfigInfo>
+        <tagConfigFileDownload>Загрузить конфигурационный файл</tagConfigFileDownload>
+        <tagConfigFileUpdate>Конфигурационный файл</tagConfigFileUpdate>
+
+        <tagFirmRegistrationister>Регистрация приёмника</tagFirmRegistrationister>
+        <tagMachineId>Серийный номер</tagMachineId>
+        <tagRegisterCode>Код регистрации</tagRegisterCode>
+        <tagRegisterEndtime>Работоспособен до</tagRegisterEndtime>
+        <tagRegister>Регистрация</tagRegister>
+        <tagUnregister>Не зарегистрирован</tagUnregister>
+        <tagExpired>Истек</tagExpired>
+        <tagNoEndtime>Не ограниченно</tagNoEndtime>
+        <tagDataDownload>Дата загрузки</tagDataDownload>
+
+        <tagFirmRegister>Регистрация приёмника</tagFirmRegister>
+        <tagUnknown>Неизвестно</tagUnknown>
+        <tagRight>ПРАВО</tagRight>
+        <tagWrong>Некорр.база</tagWrong>
+        <tagSearchsat>Поиск ИСЗ</tagSearchsat>
+        <tagSingle>Автоном.</tagSingle>
+        <tagRtd>Дифф.</tagRtd>
+        <tagFloat>Плав.</tagFloat>
+        <tsgWass>SBAS</tsgWass>
+        <tagWide>Диф. корр.</tagWide>
+        <tagCos>CORS</tagCos>
+        <tagDif>Кодовое</tagDif>
+        <tagFix>Фикс.</tagFix>
+        <tagPortNum>Порт</tagPortNum>
+        <tagAccountStatus>Состояние записи</tagAccountStatus>
+        <tagCommonNullColon>---</tagCommonNullColon>
+        <tagGet>Получить</tagGet>
+        <tagBrowse>Обзор</tagBrowse>
+
+        <tagLongitudeEast>Восток</tagLongitudeEast>
+        <tagLongitudeWest>Запад</tagLongitudeWest>
+        <tagLatitudeNorth>Север</tagLatitudeNorth>
+        <tagLatitudeSouth>Восток</tagLatitudeSouth>
+
+    <tagNetMode2G>Только 2G</tagNetMode2G>
+    <tagNetMode3G>Только 3G</tagNetMode3G>
+    <tagNetModeAuto>Автомат.перекл. 2G/3G</tagNetModeAuto>
+        <tagClearAllAccounts>Удалить все аккаунты</tagClearAllAccounts>
+        <tagClearData>Очистить</tagClearData>
+        <tagClearFtpSend>Очистить лог отправки FTP</tagClearFtpSend>
+
+        <tagAll>Все</tagAll>
+        <tipInfo>
+          <noneUserName>Имя пользователя не существует</noneUserName>
+          <noneUserName111>Имя пользователя уже существует</noneUserName111>
+          <UpdateDefault>Восстановить пароль по умолчанию</UpdateDefault>
+          <UpdateDefaultInfo>После восстановления пароля использовать необработанные, пожалуйста</UpdateDefaultInfo>
+          <!--还没发 -->
+           <regInterTime>Значение должно быть числом от 1 до 30!</regInterTime>
+          <!--还没发 -->
+          
+          <!--已发田 -->
+          <errorUserpaswod>Ошибка пароля</errorUserpaswod>
+          <!--已发田 -->
+         
+          
+          <netNtripCasterHttpError>NtripCaster: ошибка формата IP-адреса</netNtripCasterHttpError>
+          <angMaskFormate111>Маска возвышения должна быть от 0° to 60°</angMaskFormate111>
+            <tagExploreTip>Используйте браузеры Chrome, IE10+ или Safari</tagExploreTip>
+            <fileDownloadFail>Ошибка загрузки файла</fileDownloadFail>
+            <ipNetNotNull>Введите IP!</ipNetNotNull>
+            <ipNetNotCorrect>Неверный формат IP адреса</ipNetNotCorrect>
+            <ipStaticNetNotNull>Введите статический IP!</ipStaticNetNotNull>
+            <ipStaticNetNotCorrect>Неверный формат статического IP адреса!</ipStaticNetNotCorrect>
+            <ipGatewayNotNull>Введите шлюз!</ipGatewayNotNull>
+            <ipGatewayNotCorrect>Неверный формат шлюза!</ipGatewayNotCorrect>
+            <ipSubnetNotNull>Введите маску подсети!</ipSubnetNotNull>
+            <ipSubnetNotCorrect>Неверный формат маски подсети!</ipSubnetNotCorrect>
+            <ipDns1NotNull>Введите DNS IP1!</ipDns1NotNull>
+            <ipDns1NotCorrect>Неверный формат DNS IP1!</ipDns1NotCorrect>
+            <ssidNotNull>Введите имя сети!</ssidNotNull>
+            <pwdWifiError>Пароль  должен быть не менее 8 символов и не более 18</pwdWifiError>
+            <antMethodNotNull>Введите метод измерения высоты?</antMethodNotNull>
+            <antTypeNotNull>Введите тип антенны?</antTypeNotNull>
+            <antTypeNotNull11>Производитель антенны тип антенны！</antTypeNotNull11>
+            <antHeightNotNull>Введите высоту антенны ?</antHeightNotNull>
+            <!--<antHeight1000>Высота антенны не может быть более 1 км?</antHeight1000>
+    <antHeightBeNmber>Введите число в поле Высота антенны</antHeightBeNmber>-->
+            <antHeightFormate>Высота антенны должна быть между 0 и 5 м </antHeightFormate>
+            <antHeightType>Допустим ввод только цифр и букв</antHeightType>
+            <antHeightName>Ошибка номера антенны. Введите значение не превыш. 10 символов</antHeightName>
+
+            <angMaskFormate>Маска должна быть в пределах от 0 до 90!</angMaskFormate>
+            <pdopMaskFormate>Маска PDOP должна быть в пределах от 0 до 99!</pdopMaskFormate>
+
+            <antennaInfoSetSucc>Информация об антенне сохранена успешно?</antennaInfoSetSucc>
+            <antennaInfoSetFail>Информация об антенне не сохранена?</antennaInfoSetFail>
+            <portNotNull>Введите номер порта?</portNotNull>
+            <userNameNotNull>Введите имя пользователя?</userNameNotNull>
+            <userNameHaveNotNull>Имя пользователя не может содержать пробелы или "\"</userNameHaveNotNull>
+            <ftpUserNameFormate>Имя пользователя должно начинаться с символа или числа и быть не менее 3 и не более 18 символов</ftpUserNameFormate>
+            <corsUserNameLength48>Имя пользователя должно быть не более 48 символов?</corsUserNameLength48>
+            <serverUserNameLength18>Имя пользователя должно быть не более 18 символов?</serverUserNameLength18>
+            <serverPwdLength18>Пароль должен быть не более 18 символов</serverPwdLength18>
+            <ftpPwdLength18>Пароль должен быть не более 18 символов</ftpPwdLength18>
+            <CORSPwdLength64>Пароль должен быть не более 64 символов</CORSPwdLength64>
+            <pwdNotNull>Задайте пароль!</pwdNotNull>
+            <pwdNotHaveNull>Пароль не может содержать пробелы или "\"</pwdNotHaveNull>
+            <pwdError>Пароль должен начинаться с символа или числа и быть в пределах 6 - 18 символов</pwdError>
+            <acountOrpwdError>Ошибка входа</acountOrpwdError>
+            <initDialStringNotNull>Введите строку инициализации</initDialStringNotNull>
+            <dialStringNotNull>Введите строку набора</dialStringNotNull>
+            <btoothPINNotNull>Введите PIN</btoothPINNotNull>
+            <doMainNotNull>Введите IP-адрес и порт</doMainNotNull>
+            <UserNameNotNull>Введите имя пользователя</UserNameNotNull>
+            <passwdNotNull>Введите пароль</passwdNotNull>
+            <btoothPINLength8>PIN должен содержать 1-8 цифр</btoothPINLength8>
+            <angleMaskNotNull>Введите маску по углу возвышения</angleMaskNotNull>
+            <angleMaskBeNum>Введите число в поле маска по углу возвышения</angleMaskBeNum>
+            <antheightBeNum>Введите число в поле высота антенны</antheightBeNum>
+            <angleMask0And90>Маска по углу должна быть в пределах от 0 - 90 градусов</angleMask0And90>
+            <pdopMaskNotNull>Введите PDOP</pdopMaskNotNull>
+            <pdopMaskBeNum>Значение PDOP должно быть числом</pdopMaskBeNum>
+            <pdopMask0And100>PDOP должны быть в пределах 0 - 100</pdopMask0And100>
+            <baseSiteModeNotNull>Задайте режим работы приёмника</baseSiteModeNotNull>
+            <diffOutputTypeNotNull>Задайте формат вывода данных</diffOutputTypeNotNull>
+            <baseHeightBeNum>Введите число в поле Высота</baseHeightBeNum>
+            <baseHeightBeName>Ошибка имени базы. Введите значение не превыш. 10 символов</baseHeightBeName>
+            <regMessage>Информация базы.Введите значение не превыш. 16 символов</regMessage>
+            <regMessage1>Интервал передачи базы.</regMessage1>
+            <baseHeightBeNum1>Ошибка номера базы Введите значение не превыш. 10 символов</baseHeightBeNum1>
+            <baseLongitudeDu180>Долгота должны быть не более 180 градусов</baseLongitudeDu180>
+            <baseLatitudeDu90>Широта должны быть не более 90 градусов</baseLatitudeDu90>
+            <baseMin59>Значение минут должно быть в пределах 0 - 59</baseMin59>
+            <baseSec59>Значение секунд должно быть в пределах 0 - 59</baseSec59>
+            <baseLatLongUncorrect>Широта или долгота введены некорректно!</baseLatLongUncorrect>
+            <radioProtocolNotNull>Задайте протокол для УКВ радио</radioProtocolNotNull>
+            <radioStepperNotNull>Задайте шаг сетки частот для УКВ радио</radioStepperNotNull>
+            <radioAirBaudNotNull>Задайте скорость передачи</radioAirBaudNotNull>
+            <radioPowerNotNull>Задайте мощность передачи</radioPowerNotNull>
+            <radioFrequencyNotNull>Задайте частоту УКВ радио</radioFrequencyNotNull>
+            <radioFreMustBeNum>Введите число в моле частота</radioFreMustBeNum>
+            <radioFreMustBeBei>Частота должна быть кратна шагу частот</radioFreMustBeBei>
+            <radioFreBetween1>Частота должна быть в пределах </radioFreBetween1>
+            <radioFreBetween2> - </radioFreBetween2>
+            <radioFreBetween3></radioFreBetween3>
+            <netNtripCasterPortBeNum>IP адрес NTRIP кастера должен быть числом</netNtripCasterPortBeNum>
+            <netNCasterPortBe1024and65535>Порт NTRIP кастера должен быть в пределах 1024 - 65535</netNCasterPortBe1024and65535>
+            <netSetupPointNotNull>Задайте точку доступа</netSetupPointNotNull>
+            <netSetupPointNotNull1>Монтирования не пуст</netSetupPointNotNull1>
+            <diffDataNotNull>Задайте формат поправок</diffDataNotNull>
+            <initialDataNotNull>Задайте частоту выдачи сырых данных</initialDataNotNull>
+            <ephemerisDataNotNull>Задайте выдачу эфемерид</ephemerisDataNotNull>
+            <GPGGADataNotNull>Введите частоту выдачи сообщения GPGGA</GPGGADataNotNull>
+            <GPGSVDataNotNull>Введите частоту выдачи сообщения GPGSV</GPGSVDataNotNull>
+            <accountNameNotNull>Задайте имя файла</accountNameNotNull>
+            <frequencyNotNull>Задайте интервал записи</frequencyNotNull>
+            <storagePositionNotNull>Задайте место хранения файла</storagePositionNotNull>
+            <conTimeNotNull>Задайте длительность сессии</conTimeNotNull>
+            <conTimeBeNum>Значение длительности сессии должно быть числом</conTimeBeNum>
+            <storageSizeNotNull>Задайте максимальный объем хранения данных</storageSizeNotNull>
+            <storageSizeBeNum>Объем должен быть числом</storageSizeBeNum>
+            <storeFormatNotBull>Задайте формат записи данных</storeFormatNotBull>
+            <ftpSendNotBull>Задайте - необходим ли FTP Push</ftpSendNotBull>
+            <uartBaudNotNull>Задайте скорость передачи</uartBaudNotNull>
+            <ethPortDirectAddrNotNull>Задайте порт прямого доступа</ethPortDirectAddrNotNull>
+            <ipAddressUncorrect>Неверно задан формат IP. Последнее число не может быть менее 0 или более 255)!</ipAddressUncorrect>
+            <ipAddressNotNull>Задайте IP адрес</ipAddressNotNull>
+            <remoteDirectoryNotNull>Укажите папку на сервере</remoteDirectoryNotNull>
+            <remoteDirectoryHaveNotNull>Папка на сервере не должна содержать пробелов или "\"</remoteDirectoryHaveNotNull>
+            <descriptionNotNull>Задайте имя сервера</descriptionNotNull>
+            <emailAddressNotNull>Задайте E-mail адрес</emailAddressNotNull>
+            <emailAddressNotCorrect>Неверный формат E-mail адреса</emailAddressNotCorrect>
+            <emailAddressNotCorrect1111>Неверный e-mail адрес!</emailAddressNotCorrect1111>
+
+            <getInfoFail>Ошибка</getInfoFail>
+            <getPositionFail>Ошибка получения текушего местоположения</getPositionFail>
+            <getInfoError>Ошибка</getInfoError>
+            <getInfoNull>Не задано</getInfoNull>
+            <getInfoTimeout>Истекло время получения информации</getInfoTimeout>
+            <connectError>Ошибка подключения</connectError>
+            <G3ModuleBeenOpened>Запуск модуля 3G</G3ModuleBeenOpened>
+            <G3ModuleBeenOpening>Модуль 3G запущен</G3ModuleBeenOpening>
+            <G3ModuleBeenClosed>Модуль 3G отключен</G3ModuleBeenClosed>
+            <wifiModuleBeenOpened>Запуск модуля Wi-Fi</wifiModuleBeenOpened>
+            <wifiModuleBeenOpening>Модуль Wi-Fi запущен</wifiModuleBeenOpening>
+            <wifiModuleBeenClosed>Модуль Wi-Fi отключен</wifiModuleBeenClosed>
+            <pleaseOpenRadio>Пожалуйста, откройте радио</pleaseOpenRadio>
+            <radioBeenOpened>Запуск модуля УКВ радио</radioBeenOpened>
+            <radioBeenOpening>Модуль УКВ радио запущен</radioBeenOpening>
+            <radioBeenClosed>Модуль УКВ радио отключен</radioBeenClosed>
+            <G3DialConnected>GPRS запущен</G3DialConnected>
+            <G3DialDisconnected>GPRS отключен</G3DialDisconnected>
+            <G3ModuleOpenSucc>Модуль 3G включен успешно</G3ModuleOpenSucc>
+            <G3ModuleOpenFail>Ошибка включения модуля 3G</G3ModuleOpenFail>
+            <G3ModuleCloseSucc>3G отключен успешно</G3ModuleCloseSucc>
+            <G3ModuleCloseFail>Ошибка выключения модуля 3G</G3ModuleCloseFail>
+            <wifiModuleOpenSucc>Wi-Fi включен успешно</wifiModuleOpenSucc>
+            <wifiModuleOpenFail>Ошибка включения Wi-Fi?</wifiModuleOpenFail>
+            <wifiModuleCloseSucc>Wi-Fi отключен успешно</wifiModuleCloseSucc>
+            <wifiModuleCloseFail>Ошибка выключения Wi-Fi?</wifiModuleCloseFail>
+            <radioModuleOpenSucc>УКВ радио модуль включен успешно</radioModuleOpenSucc>
+            <radioModuleOpenFail>Ошибка включения УКВ радио модуля</radioModuleOpenFail>
+            <radioModuleCloseSucc>УКВ радио модуль отключен успешно</radioModuleCloseSucc>
+            <radioModuleCloseFail>Ошибка выключения УКВ радио модуля</radioModuleCloseFail>
+            <G3ModuleAutoStartSetSucc>Успешное автоматическое включение 3G</G3ModuleAutoStartSetSucc>
+            <G3ModuleAutoStartSetFail>Ошибка установки автоматического включения 3G</G3ModuleAutoStartSetFail>
+            <wifiModuleAutoStartSetSucc>Успешное автоматическое включение Wi-Fi</wifiModuleAutoStartSetSucc>
+            <wifiModuleAutoStartSetFail>Ошибка установки автоматического включения Wi-Fi</wifiModuleAutoStartSetFail>
+
+            <wifiInternetSetSucc>Успешное подключение к интернету</wifiInternetSetSucc>
+            <wifiInternetSetFail>Ошибка подключения к интернету</wifiInternetSetFail>
+            <netModeSetFail1>Ошибка подключения к интернету через 3G</netModeSetFail1>
+
+            <radioModuleAutoStartSetSucc>Успешное автоматическое включение УКВ</radioModuleAutoStartSetSucc>
+            <radioModuleAutoStartSetFail>Ошибка установки автоматического включения УКВ</radioModuleAutoStartSetFail>
+            <OnlineParaSetSucc>Параметр установлен!</OnlineParaSetSucc>
+
+            <OnlineParaSetFail>Ошибка установки параметра!</OnlineParaSetFail>
+
+            <GetNowCurverSucc>Текущая версия получена!</GetNowCurverSucc>
+
+            <GetNowCurverFail>Ошибка получения текущей версии, повторите попытку!</GetNowCurverFail>
+
+            <G3DialStringSetSucc>Параметры набора успешно установлены</G3DialStringSetSucc>
+            <G3DialStringSetFail>Ошибка установки параметров набора</G3DialStringSetFail>
+            <G3DialConnectSucc>Успешное соединение</G3DialConnectSucc>
+            <G3DialConnectFail>Ошибка соединения</G3DialConnectFail>
+            <G3DialDisconnectSucc>Успешный разрыв соединения</G3DialDisconnectSucc>
+            <G3DialDisconnectFail>Ошибка разрыва соединения</G3DialDisconnectFail>
+            <G3ModuleAutoDialSetSucc>Успешная установка автоматического набора</G3ModuleAutoDialSetSucc>
+            <G3ModuleAutoDialSetFail>Ошибка установки автоматического набора</G3ModuleAutoDialSetFail>
+            <BtoothVisibleSetSucc>Успешная установка видимости Bluetooth</BtoothVisibleSetSucc>
+            <BtoothVisibleSetFail>Ошибка установка видимости Bluetooth</BtoothVisibleSetFail>
+            <BtoothPINSetSucc>PIN успешно установлен</BtoothPINSetSucc>
+            <BtoothPINSetFail>Ошибка установки PIN</BtoothPINSetFail>
+            <RegisterCodeSetSucc>Код регистрации принят</RegisterCodeSetSucc>
+            <RegisterCodeSetFail>Ошибка установки кода регистрации</RegisterCodeSetFail>
+            <AngleMaskSetSucc>Маска по углу возвышения задана успешно</AngleMaskSetSucc>
+            <PdopMaskSetSucc>Предельное значение PDOP задано успешно</PdopMaskSetSucc>
+            <diffOutputTypeSetSucc>Формат поправок установлен</diffOutputTypeSetSucc>
+            <baseSiteCoordinateSetSucc>Сохранено</baseSiteCoordinateSetSucc>
+            <baseSiteCoordinateSetSucc1>Имя базовой станции Номер базовой станции Сохранено</baseSiteCoordinateSetSucc1>
+            <collectEndSucc>Запись данных остановлена</collectEndSucc>
+            <radioProtocolSetSucc>Протокол задан успешно</radioProtocolSetSucc>
+            <radioProtocolSetSucc1>Call SignSet Successfully！</radioProtocolSetSucc1>
+            <radioProtocolSetFail1>Failed to Set Call Sign！</radioProtocolSetFail1>
+            <radioProtocolSetFail>Ошибка установки протокола</radioProtocolSetFail>
+            <radioSpacingSetSucc>Шаг сетки частот задан успешно</radioSpacingSetSucc>
+            <radioSpacingSetFail>Ошибка установки шага сетки частот</radioSpacingSetFail>
+            <radioAirBaudSetSucc>Скорость передачи данных установлена успешно</radioAirBaudSetSucc>
+            <radioAirBaudSetFail>Ошибка установки скорости передачи данных</radioAirBaudSetFail>
+            <radioPowerSetSucc>Мощность передачи успешно установлена</radioPowerSetSucc>
+            <radioPowerSetFail>Ошибка установки мощности передачи</radioPowerSetFail>
+            <radioFrequencySetSucc>Частота успешно задана</radioFrequencySetSucc>
+            <radioFrequencySetFail>Ошибка установки частоты</radioFrequencySetFail>
+            <netAutoConSetSucc>Автоматическое соединение установлено успешно</netAutoConSetSucc>
+            <netAutoConSetFail>Ошибка установки автоматического соединения</netAutoConSetFail>
+            <netNtripCasterAddrSetSucc>IP адрес задан успешно</netNtripCasterAddrSetSucc>
+            <netNtripCasterAddrSetFail>Ошибка установки IP адреса</netNtripCasterAddrSetFail>
+            <netAccountSetSucc>Аккаунт успешно создан</netAccountSetSucc>
+            <netAccountSetFail>Ошибка создания аккаунта</netAccountSetFail>
+            <netDataSourceSetSucc>Точка доступа задана</netDataSourceSetSucc>
+            <netDataSourceSetFail>Ошибка задания точки доступа</netDataSourceSetFail>
+            <netServerTypeSetSucc>Тип сервера установлен</netServerTypeSetSucc>
+            <autoAccountSetSucc>Автоматическая запись установлена</autoAccountSetSucc>
+            <autoAccountSetFail>Ошибка установки автоматической записи</autoAccountSetFail>
+            <recordGloStatusBeenOpened>Запись начата</recordGloStatusBeenOpened>
+            <recordGloStatusBeenClosed>Запись окончена</recordGloStatusBeenClosed>
+            <recordParaCannotEdit>Идет запись, невозможно изменить параметры</recordParaCannotEdit>
+            <wifiModeSetSucc>Режим работы Wi-Fi задан</wifiModeSetSucc>
+            <wifiModeSetFail>Ошибка установки режима работы Wi-Fi</wifiModeSetFail>
+            <wifiApParaSetSucc>Точка доступа задана</wifiApParaSetSucc>
+            <wifiApParaSetFail>Ошибка установки точки доступа</wifiApParaSetFail>
+            <uartBaudSetSucc>Скорость передачи данных задана</uartBaudSetSucc>
+            <uartBaudSetFail>Ошибка задания скорости передачи данных</uartBaudSetFail>
+            <ephemerisDataSetSucc>Передача эфемерид успешно установлена</ephemerisDataSetSucc>
+            <ephemerisDataSetFail>Ошибка установки передачи эфемерид</ephemerisDataSetFail>
+            <rawDataSetSucc>Выдача сырых данных успешно установлена</rawDataSetSucc>
+            <rawHCPPPDataSetFail>Ошибка установки данных HCPPP!</rawHCPPPDataSetFail>
+            <rawDataSetFail>Ошибка установки выдачи сырых данных</rawDataSetFail>
+            <diffDataSetSucc>Тип поправок успешно установлен</diffDataSetSucc>
+            <diffDataSetFail>Ошибка установки типа поправок</diffDataSetFail>
+            <GPGGASetSucc>Установка выдачи GPGGA успешна</GPGGASetSucc>
+            <GPGGADataSetFail>Ошибка установки выдачи GPGGA</GPGGADataSetFail>
+            <GPGSVSetSucc>Установка выдачи GPGSV</GPGSVSetSucc>
+            <GPGSVDataSetFail>Ошибка установки выдачи GPGSV</GPGSVDataSetFail>
+            <netServerParaSetSucc>Сервер задан</netServerParaSetSucc>
+            <netServerParaSetFail>Ошибка установки сервера</netServerParaSetFail>
+            <HttpsPortSetSucc>HTTPS порт задан</HttpsPortSetSucc>
+            <HttpsPortSetFail>Ошибка установки HTTPS порта</HttpsPortSetFail>
+            <HttpPortSetSucc>HTTP порт задан</HttpPortSetSucc>
+            <HttpPortSetFail>Ошибка установки HTTP порта</HttpPortSetFail>
+            <netServerConnected>Сервер подключен</netServerConnected>
+            <netServerDisconnected>Сервер отключен</netServerDisconnected>
+            <netServerConnSetSucc>Сервер подключен успещно</netServerConnSetSucc>
+            <netServerConnSetFail>Ошибка подключения сервера</netServerConnSetFail>
+            <netServerDisconnSetSucc>Успешное отключение сервера</netServerDisconnSetSucc>
+            <netServerDisconnSetFail>Ошибка отключения сервера</netServerDisconnSetFail>
+            <netCorsConnected>CORS подключен</netCorsConnected>
+            <netCorsDisconnected>CORS отключен</netCorsDisconnected>
+            <netCorsConnSetSucc>CORS соединение установлено</netCorsConnSetSucc>
+            <netCorsConnSetFail>Ошибка установки соединения CORS</netCorsConnSetFail>
+            <netCorsDisconnSetSucc>Установка отключения CORS успешна</netCorsDisconnSetSucc>
+            <netCorsDisconnSetFail>Ошибка установки отключения CORS</netCorsDisconnSetFail>
+            <cannotOpenConnect>Ошибка запуска соединения</cannotOpenConnect>
+            <placeCloseGSM>Перед использованием отключите GSM!</placeCloseGSM>
+            <placeOpenGSM>Перед использованием включите GSM!</placeOpenGSM>
+
+            <netTcpConnSetSucc>Соединение по TCP установлено</netTcpConnSetSucc>
+            <netTcpConnSetFail>Ошибка установки соединения по TCP</netTcpConnSetFail>
+            <netTcpDisconnSetSucc>Отключение TCP установлено</netTcpDisconnSetSucc>
+            <netTcpDisconnSetFail>Ошибка установки отключения TCP</netTcpDisconnSetFail>
+            <netCORSDisconnSetFail>Ошибка установки отключения CORS</netCORSDisconnSetFail>
+            <netUdpConnSetSucc>Соединение по UDP установлено</netUdpConnSetSucc>
+            <netUdpConnSetFail>Ошибка установки соединения по UDP</netUdpConnSetFail>
+            <netUdpDisconnSetSucc>Отключение UDP установлено</netUdpDisconnSetSucc>
+            <netUdpDisconnSetFail>Ошибка установки отключения UDP</netUdpDisconnSetFail>
+            <recordOpenSetSucc>Начало записи установлено</recordOpenSetSucc>
+            <recordOpenSetFail>Ошибка установки начала записи</recordOpenSetFail>
+            <recordCloseSetSucc>Окончание записи установлено</recordCloseSetSucc>
+            <recordCloseSetFail>Ошибка установки окончания записи</recordCloseSetFail>
+            <ethIpSetSucc>IP адрес задан</ethIpSetSucc>
+            <ethIpSetFail>Ошибка установки IP адреса</ethIpSetFail>
+            <emailAlarmAbleSetSucc>Уведомления по E-mail установлены</emailAlarmAbleSetSucc>
+            <emailAlarmAbleSetFail>Ошибка установки уведомлений по E-mail</emailAlarmAbleSetFail>
+            <httpsAbleSetSucc>HTTPS установлен успешно</httpsAbleSetSucc>
+            <httpsAbleSetFail>Ошибка установки HTTPS</httpsAbleSetFail>
+            <ethPortDireAbleSetSucc>Установка порта для прямого доступа прошла успешно</ethPortDireAbleSetSucc>
+            <ethPortDireAbleSetFail>Ошибка установки порта прямого доступа</ethPortDireAbleSetFail>
+            <conTime10_1440>Время записи должно быть в пределах 10 - 1440 минут</conTime10_1440>
+            <conTime10_14401>Время записи должно быть в пределах 10 - 1440 минут</conTime10_14401>
+            <recordEditMemSize>Объем память должен быть в пределах 1000 1 000 000 000 Мб!</recordEditMemSize>
+            <recordSoreFormat>Необходимо выбрать как минимум один формат записи данных</recordSoreFormat>
+            <recordEditSetSucc>Успешная установка записи данных</recordEditSetSucc>
+            <recordEditSetFail>Ошибка установки записи данных</recordEditSetFail>
+            <ftpSendSetSucc>FTP push установлен</ftpSendSetSucc>
+            <ftpSendSetFail>Ошибка установки FTP Push</ftpSendSetFail>
+            <powerOffSetSucc>Успешное отключение приёмника</powerOffSetSucc>
+            <powerOffSetFail>Ошибка выключения приёмника</powerOffSetFail>
+            <rebootSystemSetSucc>Приёмник успешно перезагружен</rebootSystemSetSucc>
+            <rebootSystemSetFail>Ошибка перезагрузки приёмника</rebootSystemSetFail>
+            <cleanGnssDataSetSucc>Альманах успешно очищен</cleanGnssDataSetSucc>
+            <cleanGnssDataSetFail>Ошибка очистки альманаха</cleanGnssDataSetFail>
+            <recoverySetSucc>Сброс к настройкам по умолчанию прошел успешно</recoverySetSucc>
+            <recoverySetFail>Ошибка сброса настроек к настройкам по умолчанию</recoverySetFail>
+            <languageSetFail>Ошибка установки языка интерфейса</languageSetFail>
+            <saveSucc>Сохранено</saveSucc>
+            <saveFail>Ошибка сохранения</saveFail>
+            <setSucc>Установлено</setSucc>
+            <setFail>Ошибка установки</setFail>
+            <getSetupPointsListSucc>Список точек доступа получен</getSetupPointsListSucc>
+            <getSetupPointsListFail>Ошибка получения списка точек доступа</getSetupPointsListFail>
+            <webConfigFileLoadFail>ошибка загрузки файла WebConfig.xml</webConfigFileLoadFail>
+            <serviceAddress101NoCon>Адрес сервиса 101NoCon не задан</serviceAddress101NoCon>
+            <conToClose3GModule>Отключить 3G модуль?</conToClose3GModule>
+            <conToCloseAccountStatus>Остановить запись?</conToCloseAccountStatus>
+            <conToCloseWifiModule>Выключить Wi-Fi?</conToCloseWifiModule>
+            <conToCloseRadio>Переключить радио?</conToCloseRadio>
+            <conToCloseDialConn>Отключить?</conToCloseDialConn>
+            <conToSetLang>Переключить язык?</conToSetLang>
+            <pleaseWaiting>Ожидайте</pleaseWaiting>
+            <changingToNewPort>порт изменяется на новый.....</changingToNewPort>
+            <changingToNewHttp>адрес изменяется на новый.....</changingToNewHttp>
+            <openningModule>Запуск.....</openningModule>
+            <closing3GModule>Отключение.....</closing3GModule>
+            <fileUploading>Файл загружается.....</fileUploading>
+            <updating>Обновление, ждите.....</updating>
+            <collectingPointsNotNull>Интервал осреднения не может быть нулевым</collectingPointsNotNull>
+            <collectingPointsData>Запись координат.....</collectingPointsData>
+            <resuming>Перезагрузка.....</resuming>
+            <cleaning>Очистка.....</cleaning>
+            <recovering>Возврат к настройкам по умолчанию.....</recovering>
+            <dialConnecting>Набор номера.....</dialConnecting>
+            <dialDisconnecting>Отключение.....</dialDisconnecting>
+            <restartGnssConInfo>Перезагрузить приёмник?</restartGnssConInfo>
+            <stopGnssConInfo>Выключить приёмник?</stopGnssConInfo>
+            <rootSystemConInfo>Перезагрузить систему?</rootSystemConInfo>
+            <rootSystemConInfo1>Перезагрузить систему?</rootSystemConInfo1>
+            <ipValueBe0And255>IP должен быть в пределах 0 - 255</ipValueBe0And255>
+            <ipValueNotBeNull>Задайте IP</ipValueNotBeNull>
+            <portNotNull>Задайте номер порта</portNotNull>
+            <portBeNum>Номер порта должен быть числом</portBeNum>
+            <port1024and65535>Номер порта должен быть в пределах 1024 - 65535</port1024and65535>
+            <port0and65535>Номер порта должен быть в пределах 0 - 65535</port0and65535>
+            <exception>Системная ошибка!</exception>
+            <uploadFail>上传失败!</uploadFail>
+            <conProtocolNotNull>Задайте протокол соединения</conProtocolNotNull>
+            <uploadFileNotNull>Выберите файл для загрузки</uploadFileNotNull>
+            <configfileFormateError>Возможно загрузить только текстовый файл</configfileFormateError>
+            <uploadfileFormateError>Возможно загрузить только файл tar</uploadfileFormateError>
+            <uploadFileError>Размер файла не должен превышать 100 Кб</uploadFileError>
+            <uploadFileSuccess>Файл загружен успешно</uploadFileSuccess>
+            <registerCodeNotNull>Введите регистрационный код</registerCodeNotNull>
+            <registerCodeFormate>Регистрационный код должен состоять из 3-х групп чисел, каждая группа содержит 5 символов(XXXXX-YYYYY-ZZZZZ)</registerCodeFormate>
+            <pleaseOpenNetConnect>Сначала откройте соедниение</pleaseOpenNetConnect>
+            <clearSucc>Успешная очистка</clearSucc>
+            <clearFail>Ошибка очистки</clearFail>
+            <confirmAction>Подтвердите выполнение операции</confirmAction>
+            <wifiPwdChange>Пароль будет изменен</wifiPwdChange>
+            <dataSwitchOFF>Подтвердите выполнение операции</dataSwitchOFF>
+            <dataClearFile>Подтвердите выполнение операции</dataClearFile>
+            <dataClearAllFile>Подтвердите выполнение операции</dataClearAllFile>
+            <placeClearFTPLog>Подтвердите выполнение операции</placeClearFTPLog>
+            <tagOpenHcpppSucc>Соединение HCPPP установлено</tagOpenHcpppSucc>
+            <tagOpenHcpppFail>Ошибка соединения HCPPP</tagOpenHcpppFail>
+            <tagCloseHcpppSucc>Соединения HCPPP закрыто</tagCloseHcpppSucc>
+            <tagCloseHcpppFail>Ошибка закрытия соединения HCPPP</tagCloseHcpppFail>
+
+            <tagReCodeExpired>Срок действия кода регистрации истек</tagReCodeExpired>
+            <netModeSetSucc>Режим установлен!</netModeSetSucc>
+            <netModeSetFail>Ошибка установки режима!</netModeSetFail>
+            <recordParaCannotClean>Идет запись, удаление не возможно!</recordParaCannotClean>
+            <downLoadFail>Ошибка загрузки, попробуйте заново</downLoadFail>
+            <downLoadSucc>Успешно загружено. Приёмник перезагрузиться для применения обновления</downLoadSucc>
+            <cloudParaErr>Ошибка параметра</cloudParaErr>
+            <cloudServerParaErr>Ошибка сервера</cloudServerParaErr>
+            <cloudConnectOutTime>Время действия логина истекло, попробуйте заново</cloudConnectOutTime>
+            <cloudUnLog>Подключитесь</cloudUnLog>
+            <getListSucess>Список успешно получен</getListSucess>
+            <seTorDNotZero>Значение смещения координат не должно быть меньше 0</seTorDNotZero>
+            <seTorDNotZero111>Введите 2 цифры после запятой</seTorDNotZero111>
+            <dateErr>Ошибка даты, перезагрузите!</dateErr>
+
+            <tagPlaceSelectOne>Выберите опцию!</tagPlaceSelectOne>
+            <tagExitSave>Заполните поле заново, оно содердит дубликаты</tagExitSave>
+            <placeCheckbat>Обновление невозможно при низком уровне заряда батареи. Подключите внешнее питание.</placeCheckbat>
+
+            <pleaseInputPaswd>请输入密码:</pleaseInputPaswd>
+
+            <tagTip1>Внимание: Общий объем записываемых данных в 8-ми потоках не должен превышать</tagTip1>
+            <tagTip2>Гб. Запись прекратиться, когда память будет заполнена полностью.</tagTip2>
+    
+    </tipInfo>
+
+
+    
+</tags>

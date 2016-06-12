@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title><title></title>
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/bootstrap/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/themes/icon.css" />
+    <link rel="stylesheet" type="text/css" href="../../Resource/EasyUI/css/Common.css" />
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../Resource/EasyUI/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="../../Resource/Js/Common.js"></script>
+    <script type="text/javascript" src="Js/GnssPosition.js"></script>
+    <script type="text/javascript">
+        loadJsFile("../../Resource/EasyUI/locale/");
+    </script>
+</head>
+<body>
+    <div class="itemhead">
+        <h3>接收机位置
+        </h3>
+    </div>
+    <hr />
+    <div class="item" style="width: 1000px">
+        <div style="float: left; width: 500px;">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="td_head" align="left" colspan="2">
+                        <span id="tagPosition">位置</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagLatitude">纬度</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanLatitude" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagLongitude">经度</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanLongitude" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagHeight">高度</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanHeight" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagClass">类型</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanClass" class="td_span"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="float: right; width: 400px;">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="td_head" align="left" colspan="2" id="tagDOP">DOP
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagPdop">PDOP</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanPdop" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagHdop">HDOP</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanHdop" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagVdop">VDOP</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanVdop" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagTdop">TDOP</span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanTdop" class="td_span"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="clear: both">
+    </div>
+    <hr />
+    <div class="item" style="width: 1000px">
+        <div style="float: left; width: 500px;">
+            <table style="width: 100%">
+                <tr>
+                    <td class="td_head" align="left" colspan="2">
+                        <span id="tagUsedSatellites">使用的卫星</span>:<span id="spanUsedNum" class="td_span"></span>
+                    </td>
+                </tr>
+                <!--tr>
+                    <td align="right" class="td_title">
+                        <span id="tagUsedNum"></span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanUsedNum" class="td_span"></span>
+                    </td>
+                </tr-->
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagUsedGps">GPS</span>(<span id="spanUsedGpsNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanUsedGpsString" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagUsedGlon">GLONASS</span>(<span id="spanUsedGlonNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanUsedGlonString" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagUsedBds">BDS</span>(<span id="spanUsedBdsNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanUsedBdsString" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagUsedGalileo">GALILEO</span>(<span id="spanUsedGalileoNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanUsedGalileoString" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagUsedSbas">SBAS</span>(<span id="spanUsedSbasNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanUsedSbasString" class="td_span"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div style="float: right; width: 400px">
+            <table style="width: 100%">
+                <tr>
+                    <td class="td_head" align="left" colspan="2">
+                        <span id="tagTrackedSatellites">跟踪到的卫星</span>:<span id="spanTrackedNum" class="td_span"></span>
+                    </td>
+                </tr>
+                <!--tr>
+                    <td align="right" class="td_title">
+                        <span id="tagTrackedNum"></span>:
+                    </td>
+                    <td align="left">
+                        <span id="spanTrackedNum" class="td_span"></span>
+                    </td>
+                </tr-->
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagGps">GPS</span>(<span id="spanGpsNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanGpsString" class="td_span"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagGlon">GLONASS</span>(<span id="spanGlonNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanGlonString" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagBds">BDS</span>(<span id="spanBdsNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanBdsString" class="td_span"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagGalileo">GALILEO</span>(<span id="spanGalileoNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanGalileoString" class="td_span"></span>
+                    </td>
+                </tr>                
+                <tr>
+                    <td align="right" class="td_title">
+                        <span id="tagSbas">SBAS</span>(<span id="spanSbasNum"></span>):
+                    </td>
+                    <td align="left">
+                        <span id="spanSbasString" class="td_span"></span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="clear: both">
+    </div>
+    <hr />
+    <div class="item">
+        <table style="width: 500px;">
+            <tr>
+                <td class="td_head" align="left" colspan="2" id="tagGnssClock">接收机时钟
+                </td>
+            </tr>
+            <tr>
+                <td align="right" class="td_title">
+                    <span id="tagGpsWeek">GPS周</span>:
+                </td>
+                <td align="left">
+                    <span id="spanGpsWeek" class="td_span"></span>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" class="td_title">
+                    <span id="tagGpsSecond">GPS秒</span>:
+                </td>
+                <td align="left">
+                    <span id="spanGpsSecond" class="td_span"></span>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr />
+</body>
+</html>
